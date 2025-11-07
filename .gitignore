@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+.Trash/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using token tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+output/
+
+# Temporary files
+*.tmp
+*.log
+
