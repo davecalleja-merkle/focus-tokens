@@ -1,9 +1,8 @@
 {
-  "primitive/brand-a/color": {
+  "primitive/color": {
     "primitive": {
       "color": {
-        "palette": {
-          "green": {
+        "green": {
             "50": {
               "$type": "color",
               "$value": "#F7FBEB"
@@ -342,239 +341,232 @@
               "$type": "color",
               "$value": "#1C1C1E"
             }
-          }
-        },
-        "brandRole": {
-          "main": {
-            "primary": {
+          },
+        "brandPrimary": {
               "lightest": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.mint.50}"
+                "$value": "{primitive.color.mint.50}"
               },
               "light": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.mint.100}"
+                "$value": "{primitive.color.mint.100}"
               },
               "medium": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.mint.300}"
+                "$value": "{primitive.color.mint.300}"
               },
               "strong": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.mint.500}"
+                "$value": "{primitive.color.mint.500}"
               },
               "bold": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.mint.700}"
+                "$value": "{primitive.color.mint.700}"
               },
               "dark": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.mint.900}"
+                "$value": "{primitive.color.mint.900}"
               }
             },
-            "secondary": {
+        "brandSecondary": {
               "lightest": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.violet.50}"
+                "$value": "{primitive.color.violet.50}"
               },
               "light": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.violet.100}"
+                "$value": "{primitive.color.violet.100}"
               },
               "medium": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.violet.300}"
+                "$value": "{primitive.color.violet.300}"
               },
               "strong": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.violet.500}"
+                "$value": "{primitive.color.violet.500}"
               },
               "bold": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.violet.700}"
+                "$value": "{primitive.color.violet.700}"
               },
               "dark": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.violet.900}"
+                "$value": "{primitive.color.violet.900}"
               }
-            }
-          },
-          "intent": {
+            },
+        "intent": {
             "success": {
               "lightest": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.green.50}"
+                "$value": "{primitive.color.green.50}"
               },
               "light": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.green.100}"
+                "$value": "{primitive.color.green.100}"
               },
               "medium": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.green.300}"
+                "$value": "{primitive.color.green.300}"
               },
               "strong": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.green.500}"
+                "$value": "{primitive.color.green.500}"
               },
               "bold": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.green.700}"
+                "$value": "{primitive.color.green.700}"
               },
               "dark": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.green.900}"
+                "$value": "{primitive.color.green.900}"
               }
             },
             "warning": {
               "lightest": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.yellow.50}"
+                "$value": "{primitive.color.yellow.50}"
               },
               "light": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.yellow.100}"
+                "$value": "{primitive.color.yellow.100}"
               },
               "medium": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.yellow.300}"
+                "$value": "{primitive.color.yellow.300}"
               },
               "strong": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.yellow.500}"
+                "$value": "{primitive.color.yellow.500}"
               },
               "bold": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.yellow.700}"
+                "$value": "{primitive.color.yellow.700}"
               },
               "dark": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.yellow.900}"
+                "$value": "{primitive.color.yellow.900}"
               }
             },
             "critical": {
               "lightest": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.red.50}"
+                "$value": "{primitive.color.red.50}"
               },
               "light": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.red.100}"
+                "$value": "{primitive.color.red.100}"
               },
               "medium": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.red.300}"
+                "$value": "{primitive.color.red.300}"
               },
               "strong": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.red.400}"
+                "$value": "{primitive.color.red.400}"
               },
               "bold": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.red.700}"
+                "$value": "{primitive.color.red.700}"
               },
               "dark": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.red.900}"
+                "$value": "{primitive.color.red.900}"
               }
             },
             "info": {
               "lightest": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.blue.50}"
+                "$value": "{primitive.color.blue.50}"
               },
               "light": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.blue.100}"
+                "$value": "{primitive.color.blue.100}"
               },
               "medium": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.blue.300}"
+                "$value": "{primitive.color.blue.300}"
               },
               "strong": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.blue.500}"
+                "$value": "{primitive.color.blue.500}"
               },
               "bold": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.blue.700}"
+                "$value": "{primitive.color.blue.700}"
               },
               "dark": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.blue.900}"
+                "$value": "{primitive.color.blue.900}"
               }
             }
           },
-          "neutral": {
+        "neutralRole": {
             "lightest": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.50}"
+              "$value": "{primitive.color.neutral.50}"
             },
             "lighter": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.100}"
+              "$value": "{primitive.color.neutral.100}"
             },
             "light": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.200}"
+              "$value": "{primitive.color.neutral.200}"
             },
             "medium": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.400}"
+              "$value": "{primitive.color.neutral.400}"
             },
             "strong": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.600}"
+              "$value": "{primitive.color.neutral.600}"
             },
             "bold": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.800}",
+              "$value": "{primitive.color.neutral.800}",
               "$description": "neutral color of weight 700"
             },
             "dark": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.900}",
+              "$value": "{primitive.color.neutral.900}",
               "$description": "neutral color of weight 900"
             },
             "darkest": {
               "$type": "color",
-              "$value": "{primitive.color.palette.neutral.950}",
+              "$value": "{primitive.color.neutral.950}",
               "$description": "neutral color of weight 950"
             }
           },
-          "decorative": {
-            "01": {
+        "brandAccent": {
               "lightest": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.orange.50}"
+                "$value": "{primitive.color.orange.50}"
               },
               "light": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.orange.100}"
+                "$value": "{primitive.color.orange.100}"
               },
               "medium": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.orange.300}"
+                "$value": "{primitive.color.orange.300}"
               },
               "strong": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.orange.500}"
+                "$value": "{primitive.color.orange.500}"
               },
               "bold": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.orange.700}"
+                "$value": "{primitive.color.orange.700}"
               },
               "dark": {
                 "$type": "color",
-                "$value": "{primitive.color.palette.orange.900}"
+                "$value": "{primitive.color.orange.900}"
               }
             }
           }
         }
-      }
-    }
-  },
-  "primitive/brand-a/font": {
+      },
+  "primitive/font": {
     "primitive": {
       "font": {
         "fontFamily": {
@@ -771,7 +763,7 @@
       }
     }
   },
-  "primitive/brand-a/shape": {
+  "primitive/shape": {
     "primitive": {
       "shape": {
         "none": {
@@ -1756,12 +1748,12 @@
         "primary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.medium}",
+            "$value": "{primitive.color.brandPrimary.medium}",
             "$description": "Color that indicates interactions"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.dark}",
+            "$value": "{primitive.color.brandPrimary.dark}",
             "$description": "color for elements that are placed on interactive background colors"
           },
           "brand": {
@@ -1771,147 +1763,147 @@
               "$description": "color for elements that are placed on primary brand color"
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.medium}",
+            "$value": "{primitive.color.brandPrimary.medium}",
             "$description": "background color for primary brand elements "
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.dark}",
+            "$value": "{primitive.color.brandPrimary.dark}",
             "$description": "color for elements that are placed on brand background color"
           }
         },
         "secondary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.medium}",
+            "$value": "{primitive.color.brandSecondary.medium}",
             "$description": "secondary interaction color for backgrounds"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.dark}",
+            "$value": "{primitive.color.brandSecondary.dark}",
             "$description": "secondary foreground color for interactions"
           },
           "brand": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.strong}",
+            "$value": "{primitive.color.brandSecondary.strong}",
             "$description": "secondary brand color for backgrounds"
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.dark}",
+            "$value": "{primitive.color.brandSecondary.dark}",
             "$description": "secondary brand color for backgrounds"
           }
         },
         "intent": {
           "infoHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.medium}",
+            "$value": "{primitive.color.intent.info.medium}",
             "$description": "color for elements with informational purpose of high emphasis"
           },
           "infoLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.strong}",
+            "$value": "{primitive.color.intent.info.strong}",
             "$description": "color for elements with informational purpose of low emphasis"
           },
           "onInfo": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.dark}",
+            "$value": "{primitive.color.intent.info.dark}",
             "$description": "color for elements placed on informational purpose background"
           },
           "successHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.success.light}",
+            "$value": "{primitive.color.intent.success.light}",
             "$description": "color for elements with success purpose of high emphasis"
           },
           "successLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.success.medium}",
+            "$value": "{primitive.color.intent.success.medium}",
             "$description": "color for elements with success purpose of low emphasis"
           },
           "onSuccess": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.success.dark}",
+            "$value": "{primitive.color.intent.success.dark}",
             "$description": "color for elements placed on success purpose background"
           },
           "warningHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.warning.light}",
+            "$value": "{primitive.color.intent.warning.light}",
             "$description": "color for elements with warning purpose of high emphasis"
           },
           "warningLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.warning.medium}",
+            "$value": "{primitive.color.intent.warning.medium}",
             "$description": "color for elements with warning purpose of low emphasis"
           },
           "onWarning": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.warning.dark}",
+            "$value": "{primitive.color.intent.warning.dark}",
             "$description": "color for elements placed on warning purpose background"
           },
           "criticalHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.critical.light}",
+            "$value": "{primitive.color.intent.critical.light}",
             "$description": "color for elements with critical purpose of high emphasis"
           },
           "criticalLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.critical.medium}",
+            "$value": "{primitive.color.intent.critical.medium}",
             "$description": "color for elements with critical purpose of low emphasis"
           },
           "onCritical": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.critical.dark}",
+            "$value": "{primitive.color.intent.critical.dark}",
             "$description": "color for elements placed on critical purpose background"
           }
         },
         "background": {
           "body": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.darkest}",
+            "$value": "{primitive.color.neutralRole.darkest}",
             "$description": "Body background color"
           },
           "highEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.dark}",
+            "$value": "{primitive.color.neutralRole.dark}",
             "$description": "Background Color for components with high emphasis"
           },
           "mediumEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.bold}",
+            "$value": "{primitive.color.neutralRole.bold}",
             "$description": "Background Color for components with medium emphasis"
           },
           "lowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.medium}",
+            "$value": "{primitive.color.neutralRole.medium}",
             "$description": "background color for elements with a low emphasis"
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lightest}",
+            "$value": "{primitive.color.neutralRole.lightest}",
             "$description": "Default text color "
           },
           "inverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.dark}",
+            "$value": "{primitive.color.neutralRole.dark}",
             "$description": "Inverted text color"
           },
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.medium}",
+            "$value": "{primitive.color.neutralRole.medium}",
             "$description": "Text color in subtle weight"
           }
         },
         "state": {
           "disable": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lighter}",
+            "$value": "{primitive.color.neutralRole.lighter}",
             "$description": "background color for disabled elements"
           },
           "onDisable": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.strong}",
+            "$value": "{primitive.color.neutralRole.strong}",
             "$description": "color for elements that are placed on disabled background color"
           },
           "hover": {
@@ -1925,7 +1917,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lighter}",
+            "$value": "{primitive.color.neutralRole.lighter}",
             "$description": "Background color for state overlay of a hovered element"
           },
           "focus": {
@@ -1939,7 +1931,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lighter}",
+            "$value": "{primitive.color.neutralRole.lighter}",
             "$description": "Background color for state overlay of a focused element"
           },
           "press": {
@@ -1953,49 +1945,49 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lighter}",
+            "$value": "{primitive.color.neutralRole.lighter}",
             "$description": "Background color for state overlay of a pressed element"
           },
           "select": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.light}",
+            "$value": "{primitive.color.brandPrimary.light}",
             "$description": "background color for selected elements"
           },
           "onSelect": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.bold}",
+            "$value": "{primitive.color.brandPrimary.bold}",
             "$description": "Foreground color for selected elements"
           },
           "selectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.bold}",
+            "$value": "{primitive.color.brandPrimary.bold}",
             "$description": "Inverted background color for selected elements"
           },
           "onSelectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.light}",
+            "$value": "{primitive.color.brandPrimary.light}",
             "$description": "inverted color for elements on selected backgrounds"
           }
         },
         "border": {
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.bold}",
+            "$value": "{primitive.color.neutralRole.bold}",
             "$description": "subtle border color"
           },
           "medium": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.medium}",
+            "$value": "{primitive.color.neutralRole.medium}",
             "$description": "medium border color"
           },
           "heavy": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.light}",
+            "$value": "{primitive.color.neutralRole.light}",
             "$description": "heavy border color"
           },
           "focusOutline": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.strong}",
+            "$value": "{primitive.color.intent.info.strong}",
             "$description": "color for default focus outline"
           }
         }
@@ -2008,12 +2000,12 @@
         "primary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.strong}",
+            "$value": "{primitive.color.brandPrimary.strong}",
             "$description": "Color that indicates interactions"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.lightest}",
+            "$value": "{primitive.color.brandPrimary.lightest}",
             "$description": "color for elements that are placed on interactive background colors"
           },
           "brand": {
@@ -2023,147 +2015,147 @@
               "$description": "color for elements that are placed on primary brand color"
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.bold}",
+            "$value": "{primitive.color.brandPrimary.bold}",
             "$description": "background color for primary brand elements "
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.light}",
+            "$value": "{primitive.color.brandPrimary.light}",
             "$description": "color for elements that are placed on brand background color"
           }
         },
         "secondary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.bold}",
+            "$value": "{primitive.color.brandSecondary.bold}",
             "$description": "secondary interaction color for backgrounds"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.lightest}",
+            "$value": "{primitive.color.brandSecondary.lightest}",
             "$description": "secondary foreground color for interactions"
           },
           "brand": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.bold}",
+            "$value": "{primitive.color.brandSecondary.bold}",
             "$description": "secondary brand color for backgrounds"
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.secondary.lightest}",
+            "$value": "{primitive.color.brandSecondary.lightest}",
             "$description": "secondary brand color for backgrounds"
           }
         },
         "intent": {
           "infoHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.medium}",
+            "$value": "{primitive.color.intent.info.medium}",
             "$description": "color for elements with informational purpose of high emphasis"
           },
           "infoLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.light}",
+            "$value": "{primitive.color.intent.info.light}",
             "$description": "color for elements with informational purpose of low emphasis"
           },
           "onInfo": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.dark}",
+            "$value": "{primitive.color.intent.info.dark}",
             "$description": "color for elements placed on informational purpose background"
           },
           "successHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.success.medium}",
+            "$value": "{primitive.color.intent.success.medium}",
             "$description": "color for elements with success purpose of high emphasis"
           },
           "successLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.success.light}",
+            "$value": "{primitive.color.intent.success.light}",
             "$description": "color for elements with success purpose of low emphasis"
           },
           "onSuccess": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.success.dark}",
+            "$value": "{primitive.color.intent.success.dark}",
             "$description": "color for elements placed on success purpose background"
           },
           "warningHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.warning.medium}",
+            "$value": "{primitive.color.intent.warning.medium}",
             "$description": "color for elements with warning purpose of high emphasis"
           },
           "warningLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.warning.light}",
+            "$value": "{primitive.color.intent.warning.light}",
             "$description": "color for elements with warning purpose of low emphasis"
           },
           "onWarning": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.warning.dark}",
+            "$value": "{primitive.color.intent.warning.dark}",
             "$description": "color for elements placed on warning purpose background"
           },
           "criticalHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.critical.medium}",
+            "$value": "{primitive.color.intent.critical.medium}",
             "$description": "color for elements with critical purpose of high emphasis"
           },
           "criticalLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.critical.light}",
+            "$value": "{primitive.color.intent.critical.light}",
             "$description": "color for elements with critical purpose of low emphasis"
           },
           "onCritical": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.critical.dark}",
+            "$value": "{primitive.color.intent.critical.dark}",
             "$description": "color for elements placed on critical purpose background"
           }
         },
         "background": {
           "body": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.light}",
+            "$value": "{primitive.color.neutralRole.light}",
             "$description": "Body background color"
           },
           "highEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lightest}",
+            "$value": "{primitive.color.neutralRole.lightest}",
             "$description": "Background Color for components with high emphasis"
           },
           "mediumEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lighter}",
+            "$value": "{primitive.color.neutralRole.lighter}",
             "$description": "Background Color for components with medium emphasis"
           },
           "lowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.medium}",
+            "$value": "{primitive.color.neutralRole.medium}",
             "$description": "background color for elements with a low emphasis"
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.darkest}",
+            "$value": "{primitive.color.neutralRole.darkest}",
             "$description": "Default text color "
           },
           "inverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.lightest}",
+            "$value": "{primitive.color.neutralRole.lightest}",
             "$description": "Inverted text color"
           },
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.strong}",
+            "$value": "{primitive.color.neutralRole.strong}",
             "$description": "Text color in subtle weight"
           }
         },
         "state": {
           "disable": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.medium}",
+            "$value": "{primitive.color.neutralRole.medium}",
             "$description": "background color for disabled elements"
           },
           "onDisable": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.dark}",
+            "$value": "{primitive.color.neutralRole.dark}",
             "$description": "color for elements that are placed on disabled background color"
           },
           "hover": {
@@ -2177,7 +2169,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.darkest}",
+            "$value": "{primitive.color.neutralRole.darkest}",
             "$description": "Background color for state overlay of a hovered element"
           },
           "focus": {
@@ -2191,7 +2183,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.darkest}",
+            "$value": "{primitive.color.neutralRole.darkest}",
             "$description": "Background color for state overlay of a focused element"
           },
           "press": {
@@ -2205,49 +2197,49 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.darkest}",
+            "$value": "{primitive.color.neutralRole.darkest}",
             "$description": "Background color for state overlay of a pressed element"
           },
           "select": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.light}",
+            "$value": "{primitive.color.brandPrimary.light}",
             "$description": "background color for selected elements"
           },
           "onSelect": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.bold}",
+            "$value": "{primitive.color.brandPrimary.bold}",
             "$description": "Foreground color for selected elements"
           },
           "selectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.bold}",
+            "$value": "{primitive.color.brandPrimary.bold}",
             "$description": "Inverted background color for selected elements"
           },
           "onSelectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.main.primary.light}",
+            "$value": "{primitive.color.brandPrimary.light}",
             "$description": "inverted color for elements on selected backgrounds"
           }
         },
         "border": {
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.light}",
+            "$value": "{primitive.color.neutralRole.light}",
             "$description": "subtle border color"
           },
           "medium": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.medium}",
+            "$value": "{primitive.color.neutralRole.medium}",
             "$description": "medium border color"
           },
           "heavy": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.neutral.strong}",
+            "$value": "{primitive.color.neutralRole.strong}",
             "$description": "heavy border color"
           },
           "focusOutline": {
             "$type": "color",
-            "$value": "{primitive.color.brandRole.intent.info.strong}",
+            "$value": "{primitive.color.intent.info.strong}",
             "$description": "color for default focus outline"
           }
         }
@@ -2325,9 +2317,9 @@
   },
   "$metadata": {
     "tokenSetOrder": [
-      "primitive/brand-a/color",
-      "primitive/brand-a/font",
-      "primitive/brand-a/shape",
+      "primitive/color",
+      "primitive/font",
+      "primitive/shape",
       "primitive/dimension",
       "semantic/breakpoint/screen-lg-typescale",
       "semantic/breakpoint/screen-lg-dimension",
@@ -2382,144 +2374,144 @@
         "xx.primitive.shadow.neutral.xl": "S:0ab8e735da757b0caf4998d2a0370a9bf14efeb9,"
       },
       "selectedTokenSets": {
-        "primitive/brand-a/color": "enabled",
-        "primitive/brand-a/font": "enabled",
-        "primitive/brand-a/shape": "enabled"
+        "primitive/color": "enabled",
+        "primitive/font": "enabled",
+        "primitive/shape": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:1102:256",
       "$figmaModeId": "1102:0",
       "$figmaVariableReferences": {
-        "primitive.color.palette.green.50": "66c1e2b98a9055d9ff9b3af22322eed7100f4980",
-        "primitive.color.palette.green.100": "2b39203a10cfe80b2892308dcd36f6b7724451dd",
-        "primitive.color.palette.green.200": "41467ed51beb558c8cfac92830fd40124961b327",
-        "primitive.color.palette.green.300": "5fcf8830cc57a1e709b926003fc96628387b7a2f",
-        "primitive.color.palette.green.400": "b9e9b04bf1249da112832df6b80015a89b57a28a",
-        "primitive.color.palette.green.500": "a1294f665d59853d16f74825ccf1cb1372435b1e",
-        "primitive.color.palette.green.600": "cc75844364cdb99ab320deb54eb5bc2b105baef6",
-        "primitive.color.palette.green.700": "79852a0ac10e6ab2837c75006ade90ab14666e3f",
-        "primitive.color.palette.green.800": "774ae49bf066128403f90ea24e119df4fc10f80f",
-        "primitive.color.palette.green.900": "7220265c1d1c1ea3535e894f11803c147a4e978a",
-        "primitive.color.palette.mint.50": "8228589097c25717f5cb42a1d305c34154aebd89",
-        "primitive.color.palette.mint.100": "e9b7f19f15b4518b92054ae5a9aa35e6f8721fc2",
-        "primitive.color.palette.mint.200": "b10dfa5e684fb8624943754f1c4842892c1c05dd",
-        "primitive.color.palette.mint.300": "891d7458fd79a09d6daab82d4d303e19acb66ff6",
-        "primitive.color.palette.mint.400": "0ee5e5aa21ba92164f7877abb4a9bd6ea62ae7fd",
-        "primitive.color.palette.mint.500": "a8fb8000e3d8ba861598c3e6a31fa6e63d55abe1",
-        "primitive.color.palette.mint.600": "2c83e358ab09fe044d5547c2065de1bb49d846ab",
-        "primitive.color.palette.mint.700": "1fd290def4d4cad3be23d96e8d596c3a53c14363",
-        "primitive.color.palette.mint.800": "95412e9874a6faa6d4eb5e016d3880b9661700d0",
-        "primitive.color.palette.mint.900": "b9117313660def29e640c658a1bf01114f02b131",
-        "primitive.color.palette.blue.50": "c17586326aef4dd50bbc823f3ad0aaf6fc312a39",
-        "primitive.color.palette.blue.100": "07e85fec182bedaba35f6e4d863db8eaa09294ea",
-        "primitive.color.palette.blue.200": "2357ff0a77578dd3d8ef10e8a115fed0b91d8c68",
-        "primitive.color.palette.blue.300": "7602e2a7dbd770fdc92f534c2a3e8e1067046aed",
-        "primitive.color.palette.blue.400": "455bb75724fb463fcff656b63f388204d6dd0b70",
-        "primitive.color.palette.blue.500": "9cefd9ee08990fc47796a37d7ac3e78d190f0c97",
-        "primitive.color.palette.blue.600": "04d62f56a0c8c3f4e4f0e98d9f250cb3704b8e4b",
-        "primitive.color.palette.blue.700": "0e51ee36e0774f905d58e71de69089b8d8cbf1a7",
-        "primitive.color.palette.blue.800": "60abdc3bec11b0626733883b186ba2eb164d2022",
-        "primitive.color.palette.blue.900": "545c5e7484e4c8a04bd6f70a1d0d7f3ec1b263f0",
-        "primitive.color.palette.violet.50": "a14e02c6fb042ea327fdf3f809b322830d90eb48",
-        "primitive.color.palette.violet.100": "25eeaba50e94d3ca8fa4b742047e73a9f0389d55",
-        "primitive.color.palette.violet.200": "0d19603d4e17150223c21e7608d3bfe21bf1d635",
-        "primitive.color.palette.violet.300": "4d763d753325753f1079176df136cb7f60377e73",
-        "primitive.color.palette.violet.400": "19af1e19a19f60e1083e1dd886d4775a20491bcd",
-        "primitive.color.palette.violet.500": "405e7881594d59361fe1df071132cc52000ba174",
-        "primitive.color.palette.violet.600": "72aa28c7b9c856d1595bfb1bb1ee38f167adf5bd",
-        "primitive.color.palette.violet.700": "9641d0863aa47cf6741edbc2c9da4c8d3246dc5f",
-        "primitive.color.palette.violet.800": "4c5cb997d0cd8b93076b06d454eee9d4aef73d73",
-        "primitive.color.palette.violet.900": "a39f5b8910fea46fb3d54c56ce7904374093d729",
-        "primitive.color.palette.red.50": "7a3c3c745add9033213207f8bf512928f3546473",
-        "primitive.color.palette.red.100": "aed933644bb6df6d5dff79d45b2a8a877d94e751",
-        "primitive.color.palette.red.200": "ce3d07569ab8ec015bf34e8257b1dd4fe777f536",
-        "primitive.color.palette.red.300": "368ded21f336b1099b17f8e3885e2b8180fa722a",
-        "primitive.color.palette.red.400": "dd73fa23ec872e98b8800bd0a6d5095cc03f9059",
-        "primitive.color.palette.red.500": "3e4704e553d0f39873da7185f122cfa96b66146f",
-        "primitive.color.palette.red.600": "5a02cfb963837b78cd603e71f8c9809a70cfaed2",
-        "primitive.color.palette.red.700": "2d6913b5d087d07c5339eafe72cbc4bd7c6c4a12",
-        "primitive.color.palette.red.800": "5689c05215bfb3b610b7d999c6e3ad000fc78a82",
-        "primitive.color.palette.red.900": "41b71a406b1770a7590be39bf8f67c49ad361fa2",
-        "primitive.color.palette.orange.50": "2fc5d74af809c77be3505468338594e7958c7d48",
-        "primitive.color.palette.orange.100": "f9af9719702ed17c30a1ac0f41059faf27cbb7c9",
-        "primitive.color.palette.orange.200": "83dd2cb2aab3bdb3deaef50fc282f256b02b37e6",
-        "primitive.color.palette.orange.300": "691ddae3abb7b6b8d6d26868c6017d7042495f3e",
-        "primitive.color.palette.orange.400": "c52999bb041a22e205b5943884effa43190c1ca9",
-        "primitive.color.palette.orange.500": "4992253661ee8f98739921403539966ae3ba9ec5",
-        "primitive.color.palette.orange.600": "2fcaebd1fadec771cc0d9ef2470862b712427e9e",
-        "primitive.color.palette.orange.700": "31aedf2aafddbfe759f61a248d717d905a82ff70",
-        "primitive.color.palette.orange.800": "ccd5c8fe4c20bca1d5ddffb38a627afe83192b6e",
-        "primitive.color.palette.orange.900": "82755920f94c7137cfe8f16f3eeb22540351ebf9",
-        "primitive.color.palette.yellow.50": "9cca2460824bc19d37f1c150fa4e7681702b2947",
-        "primitive.color.palette.yellow.100": "2b46e48d776ff8fbb27c27ba9f6dc6cdf4add509",
-        "primitive.color.palette.yellow.200": "6fc024203025d2eec6b9efe4ba453c22ab8c2a46",
-        "primitive.color.palette.yellow.300": "17998ceb5e6842d31da8792aa0e02a102fe8f600",
-        "primitive.color.palette.yellow.400": "b8abedf733da446867e86be3e27cbd7266282358",
-        "primitive.color.palette.yellow.500": "16da764f99d849bd6d1ac269b288d74808ec66fa",
-        "primitive.color.palette.yellow.600": "ae6eed495a3be7dd33301be47054498a3c024176",
-        "primitive.color.palette.yellow.700": "001ff711ac970a06d0435a7c35693b77b5811f23",
-        "primitive.color.palette.yellow.800": "338c033091809288d4bde4320b0f6276d6906c78",
-        "primitive.color.palette.yellow.900": "3452ca435eae1a7a950d6a961bf0b2407a292cbe",
-        "primitive.color.palette.neutral.50": "edc26042bb53f8bdf737e8b0c488cef9cb6e99c9",
-        "primitive.color.palette.neutral.100": "f33f57387379730da77469b9d7fbddf99247c105",
-        "primitive.color.palette.neutral.200": "aa7dd1188914e46b469f52f6b7739bae481b407e",
-        "primitive.color.palette.neutral.300": "a0587d3366f6d4c7f45390cb531edb31f384597f",
-        "primitive.color.palette.neutral.400": "185bad63ecde7540e34a5ee51d2d42070d95ff63",
-        "primitive.color.palette.neutral.500": "84a8b3c1f57d41dd02c53754ca556c8469b6867b",
-        "primitive.color.palette.neutral.600": "ac3eb31a3e40563dac9fb41f04f61e81e17a8545",
-        "primitive.color.palette.neutral.700": "14aa14bfd7a0dc069285e86191f3f93c836c0b45",
-        "primitive.color.palette.neutral.800": "b98bc6ccec4d4452220604cf16fc6d8bf469c5b8",
-        "primitive.color.palette.neutral.900": "a00ccec13d22b502c5b70b1b57bb0c57de060b95",
-        "primitive.color.palette.neutral.950": "b61ea2520492a52e582d7d315cf38ecd72a28b13",
-        "primitive.color.brandRole.main.primary.lightest": "dc0cedd61e59998cdf8648414d0596717d653679",
-        "primitive.color.brandRole.main.primary.light": "302a1cc3dd5cadd1eff9117f05a4ff99faf8a94f",
-        "primitive.color.brandRole.main.primary.medium": "b2971c7e07430d31ca9bd6b5d9e0aa48346acc0a",
-        "primitive.color.brandRole.main.primary.strong": "4cec6b839a6ce05ae456f648c1b9dcf79fd03cbc",
-        "primitive.color.brandRole.main.primary.bold": "b9318d4456273cf3ded1c70d071566b428853dd3",
-        "primitive.color.brandRole.main.primary.dark": "fa9322a40e258311f2583fb8efb9bddea66f063f",
-        "primitive.color.brandRole.main.secondary.lightest": "adc479d809b0cf3caed449bf2458c7a7d4d23012",
-        "primitive.color.brandRole.main.secondary.light": "425742421bb2cf069f980db0fc9a7b8c32a25158",
-        "primitive.color.brandRole.main.secondary.medium": "799643869bb3fc099a136842e5f123aa36feb4a5",
-        "primitive.color.brandRole.main.secondary.strong": "ef800e29a94392848e9fef9d78d6141a22089d39",
-        "primitive.color.brandRole.main.secondary.bold": "7d9ad94821a9e6c578c5b9b3a95ec1f5cecaa897",
-        "primitive.color.brandRole.main.secondary.dark": "6012c5d46973a1525bc162f985052dade5788b5f",
-        "primitive.color.brandRole.intent.success.lightest": "982593409db33c51cc18430930c2c75bbc78d992",
-        "primitive.color.brandRole.intent.success.light": "44060335e9c676b16ac7d30a741f9e9f6a91f26c",
-        "primitive.color.brandRole.intent.success.medium": "4771ab590f1588f2a458321fe2e261b7ee57a3ab",
-        "primitive.color.brandRole.intent.success.strong": "0695a02a55d729d74d381b1420d446dae0440c65",
-        "primitive.color.brandRole.intent.success.bold": "d97d03165e959e005360c27f7e34a0330c3d77f5",
-        "primitive.color.brandRole.intent.success.dark": "e8929e576a928a24e7ca90ffb9afa2cb7e14d7f3",
-        "primitive.color.brandRole.intent.warning.lightest": "db10cc209d6fa69460b1b95fc9a00f753d7b8419",
-        "primitive.color.brandRole.intent.warning.light": "fdcedd07d1c3ec935856673820e35f96d485f613",
-        "primitive.color.brandRole.intent.warning.medium": "95afc5ae34ee0be007874541d4af82eff0973771",
-        "primitive.color.brandRole.intent.warning.strong": "8c2f02cbef0a9f3d3436fb0f9e774a6a94c9dbc2",
-        "primitive.color.brandRole.intent.warning.bold": "128b324a34ec55e951a991853d8c46beff2b7961",
-        "primitive.color.brandRole.intent.warning.dark": "12cb4278957a9bf55a6fa653b8c47b4e838999e0",
-        "primitive.color.brandRole.intent.critical.lightest": "c445f80cc0f93b8afeafa347ebda219c3607b02f",
-        "primitive.color.brandRole.intent.critical.light": "2ff471099fceabb468902caa5c03199646d9c4b4",
-        "primitive.color.brandRole.intent.critical.medium": "9f6b99bb5a9a99fb887a3d5321b7c06992468e5c",
-        "primitive.color.brandRole.intent.critical.strong": "85bb09563df0bc5244550aeac10d7c390bca4479",
-        "primitive.color.brandRole.intent.critical.bold": "5f43e68a492ac63d81c56cc0bc199cbf51071c63",
-        "primitive.color.brandRole.intent.critical.dark": "b2dae9753a8cbc2dfea8bfddc08ba0a3a8efd492",
-        "primitive.color.brandRole.intent.info.lightest": "c5f4483d3959e7d059eaca88ed694bf8cdbaf96a",
-        "primitive.color.brandRole.intent.info.light": "76ebe970ceb0dd03be81b02b5c9a0ed148f1f039",
-        "primitive.color.brandRole.intent.info.medium": "f7381be17035e87857dd448220795a805ad7fb13",
-        "primitive.color.brandRole.intent.info.strong": "b335b15b986bf0cce8717393d8c5613579e278dd",
-        "primitive.color.brandRole.intent.info.bold": "d29585c523123819262a2f159c1e2e82e25375cc",
-        "primitive.color.brandRole.intent.info.dark": "9471dcab05ef9259e4845bbacd51bc1eb1fe4b85",
-        "primitive.color.brandRole.neutral.lightest": "a9de684fbcba59939fd4eba3f33b4b209362b990",
-        "primitive.color.brandRole.neutral.lighter": "4e84cf0799214b6df4849a314e12e68846c9f6ee",
-        "primitive.color.brandRole.neutral.light": "f714a7b2c6e80263f4aefb0ddedcbcb30f4b41bd",
-        "primitive.color.brandRole.neutral.medium": "97254110e7bf6044d9a8f082f17ce309cb361d5d",
-        "primitive.color.brandRole.neutral.strong": "8a4ccab897d2a2819d9b6b6bc9635c7360dd0e24",
-        "primitive.color.brandRole.neutral.bold": "c8c7971627b0b860c6be65b523c017c5368648d2",
-        "primitive.color.brandRole.neutral.dark": "6299128c93d8c582ddaf819bf8c7f327a05c1890",
-        "primitive.color.brandRole.neutral.darkest": "0edbfd0f5b05a062afcc050e0cc3f43cbb784eff",
-        "primitive.color.brandRole.decorative.01.lightest": "65719666d556af606a84b9f618c5c1b983eff039",
-        "primitive.color.brandRole.decorative.01.light": "6b880238704287b3fa5b2d58654340509ca5e42a",
-        "primitive.color.brandRole.decorative.01.medium": "cc53c76868fa43db841a0ac5afc7e44287ff9556",
-        "primitive.color.brandRole.decorative.01.strong": "fc6f1083c9c2f7106872c5a445b57c889ba2d63b",
-        "primitive.color.brandRole.decorative.01.bold": "65bf3d81cb527195e6a3f7e6fc09e188fc0f5986",
-        "primitive.color.brandRole.decorative.01.dark": "c2821ba109b053b82b1e673920f3511b0f1ead82",
+        "primitive.color.green.50": "66c1e2b98a9055d9ff9b3af22322eed7100f4980",
+        "primitive.color.green.100": "2b39203a10cfe80b2892308dcd36f6b7724451dd",
+        "primitive.color.green.200": "41467ed51beb558c8cfac92830fd40124961b327",
+        "primitive.color.green.300": "5fcf8830cc57a1e709b926003fc96628387b7a2f",
+        "primitive.color.green.400": "b9e9b04bf1249da112832df6b80015a89b57a28a",
+        "primitive.color.green.500": "a1294f665d59853d16f74825ccf1cb1372435b1e",
+        "primitive.color.green.600": "cc75844364cdb99ab320deb54eb5bc2b105baef6",
+        "primitive.color.green.700": "79852a0ac10e6ab2837c75006ade90ab14666e3f",
+        "primitive.color.green.800": "774ae49bf066128403f90ea24e119df4fc10f80f",
+        "primitive.color.green.900": "7220265c1d1c1ea3535e894f11803c147a4e978a",
+        "primitive.color.mint.50": "8228589097c25717f5cb42a1d305c34154aebd89",
+        "primitive.color.mint.100": "e9b7f19f15b4518b92054ae5a9aa35e6f8721fc2",
+        "primitive.color.mint.200": "b10dfa5e684fb8624943754f1c4842892c1c05dd",
+        "primitive.color.mint.300": "891d7458fd79a09d6daab82d4d303e19acb66ff6",
+        "primitive.color.mint.400": "0ee5e5aa21ba92164f7877abb4a9bd6ea62ae7fd",
+        "primitive.color.mint.500": "a8fb8000e3d8ba861598c3e6a31fa6e63d55abe1",
+        "primitive.color.mint.600": "2c83e358ab09fe044d5547c2065de1bb49d846ab",
+        "primitive.color.mint.700": "1fd290def4d4cad3be23d96e8d596c3a53c14363",
+        "primitive.color.mint.800": "95412e9874a6faa6d4eb5e016d3880b9661700d0",
+        "primitive.color.mint.900": "b9117313660def29e640c658a1bf01114f02b131",
+        "primitive.color.blue.50": "c17586326aef4dd50bbc823f3ad0aaf6fc312a39",
+        "primitive.color.blue.100": "07e85fec182bedaba35f6e4d863db8eaa09294ea",
+        "primitive.color.blue.200": "2357ff0a77578dd3d8ef10e8a115fed0b91d8c68",
+        "primitive.color.blue.300": "7602e2a7dbd770fdc92f534c2a3e8e1067046aed",
+        "primitive.color.blue.400": "455bb75724fb463fcff656b63f388204d6dd0b70",
+        "primitive.color.blue.500": "9cefd9ee08990fc47796a37d7ac3e78d190f0c97",
+        "primitive.color.blue.600": "04d62f56a0c8c3f4e4f0e98d9f250cb3704b8e4b",
+        "primitive.color.blue.700": "0e51ee36e0774f905d58e71de69089b8d8cbf1a7",
+        "primitive.color.blue.800": "60abdc3bec11b0626733883b186ba2eb164d2022",
+        "primitive.color.blue.900": "545c5e7484e4c8a04bd6f70a1d0d7f3ec1b263f0",
+        "primitive.color.violet.50": "a14e02c6fb042ea327fdf3f809b322830d90eb48",
+        "primitive.color.violet.100": "25eeaba50e94d3ca8fa4b742047e73a9f0389d55",
+        "primitive.color.violet.200": "0d19603d4e17150223c21e7608d3bfe21bf1d635",
+        "primitive.color.violet.300": "4d763d753325753f1079176df136cb7f60377e73",
+        "primitive.color.violet.400": "19af1e19a19f60e1083e1dd886d4775a20491bcd",
+        "primitive.color.violet.500": "405e7881594d59361fe1df071132cc52000ba174",
+        "primitive.color.violet.600": "72aa28c7b9c856d1595bfb1bb1ee38f167adf5bd",
+        "primitive.color.violet.700": "9641d0863aa47cf6741edbc2c9da4c8d3246dc5f",
+        "primitive.color.violet.800": "4c5cb997d0cd8b93076b06d454eee9d4aef73d73",
+        "primitive.color.violet.900": "a39f5b8910fea46fb3d54c56ce7904374093d729",
+        "primitive.color.red.50": "7a3c3c745add9033213207f8bf512928f3546473",
+        "primitive.color.red.100": "aed933644bb6df6d5dff79d45b2a8a877d94e751",
+        "primitive.color.red.200": "ce3d07569ab8ec015bf34e8257b1dd4fe777f536",
+        "primitive.color.red.300": "368ded21f336b1099b17f8e3885e2b8180fa722a",
+        "primitive.color.red.400": "dd73fa23ec872e98b8800bd0a6d5095cc03f9059",
+        "primitive.color.red.500": "3e4704e553d0f39873da7185f122cfa96b66146f",
+        "primitive.color.red.600": "5a02cfb963837b78cd603e71f8c9809a70cfaed2",
+        "primitive.color.red.700": "2d6913b5d087d07c5339eafe72cbc4bd7c6c4a12",
+        "primitive.color.red.800": "5689c05215bfb3b610b7d999c6e3ad000fc78a82",
+        "primitive.color.red.900": "41b71a406b1770a7590be39bf8f67c49ad361fa2",
+        "primitive.color.orange.50": "2fc5d74af809c77be3505468338594e7958c7d48",
+        "primitive.color.orange.100": "f9af9719702ed17c30a1ac0f41059faf27cbb7c9",
+        "primitive.color.orange.200": "83dd2cb2aab3bdb3deaef50fc282f256b02b37e6",
+        "primitive.color.orange.300": "691ddae3abb7b6b8d6d26868c6017d7042495f3e",
+        "primitive.color.orange.400": "c52999bb041a22e205b5943884effa43190c1ca9",
+        "primitive.color.orange.500": "4992253661ee8f98739921403539966ae3ba9ec5",
+        "primitive.color.orange.600": "2fcaebd1fadec771cc0d9ef2470862b712427e9e",
+        "primitive.color.orange.700": "31aedf2aafddbfe759f61a248d717d905a82ff70",
+        "primitive.color.orange.800": "ccd5c8fe4c20bca1d5ddffb38a627afe83192b6e",
+        "primitive.color.orange.900": "82755920f94c7137cfe8f16f3eeb22540351ebf9",
+        "primitive.color.yellow.50": "9cca2460824bc19d37f1c150fa4e7681702b2947",
+        "primitive.color.yellow.100": "2b46e48d776ff8fbb27c27ba9f6dc6cdf4add509",
+        "primitive.color.yellow.200": "6fc024203025d2eec6b9efe4ba453c22ab8c2a46",
+        "primitive.color.yellow.300": "17998ceb5e6842d31da8792aa0e02a102fe8f600",
+        "primitive.color.yellow.400": "b8abedf733da446867e86be3e27cbd7266282358",
+        "primitive.color.yellow.500": "16da764f99d849bd6d1ac269b288d74808ec66fa",
+        "primitive.color.yellow.600": "ae6eed495a3be7dd33301be47054498a3c024176",
+        "primitive.color.yellow.700": "001ff711ac970a06d0435a7c35693b77b5811f23",
+        "primitive.color.yellow.800": "338c033091809288d4bde4320b0f6276d6906c78",
+        "primitive.color.yellow.900": "3452ca435eae1a7a950d6a961bf0b2407a292cbe",
+        "primitive.color.neutral.50": "edc26042bb53f8bdf737e8b0c488cef9cb6e99c9",
+        "primitive.color.neutral.100": "f33f57387379730da77469b9d7fbddf99247c105",
+        "primitive.color.neutral.200": "aa7dd1188914e46b469f52f6b7739bae481b407e",
+        "primitive.color.neutral.300": "a0587d3366f6d4c7f45390cb531edb31f384597f",
+        "primitive.color.neutral.400": "185bad63ecde7540e34a5ee51d2d42070d95ff63",
+        "primitive.color.neutral.500": "84a8b3c1f57d41dd02c53754ca556c8469b6867b",
+        "primitive.color.neutral.600": "ac3eb31a3e40563dac9fb41f04f61e81e17a8545",
+        "primitive.color.neutral.700": "14aa14bfd7a0dc069285e86191f3f93c836c0b45",
+        "primitive.color.neutral.800": "b98bc6ccec4d4452220604cf16fc6d8bf469c5b8",
+        "primitive.color.neutral.900": "a00ccec13d22b502c5b70b1b57bb0c57de060b95",
+        "primitive.color.neutral.950": "b61ea2520492a52e582d7d315cf38ecd72a28b13",
+        "primitive.color.brandPrimary.lightest": "dc0cedd61e59998cdf8648414d0596717d653679",
+        "primitive.color.brandPrimary.light": "302a1cc3dd5cadd1eff9117f05a4ff99faf8a94f",
+        "primitive.color.brandPrimary.medium": "b2971c7e07430d31ca9bd6b5d9e0aa48346acc0a",
+        "primitive.color.brandPrimary.strong": "4cec6b839a6ce05ae456f648c1b9dcf79fd03cbc",
+        "primitive.color.brandPrimary.bold": "b9318d4456273cf3ded1c70d071566b428853dd3",
+        "primitive.color.brandPrimary.dark": "fa9322a40e258311f2583fb8efb9bddea66f063f",
+        "primitive.color.brandSecondary.lightest": "adc479d809b0cf3caed449bf2458c7a7d4d23012",
+        "primitive.color.brandSecondary.light": "425742421bb2cf069f980db0fc9a7b8c32a25158",
+        "primitive.color.brandSecondary.medium": "799643869bb3fc099a136842e5f123aa36feb4a5",
+        "primitive.color.brandSecondary.strong": "ef800e29a94392848e9fef9d78d6141a22089d39",
+        "primitive.color.brandSecondary.bold": "7d9ad94821a9e6c578c5b9b3a95ec1f5cecaa897",
+        "primitive.color.brandSecondary.dark": "6012c5d46973a1525bc162f985052dade5788b5f",
+        "primitive.color.intent.success.lightest": "982593409db33c51cc18430930c2c75bbc78d992",
+        "primitive.color.intent.success.light": "44060335e9c676b16ac7d30a741f9e9f6a91f26c",
+        "primitive.color.intent.success.medium": "4771ab590f1588f2a458321fe2e261b7ee57a3ab",
+        "primitive.color.intent.success.strong": "0695a02a55d729d74d381b1420d446dae0440c65",
+        "primitive.color.intent.success.bold": "d97d03165e959e005360c27f7e34a0330c3d77f5",
+        "primitive.color.intent.success.dark": "e8929e576a928a24e7ca90ffb9afa2cb7e14d7f3",
+        "primitive.color.intent.warning.lightest": "db10cc209d6fa69460b1b95fc9a00f753d7b8419",
+        "primitive.color.intent.warning.light": "fdcedd07d1c3ec935856673820e35f96d485f613",
+        "primitive.color.intent.warning.medium": "95afc5ae34ee0be007874541d4af82eff0973771",
+        "primitive.color.intent.warning.strong": "8c2f02cbef0a9f3d3436fb0f9e774a6a94c9dbc2",
+        "primitive.color.intent.warning.bold": "128b324a34ec55e951a991853d8c46beff2b7961",
+        "primitive.color.intent.warning.dark": "12cb4278957a9bf55a6fa653b8c47b4e838999e0",
+        "primitive.color.intent.critical.lightest": "c445f80cc0f93b8afeafa347ebda219c3607b02f",
+        "primitive.color.intent.critical.light": "2ff471099fceabb468902caa5c03199646d9c4b4",
+        "primitive.color.intent.critical.medium": "9f6b99bb5a9a99fb887a3d5321b7c06992468e5c",
+        "primitive.color.intent.critical.strong": "85bb09563df0bc5244550aeac10d7c390bca4479",
+        "primitive.color.intent.critical.bold": "5f43e68a492ac63d81c56cc0bc199cbf51071c63",
+        "primitive.color.intent.critical.dark": "b2dae9753a8cbc2dfea8bfddc08ba0a3a8efd492",
+        "primitive.color.intent.info.lightest": "c5f4483d3959e7d059eaca88ed694bf8cdbaf96a",
+        "primitive.color.intent.info.light": "76ebe970ceb0dd03be81b02b5c9a0ed148f1f039",
+        "primitive.color.intent.info.medium": "f7381be17035e87857dd448220795a805ad7fb13",
+        "primitive.color.intent.info.strong": "b335b15b986bf0cce8717393d8c5613579e278dd",
+        "primitive.color.intent.info.bold": "d29585c523123819262a2f159c1e2e82e25375cc",
+        "primitive.color.intent.info.dark": "9471dcab05ef9259e4845bbacd51bc1eb1fe4b85",
+        "primitive.color.neutralRole.lightest": "a9de684fbcba59939fd4eba3f33b4b209362b990",
+        "primitive.color.neutralRole.lighter": "4e84cf0799214b6df4849a314e12e68846c9f6ee",
+        "primitive.color.neutralRole.light": "f714a7b2c6e80263f4aefb0ddedcbcb30f4b41bd",
+        "primitive.color.neutralRole.medium": "97254110e7bf6044d9a8f082f17ce309cb361d5d",
+        "primitive.color.neutralRole.strong": "8a4ccab897d2a2819d9b6b6bc9635c7360dd0e24",
+        "primitive.color.neutralRole.bold": "c8c7971627b0b860c6be65b523c017c5368648d2",
+        "primitive.color.neutralRole.dark": "6299128c93d8c582ddaf819bf8c7f327a05c1890",
+        "primitive.color.neutralRole.darkest": "0edbfd0f5b05a062afcc050e0cc3f43cbb784eff",
+        "primitive.color.brandAccent.lightest": "65719666d556af606a84b9f618c5c1b983eff039",
+        "primitive.color.brandAccent.light": "6b880238704287b3fa5b2d58654340509ca5e42a",
+        "primitive.color.brandAccent.medium": "cc53c76868fa43db841a0ac5afc7e44287ff9556",
+        "primitive.color.brandAccent.strong": "fc6f1083c9c2f7106872c5a445b57c889ba2d63b",
+        "primitive.color.brandAccent.bold": "65bf3d81cb527195e6a3f7e6fc09e188fc0f5986",
+        "primitive.color.brandAccent.dark": "c2821ba109b053b82b1e673920f3511b0f1ead82",
         "primitive.font.fontFamily.display": "151acfb52423b7ee613d2feb0c3c31f9f7c008a9",
         "primitive.font.fontFamily.content": "524d02ddcc3d6183e94649fed734e6dd70b92c41",
         "primitive.font.fontWeight.black": "0a0c49fcdcfa9b039c8f41be9f75bfdfadf5eb6e",
@@ -2870,8 +2862,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "semantic/breakpoint/screen-lg-typescale": "source",
-        "primitive/brand-a/color": "source",
-        "primitive/brand-a/font": "source",
+        "primitive/color": "source",
+        "primitive/font": "source",
         "semantic/breakpoint/screen-lg-border": "source",
         "semantic/mode/color-dark": "source",
         "semantic/mode/color-light": "source",
