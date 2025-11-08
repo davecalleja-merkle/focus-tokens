@@ -2,49 +2,177 @@
   "primitive/color": {
     "primitive": {
       "color": {
-        "green": {
-            "50": {
-              "$type": "color",
-              "$value": "#F7FBEB"
+        "intent": {
+            "success": {
+              "50": {
+                "$type": "color",
+                "$value": "#F7FBEB"
+              },
+              "100": {
+                "$type": "color",
+                "$value": "#DFF3DC"
+              },
+              "200": {
+                "$type": "color",
+                "$value": "#B0E1AA"
+              },
+              "300": {
+                "$type": "color",
+                "$value": "#7FCE7A"
+              },
+              "400": {
+                "$type": "color",
+                "$value": "#69AD65"
+              },
+              "500": {
+                "$type": "color",
+                "$value": "#51834E"
+              },
+              "600": {
+                "$type": "color",
+                "$value": "#42673F"
+              },
+              "700": {
+                "$type": "color",
+                "$value": "#365233"
+              },
+              "800": {
+                "$type": "color",
+                "$value": "#2A3E28"
+              },
+              "900": {
+                "$type": "color",
+                "$value": "#1E2B1D"
+              }
             },
-            "100": {
-              "$type": "color",
-              "$value": "#DFF3DC"
+            "warning": {
+              "50": {
+                "$type": "color",
+                "$value": "#FFFCF5"
+              },
+              "100": {
+                "$type": "color",
+                "$value": "#FDECC3"
+              },
+              "200": {
+                "$type": "color",
+                "$value": "#F0D36B"
+              },
+              "300": {
+                "$type": "color",
+                "$value": "#D4BB5F"
+              },
+              "400": {
+                "$type": "color",
+                "$value": "#B19D51"
+              },
+              "500": {
+                "$type": "color",
+                "$value": "#84773F"
+              },
+              "600": {
+                "$type": "color",
+                "$value": "#685E34"
+              },
+              "700": {
+                "$type": "color",
+                "$value": "#534B2B"
+              },
+              "800": {
+                "$type": "color",
+                "$value": "#3E3922"
+              },
+              "900": {
+                "$type": "color",
+                "$value": "#2B2819"
+              }
             },
-            "200": {
-              "$type": "color",
-              "$value": "#B0E1AA"
+            "critical": {
+              "50": {
+                "$type": "color",
+                "$value": "#FFFBFB"
+              },
+              "100": {
+                "$type": "color",
+                "$value": "#FFE9E5"
+              },
+              "200": {
+                "$type": "color",
+                "$value": "#FFC7BF"
+              },
+              "300": {
+                "$type": "color",
+                "$value": "#FCA69C"
+              },
+              "400": {
+                "$type": "color",
+                "$value": "#F37A73"
+              },
+              "500": {
+                "$type": "color",
+                "$value": "#BA5A56"
+              },
+              "600": {
+                "$type": "color",
+                "$value": "#934846"
+              },
+              "700": {
+                "$type": "color",
+                "$value": "#743A3A"
+              },
+              "800": {
+                "$type": "color",
+                "$value": "#572D2D"
+              },
+              "900": {
+                "$type": "color",
+                "$value": "#3B2020"
+              }
             },
-            "300": {
-              "$type": "color",
-              "$value": "#7FCE7A"
-            },
-            "400": {
-              "$type": "color",
-              "$value": "#69AD65"
-            },
-            "500": {
-              "$type": "color",
-              "$value": "#51834E"
-            },
-            "600": {
-              "$type": "color",
-              "$value": "#42673F"
-            },
-            "700": {
-              "$type": "color",
-              "$value": "#365233"
-            },
-            "800": {
-              "$type": "color",
-              "$value": "#2A3E28"
-            },
-            "900": {
-              "$type": "color",
-              "$value": "#1E2B1D"
+            "info": {
+              "50": {
+                "$type": "color",
+                "$value": "#F6FBFD"
+              },
+              "100": {
+                "$type": "color",
+                "$value": "#E0F0F9"
+              },
+              "200": {
+                "$type": "color",
+                "$value": "#B1DBEF"
+              },
+              "300": {
+                "$type": "color",
+                "$value": "#84C5E6"
+              },
+              "400": {
+                "$type": "color",
+                "$value": "#53AFDC"
+              },
+              "500": {
+                "$type": "color",
+                "$value": "#1993D0"
+              },
+              "600": {
+                "$type": "color",
+                "$value": "#0077B2"
+              },
+              "700": {
+                "$type": "color",
+                "$value": "#006596"
+              },
+              "800": {
+                "$type": "color",
+                "$value": "#005179"
+              },
+              "900": {
+                "$type": "color",
+                "$value": "#003C5A"
+              }
             }
           },
-          "mint": {
+          "brandPrimary": {
             "50": {
               "$type": "color",
               "$value": "#F6FEFB"
@@ -86,49 +214,7 @@
               "$value": "#142C28"
             }
           },
-          "blue": {
-            "50": {
-              "$type": "color",
-              "$value": "#F6FBFD"
-            },
-            "100": {
-              "$type": "color",
-              "$value": "#E0F0F9"
-            },
-            "200": {
-              "$type": "color",
-              "$value": "#B1DBEF"
-            },
-            "300": {
-              "$type": "color",
-              "$value": "#84C5E6"
-            },
-            "400": {
-              "$type": "color",
-              "$value": "#53AFDC"
-            },
-            "500": {
-              "$type": "color",
-              "$value": "#1993D0"
-            },
-            "600": {
-              "$type": "color",
-              "$value": "#0077B2"
-            },
-            "700": {
-              "$type": "color",
-              "$value": "#006596"
-            },
-            "800": {
-              "$type": "color",
-              "$value": "#005179"
-            },
-            "900": {
-              "$type": "color",
-              "$value": "#003C5A"
-            }
-          },
-          "violet": {
+          "brandSecondary": {
             "50": {
               "$type": "color",
               "$value": "#FCFCFE"
@@ -170,49 +256,7 @@
               "$value": "#29253C"
             }
           },
-          "red": {
-            "50": {
-              "$type": "color",
-              "$value": "#FFFBFB"
-            },
-            "100": {
-              "$type": "color",
-              "$value": "#FFE9E5"
-            },
-            "200": {
-              "$type": "color",
-              "$value": "#FFC7BF"
-            },
-            "300": {
-              "$type": "color",
-              "$value": "#FCA69C"
-            },
-            "400": {
-              "$type": "color",
-              "$value": "#F37A73"
-            },
-            "500": {
-              "$type": "color",
-              "$value": "#BA5A56"
-            },
-            "600": {
-              "$type": "color",
-              "$value": "#934846"
-            },
-            "700": {
-              "$type": "color",
-              "$value": "#743A3A"
-            },
-            "800": {
-              "$type": "color",
-              "$value": "#572D2D"
-            },
-            "900": {
-              "$type": "color",
-              "$value": "#3B2020"
-            }
-          },
-          "orange": {
+          "brandAccent": {
             "50": {
               "$type": "color",
               "$value": "#FEF9F5"
@@ -252,48 +296,6 @@
             "900": {
               "$type": "color",
               "$value": "#4F3120"
-            }
-          },
-          "yellow": {
-            "50": {
-              "$type": "color",
-              "$value": "#FFFCF5"
-            },
-            "100": {
-              "$type": "color",
-              "$value": "#FDECC3"
-            },
-            "200": {
-              "$type": "color",
-              "$value": "#F0D36B"
-            },
-            "300": {
-              "$type": "color",
-              "$value": "#D4BB5F"
-            },
-            "400": {
-              "$type": "color",
-              "$value": "#B19D51"
-            },
-            "500": {
-              "$type": "color",
-              "$value": "#84773F"
-            },
-            "600": {
-              "$type": "color",
-              "$value": "#685E34"
-            },
-            "700": {
-              "$type": "color",
-              "$value": "#534B2B"
-            },
-            "800": {
-              "$type": "color",
-              "$value": "#3E3922"
-            },
-            "900": {
-              "$type": "color",
-              "$value": "#2B2819"
             }
           },
           "neutral": {
@@ -342,400 +344,328 @@
               "$value": "#1C1C1E"
             }
           },
-        "brandPrimary": {
-              "lightest": {
-                "$type": "color",
-                "$value": "{primitive.color.mint.50}"
-              },
-              "light": {
-                "$type": "color",
-                "$value": "{primitive.color.mint.100}"
-              },
-              "medium": {
-                "$type": "color",
-                "$value": "{primitive.color.mint.300}"
-              },
-              "strong": {
-                "$type": "color",
-                "$value": "{primitive.color.mint.500}"
-              },
-              "bold": {
-                "$type": "color",
-                "$value": "{primitive.color.mint.700}"
-              },
-              "dark": {
-                "$type": "color",
-                "$value": "{primitive.color.mint.900}"
-              }
+          "transparentWhite": {
+            "25": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.06)"
             },
-        "brandSecondary": {
-              "lightest": {
-                "$type": "color",
-                "$value": "{primitive.color.violet.50}"
-              },
-              "light": {
-                "$type": "color",
-                "$value": "{primitive.color.violet.100}"
-              },
-              "medium": {
-                "$type": "color",
-                "$value": "{primitive.color.violet.300}"
-              },
-              "strong": {
-                "$type": "color",
-                "$value": "{primitive.color.violet.500}"
-              },
-              "bold": {
-                "$type": "color",
-                "$value": "{primitive.color.violet.700}"
-              },
-              "dark": {
-                "$type": "color",
-                "$value": "{primitive.color.violet.900}"
-              }
+            "50": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.12)"
             },
-        "intent": {
-            "success": {
-              "lightest": {
-                "$type": "color",
-                "$value": "{primitive.color.green.50}"
-              },
-              "light": {
-                "$type": "color",
-                "$value": "{primitive.color.green.100}"
-              },
-              "medium": {
-                "$type": "color",
-                "$value": "{primitive.color.green.300}"
-              },
-              "strong": {
-                "$type": "color",
-                "$value": "{primitive.color.green.500}"
-              },
-              "bold": {
-                "$type": "color",
-                "$value": "{primitive.color.green.700}"
-              },
-              "dark": {
-                "$type": "color",
-                "$value": "{primitive.color.green.900}"
-              }
+            "75": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.18)"
             },
-            "warning": {
-              "lightest": {
-                "$type": "color",
-                "$value": "{primitive.color.yellow.50}"
-              },
-              "light": {
-                "$type": "color",
-                "$value": "{primitive.color.yellow.100}"
-              },
-              "medium": {
-                "$type": "color",
-                "$value": "{primitive.color.yellow.300}"
-              },
-              "strong": {
-                "$type": "color",
-                "$value": "{primitive.color.yellow.500}"
-              },
-              "bold": {
-                "$type": "color",
-                "$value": "{primitive.color.yellow.700}"
-              },
-              "dark": {
-                "$type": "color",
-                "$value": "{primitive.color.yellow.900}"
-              }
+            "100": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.24)"
             },
-            "critical": {
-              "lightest": {
-                "$type": "color",
-                "$value": "{primitive.color.red.50}"
-              },
-              "light": {
-                "$type": "color",
-                "$value": "{primitive.color.red.100}"
-              },
-              "medium": {
-                "$type": "color",
-                "$value": "{primitive.color.red.300}"
-              },
-              "strong": {
-                "$type": "color",
-                "$value": "{primitive.color.red.400}"
-              },
-              "bold": {
-                "$type": "color",
-                "$value": "{primitive.color.red.700}"
-              },
-              "dark": {
-                "$type": "color",
-                "$value": "{primitive.color.red.900}"
-              }
+            "200": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.31)"
             },
-            "info": {
-              "lightest": {
-                "$type": "color",
-                "$value": "{primitive.color.blue.50}"
-              },
-              "light": {
-                "$type": "color",
-                "$value": "{primitive.color.blue.100}"
-              },
-              "medium": {
-                "$type": "color",
-                "$value": "{primitive.color.blue.300}"
-              },
-              "strong": {
-                "$type": "color",
-                "$value": "{primitive.color.blue.500}"
-              },
-              "bold": {
-                "$type": "color",
-                "$value": "{primitive.color.blue.700}"
-              },
-              "dark": {
-                "$type": "color",
-                "$value": "{primitive.color.blue.900}"
-              }
+            "300": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.37)"
+            },
+            "400": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.44)"
+            },
+            "500": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.50)"
+            },
+            "600": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.56)"
+            },
+            "700": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.62)"
+            },
+            "800": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.69)"
+            },
+            "900": {
+              "$type": "color",
+              "$value": "rgba(255, 255, 255, 0.87)"
+            },
+            "1000": {
+              "$type": "color",
+              "$value": "rgb(255, 255, 255)"
             }
           },
-        "neutralRole": {
-            "lightest": {
+          "transparentBlack": {
+            "25": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.50}"
+              "$value": "rgba(0, 0, 0, 0.06)"
             },
-            "lighter": {
+            "50": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.100}"
+              "$value": "rgba(0, 0, 0, 0.12)"
             },
-            "light": {
+            "75": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.200}"
+              "$value": "rgba(0, 0, 0, 0.18)"
             },
-            "medium": {
+            "100": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.400}"
+              "$value": "rgba(0, 0, 0, 0.24)"
             },
-            "strong": {
+            "200": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.600}"
+              "$value": "rgba(0, 0, 0, 0.31)"
             },
-            "bold": {
+            "300": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.800}",
-              "$description": "neutral color of weight 700"
+              "$value": "rgba(0, 0, 0, 0.37)"
             },
-            "dark": {
+            "400": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.900}",
-              "$description": "neutral color of weight 900"
+              "$value": "rgba(0, 0, 0, 0.44)"
             },
-            "darkest": {
+            "500": {
               "$type": "color",
-              "$value": "{primitive.color.neutral.950}",
-              "$description": "neutral color of weight 950"
+              "$value": "rgba(0, 0, 0, 0.50)"
+            },
+            "600": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.56)"
+            },
+            "700": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.62)"
+            },
+            "800": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.69)"
+            },
+            "900": {
+              "$type": "color",
+              "$value": "rgba(0, 0, 0, 0.87)"
+            },
+            "1000": {
+              "$type": "color",
+              "$value": "rgb(0, 0, 0)"
             }
           },
-        "brandAccent": {
-              "lightest": {
-                "$type": "color",
-                "$value": "{primitive.color.orange.50}"
-              },
-              "light": {
-                "$type": "color",
-                "$value": "{primitive.color.orange.100}"
-              },
-              "medium": {
-                "$type": "color",
-                "$value": "{primitive.color.orange.300}"
-              },
-              "strong": {
-                "$type": "color",
-                "$value": "{primitive.color.orange.500}"
-              },
-              "bold": {
-                "$type": "color",
-                "$value": "{primitive.color.orange.700}"
-              },
-              "dark": {
-                "$type": "color",
-                "$value": "{primitive.color.orange.900}"
-              }
+          "gradient": {
+            "gradient-primary": {
+              "$type": "gradient",
+              "$value": [
+                {
+                  "color": "{primitive.color.brandPrimary.300}",
+                  "position": 0
+                },
+                {
+                  "color": "{primitive.color.brandPrimary.700}",
+                  "position": 1
+                }
+              ]
+            },
+            "gradient-secondary": {
+              "$type": "gradient",
+              "$value": [
+                {
+                  "color": "{primitive.color.brandSecondary.300}",
+                  "position": 0
+                },
+                {
+                  "color": "{primitive.color.brandSecondary.700}",
+                  "position": 1
+                }
+              ]
+            },
+            "gradientBrand": {
+              "$type": "gradient",
+              "$value": [
+                {
+                  "color": "{primitive.color.brandPrimary.500}",
+                  "position": 0
+                },
+                {
+                  "color": "{primitive.color.brandSecondary.500}",
+                  "position": 1
+                }
+              ]
             }
           }
         }
-      },
+      }
+    },
   "primitive/font": {
     "primitive": {
       "font": {
         "fontFamily": {
           "display": {
-            "$type": "fontFamilies",
+            "$type": "fontFamily",
             "$value": "Inter",
             "$description": "Font family for display fonts"
           },
           "content": {
-            "$type": "fontFamilies",
+            "$type": "fontFamily",
             "$value": "Inter",
             "$description": "Font family for content fonts"
           },
           "code": {
-            "$type": "fontFamilies",
+            "$type": "fontFamily",
             "$value": "Geist Mono",
             "$description": "Font Family that is chosed for code visualisation"
           }
         },
         "fontWeight": {
           "black": {
-            "$type": "fontWeights",
-            "$value": "Black",
+            "$type": "fontWeight",
+            "$value": "black",
             "$description": "heaviest weight for fonts"
           },
           "bold": {
-            "$type": "fontWeights",
-            "$value": "Bold",
+            "$type": "fontWeight",
+            "$value": "bold",
             "$description": "bold weight for fonts"
           },
           "semiBold": {
-            "$type": "fontWeights",
-            "$value": "Semi Bold",
+            "$type": "fontWeight",
+            "$value": "semi-bold",
             "$description": "semibold weight for fonts"
           },
           "default": {
-            "$type": "fontWeights",
-            "$value": "Regular",
+            "$type": "fontWeight",
+            "$value": "regular",
             "$description": "default weight for fonts"
           }
         },
         "fontSize": {
-          "3xs": {
-            "$type": "fontSizes",
+          "050": {
+            "$type": "fontSize",
             "$value": "12px",
             "$description": "extra extra extra small font size unit"
           },
-          "2xs": {
-            "$type": "fontSizes",
+          "100": {
+            "$type": "fontSize",
             "$value": "14px",
             "$description": "extra extra small font size unit"
           },
-          "xs": {
-            "$type": "fontSizes",
+          "150": {
+            "$type": "fontSize",
             "$value": "16px",
             "$description": "extra small font size unit"
           },
-          "sm": {
-            "$type": "fontSizes",
+          "200": {
+            "$type": "fontSize",
             "$value": "20px",
             "$description": "small font size unit"
           },
-          "md": {
-            "$type": "fontSizes",
+          "300": {
+            "$type": "fontSize",
             "$value": "24px",
             "$description": "medium font size unit"
           },
-          "ml": {
-            "$type": "fontSizes",
+          "350": {
+            "$type": "fontSize",
             "$value": "28px",
             "$description": "medium large font size unit"
           },
-          "lg": {
-            "$type": "fontSizes",
+          "400": {
+            "$type": "fontSize",
             "$value": "32px",
             "$description": "large font size unit"
           },
-          "xl": {
-            "$type": "fontSizes",
+          "500": {
+            "$type": "fontSize",
             "$value": "40px",
             "$description": "extra large font size unit"
           },
-          "2xl": {
-            "$type": "fontSizes",
+          "700": {
+            "$type": "fontSize",
             "$value": "80px",
             "$description": "extra extra large font size unit"
           },
-          "3xl": {
-            "$type": "fontSizes",
+          "900": {
+            "$type": "fontSize",
             "$value": "100px",
             "$description": "extra extra extra large font size unit"
           }
         },
         "letterSpacing": {
-          "xs": {
+          "050": {
             "$type": "letterSpacing",
             "$value": "-0.16px",
             "$description": "extra small letter spacing unit"
           },
-          "sm": {
+          "100": {
             "$type": "letterSpacing",
             "$value": "0px",
             "$description": "small letter spacing unit"
           },
-          "md": {
+          "200": {
             "$type": "letterSpacing",
             "$value": "0.08px",
             "$description": "medium letter spacing unit"
           },
-          "lg": {
+          "300": {
             "$type": "letterSpacing",
             "$value": "0.16px",
             "$description": "large letter spacing unit"
           }
         },
         "lineHeight": {
-          "3xs": {
-            "$type": "lineHeights",
+          "050": {
+            "$type": "lineHeight",
             "$value": "20px",
             "$description": "extra extra extra small line height unit"
           },
-          "2xs": {
-            "$type": "lineHeights",
+          "100": {
+            "$type": "lineHeight",
             "$value": "22px",
             "$description": "extra extra small line height unit"
           },
-          "xs": {
-            "$type": "lineHeights",
+          "150": {
+            "$type": "lineHeight",
             "$value": "24px",
             "$description": "extra small line height unit"
           },
-          "sm": {
-            "$type": "lineHeights",
+          "200": {
+            "$type": "lineHeight",
             "$value": "26px",
             "$description": "small line height unit"
           },
-          "md": {
-            "$type": "lineHeights",
+          "300": {
+            "$type": "lineHeight",
             "$value": "32px",
             "$description": "medium line height unit"
           },
-          "ml": {
-            "$type": "lineHeights",
+          "350": {
+            "$type": "lineHeight",
             "$value": "40px",
             "$description": "medium large line height unit"
           },
-          "lg": {
-            "$type": "lineHeights",
+          "400": {
+            "$type": "lineHeight",
             "$value": "48px",
             "$description": "large line height unit"
           },
-          "xl": {
-            "$type": "lineHeights",
+          "500": {
+            "$type": "lineHeight",
             "$value": "56px",
             "$description": "extra large line height unit"
           },
-          "2xl": {
-            "$type": "lineHeights",
+          "700": {
+            "$type": "lineHeight",
             "$value": "92px",
             "$description": "extra extra large line height unit"
           },
-          "3xl": {
-            "$type": "lineHeights",
+          "900": {
+            "$type": "lineHeight",
             "$value": "112px",
             "$description": "extra extra extra large line height unit"
           }
         },
         "paragraphSpacing": {
-          "sm": {
+          "200": {
             "$type": "paragraphSpacing",
             "$value": "16px",
             "$description": "small paragraph spacing unit"
@@ -766,22 +696,22 @@
   "primitive/shape": {
     "primitive": {
       "shape": {
-        "none": {
+        "000": {
           "$type": "borderRadius",
           "$value": "0px",
           "$description": "radius of 0 "
         },
-        "sm": {
+        "100": {
           "$type": "borderRadius",
           "$value": "4px",
           "$description": "small radius for branded shapes"
         },
-        "md": {
+        "200": {
           "$type": "borderRadius",
           "$value": "8px",
           "$description": "medium radius for branded shapes"
         },
-        "lg": {
+        "300": {
           "$type": "borderRadius",
           "$value": "12px",
           "$description": "largeradius for branded shapes"
@@ -792,94 +722,137 @@
   "primitive/dimension": {
     "primitive": {
       "dimension": {
-        "6xs": {
-          "$type": "dimension",
-          "$value": "2px",
-          "$description": "1st step of primitive dimensions sequence"
-        },
-        "7xs": {
+        "1px": {
           "$type": "dimension",
           "$value": "1px",
           "$description": "1st step of primitive dimensions sequence"
         },
-        "5xs": {
+        "2px": {
+          "$type": "dimension",
+          "$value": "2px",
+          "$description": "1st step of primitive dimensions sequence"
+        },
+        "4px": {
           "$type": "dimension",
           "$value": "4px",
           "$description": "2nd step of primitive dimensions sequence"
         },
-        "4xs": {
+        "050": {
           "$type": "dimension",
           "$value": "8px",
           "$description": "3rd step of primitive dimensions sequence"
         },
-        "3xs": {
+        "100": {
           "$type": "dimension",
           "$value": "12px",
           "$description": "4th step of primitive dimensions sequence"
         },
-        "2xs": {
+        "150": {
           "$type": "dimension",
           "$value": "16px",
           "$description": "5th step of primitive dimensions sequence"
         },
-        "xs": {
+        "200": {
           "$type": "dimension",
           "$value": "20px",
           "$description": "6th step of primitive dimensions sequence"
         },
-        "sm": {
+        "250": {
           "$type": "dimension",
           "$value": "24px",
           "$description": "7th step of primitive dimensions sequence"
         },
-        "md": {
+        "300": {
           "$type": "dimension",
           "$value": "32px",
           "$description": "8th step of primitive dimensions sequence"
         },
-        "lg": {
+        "350": {
           "$type": "dimension",
           "$value": "40px",
           "$description": "9th step of primitive dimensions sequence"
         },
-        "xl": {
+        "400": {
           "$type": "dimension",
           "$value": "48px",
           "$description": "10th step of primitive dimensions sequence"
         },
-        "2xl": {
+        "500": {
           "$type": "dimension",
           "$value": "64px",
           "$description": "11th step of primitive dimensions sequence"
         },
-        "3xl": {
+        "600": {
           "$type": "dimension",
           "$value": "80px",
           "$description": "12th step of primitive dimensions sequence"
         },
-        "4xl": {
+        "700": {
           "$type": "dimension",
           "$value": "96px",
           "$description": "13th step of primitive dimensions sequence"
         },
-        "5xl": {
+        "800": {
           "$type": "dimension",
           "$value": "128px",
           "$description": "14th step of primitive dimensions sequence"
         },
-        "6xl": {
+        "900": {
           "$type": "dimension",
           "$value": "160px",
           "$description": "15th step of primitive dimensions sequence"
         },
-        "breakpoints": {
-          "screenLarge": {
+        "breakpoint": {
+          "300": {
             "$type": "dimension",
-            "$value": "1024px",
-            "$description": "breakpoint for large screens"
+            "$value": {
+              "value": 320,
+              "unit": "px"
+            },
+            "$description": "extra small breakpoint"
+          },
+          "400": {
+            "$type": "dimension",
+            "$value": {
+              "value": 544,
+              "unit": "px"
+            },
+            "$description": "small breakpoint"
+          },
+          "500": {
+            "$type": "dimension",
+            "$value": {
+              "value": 768,
+              "unit": "px"
+            },
+            "$description": "medium breakpoint"
+          },
+          "600": {
+            "$type": "dimension",
+            "$value": {
+              "value": 1012,
+              "unit": "px"
+            },
+            "$description": "large breakpoint"
+          },
+          "700": {
+            "$type": "dimension",
+            "$value": {
+              "value": 1280,
+              "unit": "px"
+            },
+            "$description": "extra large breakpoint"
+          },
+          "800": {
+            "$type": "dimension",
+            "$value": {
+              "value": 1440,
+              "unit": "px"
+            },
+            "$description": "extra extra large breakpoint"
           }
         },
-        "none": {
+        "000": {
           "$type": "dimension",
           "$value": "0px",
           "$description": "dimension value of none"
@@ -887,93 +860,337 @@
       }
     }
   },
-  "semantic/breakpoint/screen-lg-typescale": {
+  "primitive/motion": {
+    "primitive": {
+      "motion": {
+      "easing": {
+        "accelerateMax": {
+          "$type": "cubicBezier",
+          "$value": [0.9, 0.1, 1, 0.2]
+        },
+        "accelerateMid": {
+          "$type": "cubicBezier",
+          "$value": [1, 0, 1, 1]
+        },
+        "accelerateMin": {
+          "$type": "cubicBezier",
+          "$value": [0.8, 0, 0.78, 1]
+        },
+        "decelerateMax": {
+          "$type": "cubicBezier",
+          "$value": [0.1, 0.9, 0.2, 1]
+        },
+        "decelerateMid": {
+          "$type": "cubicBezier",
+          "$value": [0, 0, 0, 1]
+        },
+        "decelerateMin": {
+          "$type": "cubicBezier",
+          "$value": [0.33, 0, 0.1, 1]
+        },
+        "easyEaseMax": {
+          "$type": "cubicBezier",
+          "$value": [0.8, 0, 0.2, 1]
+        },
+        "easyEase": {
+          "$type": "cubicBezier",
+          "$value": [0.33, 0, 0.67, 1]
+        },
+        "linear": {
+          "$type": "cubicBezier",
+          "$value": [0, 0, 1, 1]
+        }
+      },
+      "duration": {
+        "050": {
+          "$type": "duration",
+          "$value": {
+            "value": 50,
+            "unit": "ms"
+          },
+          "$description": "ultrafast duration"
+        },
+        "100": {
+          "$type": "duration",
+          "$value": {
+            "value": 100,
+            "unit": "ms"
+          },
+          "$description": "faster duration"
+        },
+        "150": {
+          "$type": "duration",
+          "$value": {
+            "value": 150,
+            "unit": "ms"
+          },
+          "$description": "fast duration"
+        },
+        "200": {
+          "$type": "duration",
+          "$value": {
+            "value": 200,
+            "unit": "ms"
+          },
+          "$description": "normal duration"
+        },
+        "250": {
+          "$type": "duration",
+          "$value": {
+            "value": 250,
+            "unit": "ms"
+          },
+          "$description": "gentle duration"
+        },
+        "300": {
+          "$type": "duration",
+          "$value": {
+            "value": 300,
+            "unit": "ms"
+          },
+          "$description": "slow duration"
+        },
+        "400": {
+          "$type": "duration",
+          "$value": {
+            "value": 400,
+            "unit": "ms"
+          },
+          "$description": "slower duration"
+        },
+        "500": {
+          "$type": "duration",
+          "$value": {
+            "value": 500,
+            "unit": "ms"
+          },
+          "$description": "ultraslow duration"
+        }
+      }
+    }
+    }
+  },
+  "primitive/elevation": {
+    "primitive": {
+      "elevation": {
+      "shadow": {
+        "100": {
+          "$type": "shadow",
+          "$value": [
+            {
+              "color": "{primitive.color.neutral.950}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 1, "unit": "px" },
+              "blur": { "value": 2, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            },
+            {
+              "color": "{primitive.color.neutral.900}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 0, "unit": "px" },
+              "blur": { "value": 2, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            }
+          ]
+        },
+        "200": {
+          "$type": "shadow",
+          "$value": [
+            {
+              "color": "{primitive.color.neutral.950}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 2, "unit": "px" },
+              "blur": { "value": 4, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            },
+            {
+              "color": "{primitive.color.neutral.900}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 0, "unit": "px" },
+              "blur": { "value": 2, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            }
+          ]
+        },
+        "300": {
+          "$type": "shadow",
+          "$value": [
+            {
+              "color": "{primitive.color.neutral.950}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 4, "unit": "px" },
+              "blur": { "value": 8, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            },
+            {
+              "color": "{primitive.color.neutral.900}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 0, "unit": "px" },
+              "blur": { "value": 2, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            }
+          ]
+        },
+        "400": {
+          "$type": "shadow",
+          "$value": [
+            {
+              "color": "{primitive.color.neutral.950}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 8, "unit": "px" },
+              "blur": { "value": 16, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            },
+            {
+              "color": "{primitive.color.neutral.900}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 0, "unit": "px" },
+              "blur": { "value": 2, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            }
+          ]
+        },
+        "500": {
+          "$type": "shadow",
+          "$value": [
+            {
+              "color": "{primitive.color.neutral.950}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 14, "unit": "px" },
+              "blur": { "value": 28.8, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            },
+            {
+              "color": "{primitive.color.neutral.900}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 0, "unit": "px" },
+              "blur": { "value": 8, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            }
+          ]
+        },
+        "600": {
+          "$type": "shadow",
+          "$value": [
+            {
+              "color": "{primitive.color.neutral.950}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 32, "unit": "px" },
+              "blur": { "value": 64, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            },
+            {
+              "color": "{primitive.color.neutral.900}",
+              "offsetX": { "value": 0, "unit": "px" },
+              "offsetY": { "value": 0, "unit": "px" },
+              "blur": { "value": 8, "unit": "px" },
+              "spread": { "value": 0, "unit": "px" },
+              "inset": false
+            }
+          ]
+        }
+      }
+    }
+    }
+  },
+  "semantic/typescale": {
     "semantic": {
       "typescale": {
         "fontWeight": {
           "display": {
             "1": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.black}",
               "$description": "font weight for display 01"
             },
             "2": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.bold}",
               "$description": "font weight for display 02"
             }
           },
           "headline": {
             "1": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.black}",
               "$description": "font weight for headline 01"
             },
             "2": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.bold}",
               "$description": "font weight for headline 02"
             },
             "3": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.bold}",
               "$description": "font weight for headline 03"
             },
             "4": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.bold}",
               "$description": "font weight for headline 04"
             },
             "5": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.bold}",
               "$description": "font weight for headline 05"
             }
           },
           "label": {
             "short": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.semiBold}",
               "$description": "font weight for label short"
             },
             "long": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.bold}",
               "$description": "font weight for label long"
             }
           },
           "body": {
             "short": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.default}",
               "$description": "font weight for body short"
             },
             "long": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.default}",
               "$description": "font weight for body long"
             },
             "small": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.default}",
               "$description": "font weight for body small"
             }
           },
           "hyperlink": {
             "default": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.default}",
               "$description": "font weight for hyperlink default"
             },
             "hover": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.default}",
               "$description": "font weight for hyperlink hover"
             }
           },
           "code": {
             "small": {
-              "$type": "fontWeights",
+              "$type": "fontWeight",
               "$value": "{primitive.font.fontWeight.default}",
               "$description": "font weight for code small"
             }
@@ -982,87 +1199,87 @@
         "fontFamily": {
           "display": {
             "1": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.display}",
               "$description": "font family for display 01"
             },
             "2": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.display}",
               "$description": "font family for display 02"
             }
           },
           "headline": {
             "1": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for headline 01"
             },
             "2": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for headline 02"
             },
             "3": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for headline 03"
             },
             "4": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for headline 04"
             },
             "5": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for headline 05"
             }
           },
           "label": {
             "short": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for label short"
             },
             "long": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for label long"
             }
           },
           "body": {
             "short": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for body short"
             },
             "long": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for body long"
             },
             "small": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for body small"
             }
           },
           "hyperlink": {
             "default": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for hyperlink default"
             },
             "hover": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.content}",
               "$description": "font family for hyperlink hover"
             }
           },
           "code": {
             "small": {
-              "$type": "fontFamilies",
+              "$type": "fontFamily",
               "$value": "{primitive.font.fontFamily.code}",
               "$description": "font family for code small"
             }
@@ -1071,88 +1288,88 @@
         "fontSize": {
           "display": {
             "1": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.3xl}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.900}",
               "$description": "font size for display 01"
             },
             "2": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.2xl}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.700}",
               "$description": "font size for display 02"
             }
           },
           "headline": {
             "1": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.xl}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.500}",
               "$description": "font size for headline 01"
             },
             "2": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.lg}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.400}",
               "$description": "font size for headline 02"
             },
             "3": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.md}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.300}",
               "$description": "font size for headline 03"
             },
             "4": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.sm}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.200}",
               "$description": "font size for headline 04"
             },
             "5": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.xs}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.150}",
               "$description": "font size for headline 05"
             }
           },
           "label": {
             "short": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.xs}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.150}",
               "$description": "font size for label short"
             },
             "long": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.sm}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.200}",
               "$description": "font size for label long"
             }
           },
           "body": {
             "short": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.sm}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.200}",
               "$description": "font size for body short"
             },
             "long": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.md}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.300}",
               "$description": "font size for body long"
             },
             "small": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.xs}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.150}",
               "$description": "font size for body small"
             }
           },
           "hyperlink": {
             "default": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.sm}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.200}",
               "$description": "font size for hyperlink default"
             },
             "hover": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.sm}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.200}",
               "$description": "font size for hyperlink hover"
             }
           },
           "code": {
             "small": {
-              "$type": "fontSizes",
-              "$value": "{primitive.font.fontSize.xs}",
+              "$type": "fontSize",
+              "$value": "{primitive.font.fontSize.150}",
               "$description": "font size for code small"
             }
           }
@@ -1160,88 +1377,88 @@
         "lineHeight": {
           "display": {
             "1": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.3xl}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.900}",
               "$description": "line height for display 01"
             },
             "2": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.2xl}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.700}",
               "$description": "line height for display 02"
             }
           },
           "headline": {
             "1": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.xl}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.500}",
               "$description": "line height for headline 01"
             },
             "2": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.lg}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.400}",
               "$description": "line height for headline 02"
             },
             "3": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.md}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.300}",
               "$description": "line height for headline 03"
             },
             "4": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.sm}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.200}",
               "$description": "line height for headline 04"
             },
             "5": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.xs}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.150}",
               "$description": "line height for headline 05"
             }
           },
           "label": {
             "short": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.xs}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.150}",
               "$description": "line height for label short"
             },
             "long": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.sm}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.200}",
               "$description": "line height for label long"
             }
           },
           "body": {
             "short": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.sm}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.200}",
               "$description": "line height for body short"
             },
             "long": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.md}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.300}",
               "$description": "line height for body long"
             },
             "small": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.xs}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.150}",
               "$description": "line height for body small"
             }
           },
           "hyperlink": {
             "default": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.sm}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.200}",
               "$description": "line height for hyperlink default"
             },
             "hover": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.sm}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.200}",
               "$description": "line height for hyperlink hover"
             }
           },
           "code": {
             "small": {
-              "$type": "lineHeights",
-              "$value": "{primitive.font.lineHeight.xs}",
+              "$type": "lineHeight",
+              "$value": "{primitive.font.lineHeight.150}",
               "$description": "line height for code small"
             }
           }
@@ -1250,87 +1467,87 @@
           "display": {
             "1": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.lg}",
+              "$value": "{primitive.font.letterSpacing.300}",
               "$description": "letter spacing for display 01"
             },
             "2": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.md}",
+              "$value": "{primitive.font.letterSpacing.200}",
               "$description": "letter spacing for display 02"
             }
           },
           "headline": {
             "1": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.md}",
+              "$value": "{primitive.font.letterSpacing.200}",
               "$description": "letter spacing for headline 01"
             },
             "2": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.sm}",
+              "$value": "{primitive.font.letterSpacing.100}",
               "$description": "letter spacing for headline 02"
             },
             "3": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.sm}",
+              "$value": "{primitive.font.letterSpacing.100}",
               "$description": "letter spacing for headline 03"
             },
             "4": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.xs}",
+              "$value": "{primitive.font.letterSpacing.050}",
               "$description": "letter spacing for headline 04"
             },
             "5": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.xs}",
+              "$value": "{primitive.font.letterSpacing.050}",
               "$description": "letter spacing for headline 05"
             }
           },
           "label": {
             "short": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.xs}",
+              "$value": "{primitive.font.letterSpacing.050}",
               "$description": "letter spacing for label short"
             },
             "long": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.sm}",
+              "$value": "{primitive.font.letterSpacing.100}",
               "$description": "letter spacing for label long"
             }
           },
           "body": {
             "short": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.sm}",
+              "$value": "{primitive.font.letterSpacing.100}",
               "$description": "letter spacing for body short"
             },
             "long": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.md}",
+              "$value": "{primitive.font.letterSpacing.200}",
               "$description": "letter spacing for body long"
             },
             "small": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.xs}",
+              "$value": "{primitive.font.letterSpacing.050}",
               "$description": "letter spacing for body small"
             }
           },
           "hyperlink": {
             "default": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.sm}",
+              "$value": "{primitive.font.letterSpacing.100}",
               "$description": "letter spacing for hyperlink default"
             },
             "hover": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.sm}",
+              "$value": "{primitive.font.letterSpacing.100}",
               "$description": "letter spacing for hyperlink hover"
             }
           },
           "code": {
             "small": {
               "$type": "letterSpacing",
-              "$value": "{primitive.font.letterSpacing.xs}",
+              "$value": "{primitive.font.letterSpacing.050}",
               "$description": "letter spacing for code small"
             }
           }
@@ -1355,150 +1572,107 @@
   "semantic/breakpoint/screen-lg-dimension": {
     "semantic": {
       "size": {
-        "3xs": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.3xs}",
+        "100": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.100}",
           "$description": "extra extra extra small size unit"
         },
-        "2xs": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.2xs}",
+        "150": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.150}",
           "$description": "extra extra small size unit"
         },
-        "xs": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.xs}",
+        "200": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.200}",
           "$description": "extra small size unit"
         },
-        "sm": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.sm}",
+        "250": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.250}",
           "$description": "small size unit"
         },
-        "md": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.md}",
+        "300": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.300}",
           "$description": "medium size unit"
         },
-        "lg": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.xl}",
+        "400": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.400}",
           "$description": "large size unit"
         },
-        "xl": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.2xl}",
+        "500": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.500}",
           "$description": "extra large size unit"
         },
-        "2xl": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.4xl}",
+        "700": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.700}",
           "$description": "extra extra large size unit"
         },
-        "3xl": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.5xl}",
+        "800": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.800}",
           "$description": "extra extra extra large size unit"
         },
-        "none": {
-          "$type": "sizing",
-          "$value": "{primitive.dimension.none}",
+        "000": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.000}",
           "$description": "size of none"
         }
       },
       "spacing": {
-        "3xs": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.6xs}",
+        "050": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.2px}",
           "$description": "extra extra extra small spacing unit"
         },
-        "2xs": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.5xs}",
+        "100": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.4px}",
           "$description": "extra extra small spacing unit"
         },
-        "xs": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.4xs}",
+        "150": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.050}",
           "$description": "extra small spacing unit"
         },
-        "sm": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.3xs}",
+        "200": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.100}",
           "$description": "small spacing unit"
         },
-        "md": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.2xs}",
+        "250": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.150}",
           "$description": "medium spacing unit"
         },
-        "lg": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.sm}",
+        "300": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.250}",
           "$description": "large spacing unit"
         },
-        "xl": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.md}",
+        "400": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.300}",
           "$description": "extra large spacing unit"
         },
-        "2xl": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.xl}",
+        "500": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.400}",
           "$description": "extra extra small spacing unit"
         },
-        "3xl": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.4xl}",
+        "700": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.700}",
           "$description": "extra extra extra small spacing unit"
         },
-        "none": {
-          "$type": "spacing",
-          "$value": "{primitive.dimension.none}",
+        "000": {
+          "$type": "dimension",
+          "$value": "{primitive.dimension.000}",
           "$description": "spacing of none"
-        }
-      }
-    }
-  },
-  "semantic/breakpoint/screen-lg-layout": {
-    "semantic": {
-      "layout": {
-        "screen": {
-          "maxWidth": {
-            "$type": "sizing",
-            "$value": "{primitive.dimension.breakpoints.screenLarge}",
-            "$description": "max-width of screensize"
-          }
-        },
-        "container": {
-          "main": {
-            "paddingLeftRight": {
-              "$type": "sizing",
-              "$value": "{semantic.size.md}",
-              "$description": "padding of main container"
-            }
-          }
-        }
-      }
-    }
-  },
-  "semantic/breakpoint/screen-lg-grid": {
-    "semantic": {
-      "grid": {
-        "cols": {
-          "$type": "number",
-          "$value": "12",
-          "$description": "cols of grid on breakpoint"
-        },
-        "marginLeftRight": {
-          "$type": "sizing",
-          "$value": "{semantic.size.md}",
-          "$description": "margin of grid"
-        },
-        "gutter": {
-          "$type": "spacing",
-          "$value": "{semantic.spacing.xs}",
-          "$description": "gutter of grid"
         }
       }
     }
@@ -1507,19 +1681,19 @@
     "semantic": {
       "border": {
         "width": {
-          "xs": {
+          "050": {
             "$type": "borderWidth",
-            "$value": "{primitive.dimension.7xs}",
+            "$value": "{primitive.dimension.1px}",
             "$description": "small thickness for borders"
           },
-          "sm": {
+          "100": {
             "$type": "borderWidth",
-            "$value": "{primitive.dimension.6xs}",
+            "$value": "{primitive.dimension.2px}",
             "$description": "smallest thickness for borders"
           },
-          "md": {
+          "200": {
             "$type": "borderWidth",
-            "$value": "{primitive.dimension.5xs}",
+            "$value": "{primitive.dimension.4px}",
             "$description": "medium border thickness"
           }
         },
@@ -1527,30 +1701,30 @@
           "$type": "border",
           "$value": {
             "color": "{semantic.color.border.focusOutline}",
-            "width": "{semantic.border.width.md}",
+            "width": "{semantic.border.width.200}",
             "style": "solid"
           },
           "$description": "default outline for focused elements"
         },
         "radius": {
-          "none": {
+          "000": {
             "$type": "borderRadius",
-            "$value": "{primitive.shape.none}",
+            "$value": "{primitive.shape.000}",
             "$description": "no border radius"
           },
-          "sm": {
+          "100": {
             "$type": "borderRadius",
-            "$value": "{primitive.shape.sm}",
+            "$value": "{primitive.shape.100}",
             "$description": "small border radius"
           },
-          "md": {
+          "200": {
             "$type": "borderRadius",
-            "$value": "{primitive.shape.md}",
+            "$value": "{primitive.shape.200}",
             "$description": "medium border radius"
           },
-          "lg": {
+          "300": {
             "$type": "borderRadius",
-            "$value": "{primitive.shape.lg}",
+            "$value": "{primitive.shape.300}",
             "$description": "large border radius"
           }
         }
@@ -1742,168 +1916,168 @@
       }
     }
   },
-  "semantic/mode/color-dark": {
+  "semantic/mode/dark": {
     "semantic": {
       "color": {
         "primary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.medium}",
+            "$value": "{primitive.color.brandPrimary.300}",
             "$description": "Color that indicates interactions"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.dark}",
+            "$value": "{primitive.color.brandPrimary.900}",
             "$description": "color for elements that are placed on interactive background colors"
           },
           "brand": {
             "onPrimary": {
-              "$value": "{primitive.color.main.primary.100}",
+              "$value": "{primitive.color.brandPrimary.100}",
               "$type": "color",
               "$description": "color for elements that are placed on primary brand color"
             },
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.medium}",
+            "$value": "{primitive.color.brandPrimary.300}",
             "$description": "background color for primary brand elements "
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.dark}",
+            "$value": "{primitive.color.brandPrimary.900}",
             "$description": "color for elements that are placed on brand background color"
           }
         },
         "secondary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.medium}",
+            "$value": "{primitive.color.brandSecondary.300}",
             "$description": "secondary interaction color for backgrounds"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.dark}",
+            "$value": "{primitive.color.brandSecondary.900}",
             "$description": "secondary foreground color for interactions"
           },
           "brand": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.strong}",
+            "$value": "{primitive.color.brandSecondary.500}",
             "$description": "secondary brand color for backgrounds"
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.dark}",
+            "$value": "{primitive.color.brandSecondary.900}",
             "$description": "secondary brand color for backgrounds"
           }
         },
         "intent": {
           "infoHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.medium}",
+            "$value": "{primitive.color.intent.info.300}",
             "$description": "color for elements with informational purpose of high emphasis"
           },
           "infoLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.strong}",
+            "$value": "{primitive.color.intent.info.500}",
             "$description": "color for elements with informational purpose of low emphasis"
           },
           "onInfo": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.dark}",
+            "$value": "{primitive.color.intent.info.900}",
             "$description": "color for elements placed on informational purpose background"
           },
           "successHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.success.light}",
+            "$value": "{primitive.color.intent.success.100}",
             "$description": "color for elements with success purpose of high emphasis"
           },
           "successLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.success.medium}",
+            "$value": "{primitive.color.intent.success.300}",
             "$description": "color for elements with success purpose of low emphasis"
           },
           "onSuccess": {
             "$type": "color",
-            "$value": "{primitive.color.intent.success.dark}",
+            "$value": "{primitive.color.intent.success.900}",
             "$description": "color for elements placed on success purpose background"
           },
           "warningHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.warning.light}",
+            "$value": "{primitive.color.intent.warning.100}",
             "$description": "color for elements with warning purpose of high emphasis"
           },
           "warningLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.warning.medium}",
+            "$value": "{primitive.color.intent.warning.300}",
             "$description": "color for elements with warning purpose of low emphasis"
           },
           "onWarning": {
             "$type": "color",
-            "$value": "{primitive.color.intent.warning.dark}",
+            "$value": "{primitive.color.intent.warning.900}",
             "$description": "color for elements placed on warning purpose background"
           },
           "criticalHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.critical.light}",
+            "$value": "{primitive.color.intent.critical.100}",
             "$description": "color for elements with critical purpose of high emphasis"
           },
           "criticalLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.critical.medium}",
+            "$value": "{primitive.color.intent.critical.300}",
             "$description": "color for elements with critical purpose of low emphasis"
           },
           "onCritical": {
             "$type": "color",
-            "$value": "{primitive.color.intent.critical.dark}",
+            "$value": "{primitive.color.intent.critical.900}",
             "$description": "color for elements placed on critical purpose background"
           }
         },
         "background": {
           "body": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.darkest}",
+            "$value": "{primitive.color.neutral.950}",
             "$description": "Body background color"
           },
           "highEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.dark}",
+            "$value": "{primitive.color.neutral.900}",
             "$description": "Background Color for components with high emphasis"
           },
           "mediumEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.bold}",
+            "$value": "{primitive.color.neutral.800}",
             "$description": "Background Color for components with medium emphasis"
           },
           "lowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.medium}",
+            "$value": "{primitive.color.neutral.400}",
             "$description": "background color for elements with a low emphasis"
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lightest}",
+            "$value": "{primitive.color.neutral.50}",
             "$description": "Default text color "
           },
           "inverted": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.dark}",
+            "$value": "{primitive.color.neutral.900}",
             "$description": "Inverted text color"
           },
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.medium}",
+            "$value": "{primitive.color.neutral.400}",
             "$description": "Text color in subtle weight"
           }
         },
         "state": {
           "disable": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lighter}",
+            "$value": "{primitive.color.neutral.100}",
             "$description": "background color for disabled elements"
           },
           "onDisable": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.strong}",
+            "$value": "{primitive.color.neutral.600}",
             "$description": "color for elements that are placed on disabled background color"
           },
           "hover": {
@@ -1917,7 +2091,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lighter}",
+            "$value": "{primitive.color.neutral.100}",
             "$description": "Background color for state overlay of a hovered element"
           },
           "focus": {
@@ -1931,7 +2105,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lighter}",
+            "$value": "{primitive.color.neutral.100}",
             "$description": "Background color for state overlay of a focused element"
           },
           "press": {
@@ -1945,217 +2119,217 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lighter}",
+            "$value": "{primitive.color.neutral.100}",
             "$description": "Background color for state overlay of a pressed element"
           },
           "select": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.light}",
+            "$value": "{primitive.color.brandPrimary.100}",
             "$description": "background color for selected elements"
           },
           "onSelect": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.bold}",
+            "$value": "{primitive.color.brandPrimary.700}",
             "$description": "Foreground color for selected elements"
           },
           "selectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.bold}",
+            "$value": "{primitive.color.brandPrimary.700}",
             "$description": "Inverted background color for selected elements"
           },
           "onSelectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.light}",
+            "$value": "{primitive.color.brandPrimary.100}",
             "$description": "inverted color for elements on selected backgrounds"
           }
         },
         "border": {
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.bold}",
+            "$value": "{primitive.color.neutral.800}",
             "$description": "subtle border color"
           },
           "medium": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.medium}",
+            "$value": "{primitive.color.neutral.400}",
             "$description": "medium border color"
           },
           "heavy": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.light}",
+            "$value": "{primitive.color.neutral.200}",
             "$description": "heavy border color"
           },
           "focusOutline": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.strong}",
+            "$value": "{primitive.color.intent.info.500}",
             "$description": "color for default focus outline"
           }
         }
       }
     }
   },
-  "semantic/mode/color-light": {
+  "semantic/mode/light": {
     "semantic": {
       "color": {
         "primary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.strong}",
+            "$value": "{primitive.color.brandPrimary.500}",
             "$description": "Color that indicates interactions"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.lightest}",
+            "$value": "{primitive.color.brandPrimary.50}",
             "$description": "color for elements that are placed on interactive background colors"
           },
           "brand": {
             "onPrimary": {
-              "$value": "{primitive.color.main.primary.100}",
+              "$value": "{primitive.color.brandPrimary.100}",
               "$type": "color",
               "$description": "color for elements that are placed on primary brand color"
             },
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.bold}",
+            "$value": "{primitive.color.brandPrimary.700}",
             "$description": "background color for primary brand elements "
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.light}",
+            "$value": "{primitive.color.brandPrimary.100}",
             "$description": "color for elements that are placed on brand background color"
           }
         },
         "secondary": {
           "interaction": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.bold}",
+            "$value": "{primitive.color.brandSecondary.700}",
             "$description": "secondary interaction color for backgrounds"
           },
           "onInteraction": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.lightest}",
+            "$value": "{primitive.color.brandSecondary.50}",
             "$description": "secondary foreground color for interactions"
           },
           "brand": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.bold}",
+            "$value": "{primitive.color.brandSecondary.700}",
             "$description": "secondary brand color for backgrounds"
           },
           "onBrand": {
             "$type": "color",
-            "$value": "{primitive.color.brandSecondary.lightest}",
+            "$value": "{primitive.color.brandSecondary.50}",
             "$description": "secondary brand color for backgrounds"
           }
         },
         "intent": {
           "infoHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.medium}",
+            "$value": "{primitive.color.intent.info.300}",
             "$description": "color for elements with informational purpose of high emphasis"
           },
           "infoLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.light}",
+            "$value": "{primitive.color.intent.info.100}",
             "$description": "color for elements with informational purpose of low emphasis"
           },
           "onInfo": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.dark}",
+            "$value": "{primitive.color.intent.info.900}",
             "$description": "color for elements placed on informational purpose background"
           },
           "successHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.success.medium}",
+            "$value": "{primitive.color.intent.success.300}",
             "$description": "color for elements with success purpose of high emphasis"
           },
           "successLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.success.light}",
+            "$value": "{primitive.color.intent.success.100}",
             "$description": "color for elements with success purpose of low emphasis"
           },
           "onSuccess": {
             "$type": "color",
-            "$value": "{primitive.color.intent.success.dark}",
+            "$value": "{primitive.color.intent.success.900}",
             "$description": "color for elements placed on success purpose background"
           },
           "warningHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.warning.medium}",
+            "$value": "{primitive.color.intent.warning.300}",
             "$description": "color for elements with warning purpose of high emphasis"
           },
           "warningLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.warning.light}",
+            "$value": "{primitive.color.intent.warning.100}",
             "$description": "color for elements with warning purpose of low emphasis"
           },
           "onWarning": {
             "$type": "color",
-            "$value": "{primitive.color.intent.warning.dark}",
+            "$value": "{primitive.color.intent.warning.900}",
             "$description": "color for elements placed on warning purpose background"
           },
           "criticalHighEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.critical.medium}",
+            "$value": "{primitive.color.intent.critical.300}",
             "$description": "color for elements with critical purpose of high emphasis"
           },
           "criticalLowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.intent.critical.light}",
+            "$value": "{primitive.color.intent.critical.100}",
             "$description": "color for elements with critical purpose of low emphasis"
           },
           "onCritical": {
             "$type": "color",
-            "$value": "{primitive.color.intent.critical.dark}",
+            "$value": "{primitive.color.intent.critical.900}",
             "$description": "color for elements placed on critical purpose background"
           }
         },
         "background": {
           "body": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.light}",
+            "$value": "{primitive.color.neutral.200}",
             "$description": "Body background color"
           },
           "highEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lightest}",
+            "$value": "{primitive.color.neutral.50}",
             "$description": "Background Color for components with high emphasis"
           },
           "mediumEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lighter}",
+            "$value": "{primitive.color.neutral.100}",
             "$description": "Background Color for components with medium emphasis"
           },
           "lowEmphasis": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.medium}",
+            "$value": "{primitive.color.neutral.400}",
             "$description": "background color for elements with a low emphasis"
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.darkest}",
+            "$value": "{primitive.color.neutral.950}",
             "$description": "Default text color "
           },
           "inverted": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.lightest}",
+            "$value": "{primitive.color.neutral.50}",
             "$description": "Inverted text color"
           },
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.strong}",
+            "$value": "{primitive.color.neutral.600}",
             "$description": "Text color in subtle weight"
           }
         },
         "state": {
           "disable": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.medium}",
+            "$value": "{primitive.color.neutral.400}",
             "$description": "background color for disabled elements"
           },
           "onDisable": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.dark}",
+            "$value": "{primitive.color.neutral.900}",
             "$description": "color for elements that are placed on disabled background color"
           },
           "hover": {
@@ -2169,7 +2343,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.darkest}",
+            "$value": "{primitive.color.neutral.950}",
             "$description": "Background color for state overlay of a hovered element"
           },
           "focus": {
@@ -2183,7 +2357,7 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.darkest}",
+            "$value": "{primitive.color.neutral.950}",
             "$description": "Background color for state overlay of a focused element"
           },
           "press": {
@@ -2197,49 +2371,49 @@
               }
             },
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.darkest}",
+            "$value": "{primitive.color.neutral.950}",
             "$description": "Background color for state overlay of a pressed element"
           },
           "select": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.light}",
+            "$value": "{primitive.color.brandPrimary.100}",
             "$description": "background color for selected elements"
           },
           "onSelect": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.bold}",
+            "$value": "{primitive.color.brandPrimary.700}",
             "$description": "Foreground color for selected elements"
           },
           "selectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.bold}",
+            "$value": "{primitive.color.brandPrimary.700}",
             "$description": "Inverted background color for selected elements"
           },
           "onSelectInverted": {
             "$type": "color",
-            "$value": "{primitive.color.brandPrimary.light}",
+            "$value": "{primitive.color.brandPrimary.100}",
             "$description": "inverted color for elements on selected backgrounds"
           }
         },
         "border": {
           "subtle": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.light}",
+            "$value": "{primitive.color.neutral.200}",
             "$description": "subtle border color"
           },
           "medium": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.medium}",
+            "$value": "{primitive.color.neutral.400}",
             "$description": "medium border color"
           },
           "heavy": {
             "$type": "color",
-            "$value": "{primitive.color.neutralRole.strong}",
+            "$value": "{primitive.color.neutral.600}",
             "$description": "heavy border color"
           },
           "focusOutline": {
             "$type": "color",
-            "$value": "{primitive.color.intent.info.strong}",
+            "$value": "{primitive.color.intent.info.500}",
             "$description": "color for default focus outline"
           }
         }
@@ -2285,31 +2459,31 @@
         },
         "height": {
           "min": {
-            "$type": "sizing",
-            "$value": "{semantic.size.md}",
+            "$type": "dimension",
+            "$value": "{semantic.size.300}",
             "$description": "min height of section messages"
           }
         },
         "spacing": {
           "innerY": {
-            "$type": "spacing",
-            "$value": "{semantic.spacing.md}",
+            "$type": "dimension",
+            "$value": "{semantic.spacing.250}",
             "$description": "top and bottom inner spacing for section messages"
           },
           "innerX": {
-            "$type": "spacing",
-            "$value": "{semantic.spacing.sm}",
+            "$type": "dimension",
+            "$value": "{semantic.spacing.200}",
             "$description": "left and right inner spacing for section messages"
           },
           "gap": {
-            "$type": "spacing",
-            "$value": "{semantic.spacing.xs}",
+            "$type": "dimension",
+            "$value": "{semantic.spacing.150}",
             "$description": "gap for separating elements in section message"
           }
         },
         "borderRadius": {
           "$type": "borderRadius",
-          "$value": "{semantic.border.radius.md}",
+          "$value": "{semantic.border.radius.200}",
           "$description": "border radius for section messages"
         }
       }
@@ -2321,14 +2495,14 @@
       "primitive/font",
       "primitive/shape",
       "primitive/dimension",
-      "semantic/breakpoint/screen-lg-typescale",
+      "primitive/motion",
+      "primitive/elevation",
+      "semantic/typescale",
       "semantic/breakpoint/screen-lg-dimension",
-      "semantic/breakpoint/screen-lg-layout",
-      "semantic/breakpoint/screen-lg-grid",
       "semantic/breakpoint/screen-lg-border",
       "semantic/font",
-      "semantic/mode/color-dark",
-      "semantic/mode/color-light",
+      "semantic/mode/dark",
+      "semantic/mode/light",
       "components/section-message"
     ]
   },
@@ -2344,24 +2518,23 @@
       "$figmaCollectionId": "VariableCollectionId:2289:2619",
       "$figmaModeId": "2289:1",
       "$figmaVariableReferences": {
-        "primitive.dimension.6xs": "059bebbde20f6cad7fe458f9220751d166ede671",
-        "primitive.dimension.7xs": "94a44addb78169d73434b4b5f59e77cf28b57b43",
-        "primitive.dimension.5xs": "4247cbb0bb8a2c7042d0a6a242b6406b1f13ee48",
-        "primitive.dimension.4xs": "3d8023ba69f1316b61d6ea9edc0d071869578883",
-        "primitive.dimension.3xs": "638fcbfaa377c7ca64512bb5cd3506d48238992b",
-        "primitive.dimension.2xs": "07e60c2a5c3fc96e4c66f85db51b2ab5d762866d",
-        "primitive.dimension.xs": "cb9759ad87828bbb0ece0d99a610913fead45609",
-        "primitive.dimension.sm": "7bcdce373a7c8d51931b04583f8d7292e5159460",
-        "primitive.dimension.md": "c0f4d1af7ba44c35098bc69d3dff9df49df8875d",
-        "primitive.dimension.lg": "690431337e3579a5ec9f476a0678957fe48b10ce",
-        "primitive.dimension.xl": "fba64239dd55ee4103d1b227d32a1a97ae18b809",
-        "primitive.dimension.2xl": "8f40efb68ebfc2b02537a489216322b217beb0d9",
-        "primitive.dimension.3xl": "26e15a8d4ae19676fea2b47c43538057da8ba163",
-        "primitive.dimension.4xl": "81729ccd69b0ae9eeb02ca184a5d76f73cd16fdd",
-        "primitive.dimension.5xl": "44fb77fec8411ed33369ae359667295e3a8bd0fa",
-        "primitive.dimension.6xl": "90f12c7064840533b5d17cc56f608cfef3269e73",
-        "primitive.dimension.breakpoints.screenLarge": "b1656d103e205c50a429065cfc1c901abbc78532",
-        "primitive.dimension.none": "acd8bdf301edf4a7651dc89afdff251eb3610aa6"
+        "primitive.dimension.2px": "059bebbde20f6cad7fe458f9220751d166ede671",
+        "primitive.dimension.1px": "94a44addb78169d73434b4b5f59e77cf28b57b43",
+        "primitive.dimension.4px": "4247cbb0bb8a2c7042d0a6a242b6406b1f13ee48",
+        "primitive.dimension.050": "3d8023ba69f1316b61d6ea9edc0d071869578883",
+        "primitive.dimension.100": "638fcbfaa377c7ca64512bb5cd3506d48238992b",
+        "primitive.dimension.150": "07e60c2a5c3fc96e4c66f85db51b2ab5d762866d",
+        "primitive.dimension.200": "cb9759ad87828bbb0ece0d99a610913fead45609",
+        "primitive.dimension.250": "7bcdce373a7c8d51931b04583f8d7292e5159460",
+        "primitive.dimension.300": "c0f4d1af7ba44c35098bc69d3dff9df49df8875d",
+        "primitive.dimension.350": "690431337e3579a5ec9f476a0678957fe48b10ce",
+        "primitive.dimension.400": "fba64239dd55ee4103d1b227d32a1a97ae18b809",
+        "primitive.dimension.500": "8f40efb68ebfc2b02537a489216322b217beb0d9",
+        "primitive.dimension.600": "26e15a8d4ae19676fea2b47c43538057da8ba163",
+        "primitive.dimension.700": "81729ccd69b0ae9eeb02ca184a5d76f73cd16fdd",
+        "primitive.dimension.800": "44fb77fec8411ed33369ae359667295e3a8bd0fa",
+        "primitive.dimension.900": "90f12c7064840533b5d17cc56f608cfef3269e73",
+        "primitive.dimension.000": "acd8bdf301edf4a7651dc89afdff251eb3610aa6"
       }
     },
     {
@@ -2381,76 +2554,76 @@
       "$figmaCollectionId": "VariableCollectionId:1102:256",
       "$figmaModeId": "1102:0",
       "$figmaVariableReferences": {
-        "primitive.color.green.50": "66c1e2b98a9055d9ff9b3af22322eed7100f4980",
-        "primitive.color.green.100": "2b39203a10cfe80b2892308dcd36f6b7724451dd",
-        "primitive.color.green.200": "41467ed51beb558c8cfac92830fd40124961b327",
-        "primitive.color.green.300": "5fcf8830cc57a1e709b926003fc96628387b7a2f",
-        "primitive.color.green.400": "b9e9b04bf1249da112832df6b80015a89b57a28a",
-        "primitive.color.green.500": "a1294f665d59853d16f74825ccf1cb1372435b1e",
-        "primitive.color.green.600": "cc75844364cdb99ab320deb54eb5bc2b105baef6",
-        "primitive.color.green.700": "79852a0ac10e6ab2837c75006ade90ab14666e3f",
-        "primitive.color.green.800": "774ae49bf066128403f90ea24e119df4fc10f80f",
-        "primitive.color.green.900": "7220265c1d1c1ea3535e894f11803c147a4e978a",
-        "primitive.color.mint.50": "8228589097c25717f5cb42a1d305c34154aebd89",
-        "primitive.color.mint.100": "e9b7f19f15b4518b92054ae5a9aa35e6f8721fc2",
-        "primitive.color.mint.200": "b10dfa5e684fb8624943754f1c4842892c1c05dd",
-        "primitive.color.mint.300": "891d7458fd79a09d6daab82d4d303e19acb66ff6",
-        "primitive.color.mint.400": "0ee5e5aa21ba92164f7877abb4a9bd6ea62ae7fd",
-        "primitive.color.mint.500": "a8fb8000e3d8ba861598c3e6a31fa6e63d55abe1",
-        "primitive.color.mint.600": "2c83e358ab09fe044d5547c2065de1bb49d846ab",
-        "primitive.color.mint.700": "1fd290def4d4cad3be23d96e8d596c3a53c14363",
-        "primitive.color.mint.800": "95412e9874a6faa6d4eb5e016d3880b9661700d0",
-        "primitive.color.mint.900": "b9117313660def29e640c658a1bf01114f02b131",
-        "primitive.color.blue.50": "c17586326aef4dd50bbc823f3ad0aaf6fc312a39",
-        "primitive.color.blue.100": "07e85fec182bedaba35f6e4d863db8eaa09294ea",
-        "primitive.color.blue.200": "2357ff0a77578dd3d8ef10e8a115fed0b91d8c68",
-        "primitive.color.blue.300": "7602e2a7dbd770fdc92f534c2a3e8e1067046aed",
-        "primitive.color.blue.400": "455bb75724fb463fcff656b63f388204d6dd0b70",
-        "primitive.color.blue.500": "9cefd9ee08990fc47796a37d7ac3e78d190f0c97",
-        "primitive.color.blue.600": "04d62f56a0c8c3f4e4f0e98d9f250cb3704b8e4b",
-        "primitive.color.blue.700": "0e51ee36e0774f905d58e71de69089b8d8cbf1a7",
-        "primitive.color.blue.800": "60abdc3bec11b0626733883b186ba2eb164d2022",
-        "primitive.color.blue.900": "545c5e7484e4c8a04bd6f70a1d0d7f3ec1b263f0",
-        "primitive.color.violet.50": "a14e02c6fb042ea327fdf3f809b322830d90eb48",
-        "primitive.color.violet.100": "25eeaba50e94d3ca8fa4b742047e73a9f0389d55",
-        "primitive.color.violet.200": "0d19603d4e17150223c21e7608d3bfe21bf1d635",
-        "primitive.color.violet.300": "4d763d753325753f1079176df136cb7f60377e73",
-        "primitive.color.violet.400": "19af1e19a19f60e1083e1dd886d4775a20491bcd",
-        "primitive.color.violet.500": "405e7881594d59361fe1df071132cc52000ba174",
-        "primitive.color.violet.600": "72aa28c7b9c856d1595bfb1bb1ee38f167adf5bd",
-        "primitive.color.violet.700": "9641d0863aa47cf6741edbc2c9da4c8d3246dc5f",
-        "primitive.color.violet.800": "4c5cb997d0cd8b93076b06d454eee9d4aef73d73",
-        "primitive.color.violet.900": "a39f5b8910fea46fb3d54c56ce7904374093d729",
-        "primitive.color.red.50": "7a3c3c745add9033213207f8bf512928f3546473",
-        "primitive.color.red.100": "aed933644bb6df6d5dff79d45b2a8a877d94e751",
-        "primitive.color.red.200": "ce3d07569ab8ec015bf34e8257b1dd4fe777f536",
-        "primitive.color.red.300": "368ded21f336b1099b17f8e3885e2b8180fa722a",
-        "primitive.color.red.400": "dd73fa23ec872e98b8800bd0a6d5095cc03f9059",
-        "primitive.color.red.500": "3e4704e553d0f39873da7185f122cfa96b66146f",
-        "primitive.color.red.600": "5a02cfb963837b78cd603e71f8c9809a70cfaed2",
-        "primitive.color.red.700": "2d6913b5d087d07c5339eafe72cbc4bd7c6c4a12",
-        "primitive.color.red.800": "5689c05215bfb3b610b7d999c6e3ad000fc78a82",
-        "primitive.color.red.900": "41b71a406b1770a7590be39bf8f67c49ad361fa2",
-        "primitive.color.orange.50": "2fc5d74af809c77be3505468338594e7958c7d48",
-        "primitive.color.orange.100": "f9af9719702ed17c30a1ac0f41059faf27cbb7c9",
-        "primitive.color.orange.200": "83dd2cb2aab3bdb3deaef50fc282f256b02b37e6",
-        "primitive.color.orange.300": "691ddae3abb7b6b8d6d26868c6017d7042495f3e",
-        "primitive.color.orange.400": "c52999bb041a22e205b5943884effa43190c1ca9",
-        "primitive.color.orange.500": "4992253661ee8f98739921403539966ae3ba9ec5",
-        "primitive.color.orange.600": "2fcaebd1fadec771cc0d9ef2470862b712427e9e",
-        "primitive.color.orange.700": "31aedf2aafddbfe759f61a248d717d905a82ff70",
-        "primitive.color.orange.800": "ccd5c8fe4c20bca1d5ddffb38a627afe83192b6e",
-        "primitive.color.orange.900": "82755920f94c7137cfe8f16f3eeb22540351ebf9",
-        "primitive.color.yellow.50": "9cca2460824bc19d37f1c150fa4e7681702b2947",
-        "primitive.color.yellow.100": "2b46e48d776ff8fbb27c27ba9f6dc6cdf4add509",
-        "primitive.color.yellow.200": "6fc024203025d2eec6b9efe4ba453c22ab8c2a46",
-        "primitive.color.yellow.300": "17998ceb5e6842d31da8792aa0e02a102fe8f600",
-        "primitive.color.yellow.400": "b8abedf733da446867e86be3e27cbd7266282358",
-        "primitive.color.yellow.500": "16da764f99d849bd6d1ac269b288d74808ec66fa",
-        "primitive.color.yellow.600": "ae6eed495a3be7dd33301be47054498a3c024176",
-        "primitive.color.yellow.700": "001ff711ac970a06d0435a7c35693b77b5811f23",
-        "primitive.color.yellow.800": "338c033091809288d4bde4320b0f6276d6906c78",
-        "primitive.color.yellow.900": "3452ca435eae1a7a950d6a961bf0b2407a292cbe",
+        "primitive.color.intent.success.50": "66c1e2b98a9055d9ff9b3af22322eed7100f4980",
+        "primitive.color.intent.success.100": "2b39203a10cfe80b2892308dcd36f6b7724451dd",
+        "primitive.color.intent.success.200": "41467ed51beb558c8cfac92830fd40124961b327",
+        "primitive.color.intent.success.300": "5fcf8830cc57a1e709b926003fc96628387b7a2f",
+        "primitive.color.intent.success.400": "b9e9b04bf1249da112832df6b80015a89b57a28a",
+        "primitive.color.intent.success.500": "a1294f665d59853d16f74825ccf1cb1372435b1e",
+        "primitive.color.intent.success.600": "cc75844364cdb99ab320deb54eb5bc2b105baef6",
+        "primitive.color.intent.success.700": "79852a0ac10e6ab2837c75006ade90ab14666e3f",
+        "primitive.color.intent.success.800": "774ae49bf066128403f90ea24e119df4fc10f80f",
+        "primitive.color.intent.success.900": "7220265c1d1c1ea3535e894f11803c147a4e978a",
+        "primitive.color.brandPrimary.50": "8228589097c25717f5cb42a1d305c34154aebd89",
+        "primitive.color.brandPrimary.100": "e9b7f19f15b4518b92054ae5a9aa35e6f8721fc2",
+        "primitive.color.brandPrimary.200": "b10dfa5e684fb8624943754f1c4842892c1c05dd",
+        "primitive.color.brandPrimary.300": "891d7458fd79a09d6daab82d4d303e19acb66ff6",
+        "primitive.color.brandPrimary.400": "0ee5e5aa21ba92164f7877abb4a9bd6ea62ae7fd",
+        "primitive.color.brandPrimary.500": "a8fb8000e3d8ba861598c3e6a31fa6e63d55abe1",
+        "primitive.color.brandPrimary.600": "2c83e358ab09fe044d5547c2065de1bb49d846ab",
+        "primitive.color.brandPrimary.700": "1fd290def4d4cad3be23d96e8d596c3a53c14363",
+        "primitive.color.brandPrimary.800": "95412e9874a6faa6d4eb5e016d3880b9661700d0",
+        "primitive.color.brandPrimary.900": "b9117313660def29e640c658a1bf01114f02b131",
+        "primitive.color.intent.info.50": "c17586326aef4dd50bbc823f3ad0aaf6fc312a39",
+        "primitive.color.intent.info.100": "07e85fec182bedaba35f6e4d863db8eaa09294ea",
+        "primitive.color.intent.info.200": "2357ff0a77578dd3d8ef10e8a115fed0b91d8c68",
+        "primitive.color.intent.info.300": "7602e2a7dbd770fdc92f534c2a3e8e1067046aed",
+        "primitive.color.intent.info.400": "455bb75724fb463fcff656b63f388204d6dd0b70",
+        "primitive.color.intent.info.500": "9cefd9ee08990fc47796a37d7ac3e78d190f0c97",
+        "primitive.color.intent.info.600": "04d62f56a0c8c3f4e4f0e98d9f250cb3704b8e4b",
+        "primitive.color.intent.info.700": "0e51ee36e0774f905d58e71de69089b8d8cbf1a7",
+        "primitive.color.intent.info.800": "60abdc3bec11b0626733883b186ba2eb164d2022",
+        "primitive.color.intent.info.900": "545c5e7484e4c8a04bd6f70a1d0d7f3ec1b263f0",
+        "primitive.color.brandSecondary.50": "a14e02c6fb042ea327fdf3f809b322830d90eb48",
+        "primitive.color.brandSecondary.100": "25eeaba50e94d3ca8fa4b742047e73a9f0389d55",
+        "primitive.color.brandSecondary.200": "0d19603d4e17150223c21e7608d3bfe21bf1d635",
+        "primitive.color.brandSecondary.300": "4d763d753325753f1079176df136cb7f60377e73",
+        "primitive.color.brandSecondary.400": "19af1e19a19f60e1083e1dd886d4775a20491bcd",
+        "primitive.color.brandSecondary.500": "405e7881594d59361fe1df071132cc52000ba174",
+        "primitive.color.brandSecondary.600": "72aa28c7b9c856d1595bfb1bb1ee38f167adf5bd",
+        "primitive.color.brandSecondary.700": "9641d0863aa47cf6741edbc2c9da4c8d3246dc5f",
+        "primitive.color.brandSecondary.800": "4c5cb997d0cd8b93076b06d454eee9d4aef73d73",
+        "primitive.color.brandSecondary.900": "a39f5b8910fea46fb3d54c56ce7904374093d729",
+        "primitive.color.intent.critical.50": "7a3c3c745add9033213207f8bf512928f3546473",
+        "primitive.color.intent.critical.100": "aed933644bb6df6d5dff79d45b2a8a877d94e751",
+        "primitive.color.intent.critical.200": "ce3d07569ab8ec015bf34e8257b1dd4fe777f536",
+        "primitive.color.intent.critical.300": "368ded21f336b1099b17f8e3885e2b8180fa722a",
+        "primitive.color.intent.critical.400": "dd73fa23ec872e98b8800bd0a6d5095cc03f9059",
+        "primitive.color.intent.critical.500": "3e4704e553d0f39873da7185f122cfa96b66146f",
+        "primitive.color.intent.critical.600": "5a02cfb963837b78cd603e71f8c9809a70cfaed2",
+        "primitive.color.intent.critical.700": "2d6913b5d087d07c5339eafe72cbc4bd7c6c4a12",
+        "primitive.color.intent.critical.800": "5689c05215bfb3b610b7d999c6e3ad000fc78a82",
+        "primitive.color.intent.critical.900": "41b71a406b1770a7590be39bf8f67c49ad361fa2",
+        "primitive.color.brandAccent.50": "2fc5d74af809c77be3505468338594e7958c7d48",
+        "primitive.color.brandAccent.100": "f9af9719702ed17c30a1ac0f41059faf27cbb7c9",
+        "primitive.color.brandAccent.200": "83dd2cb2aab3bdb3deaef50fc282f256b02b37e6",
+        "primitive.color.brandAccent.300": "691ddae3abb7b6b8d6d26868c6017d7042495f3e",
+        "primitive.color.brandAccent.400": "c52999bb041a22e205b5943884effa43190c1ca9",
+        "primitive.color.brandAccent.500": "4992253661ee8f98739921403539966ae3ba9ec5",
+        "primitive.color.brandAccent.600": "2fcaebd1fadec771cc0d9ef2470862b712427e9e",
+        "primitive.color.brandAccent.700": "31aedf2aafddbfe759f61a248d717d905a82ff70",
+        "primitive.color.brandAccent.800": "ccd5c8fe4c20bca1d5ddffb38a627afe83192b6e",
+        "primitive.color.brandAccent.900": "82755920f94c7137cfe8f16f3eeb22540351ebf9",
+        "primitive.color.intent.warning.50": "9cca2460824bc19d37f1c150fa4e7681702b2947",
+        "primitive.color.intent.warning.100": "2b46e48d776ff8fbb27c27ba9f6dc6cdf4add509",
+        "primitive.color.intent.warning.200": "6fc024203025d2eec6b9efe4ba453c22ab8c2a46",
+        "primitive.color.intent.warning.300": "17998ceb5e6842d31da8792aa0e02a102fe8f600",
+        "primitive.color.intent.warning.400": "b8abedf733da446867e86be3e27cbd7266282358",
+        "primitive.color.intent.warning.500": "16da764f99d849bd6d1ac269b288d74808ec66fa",
+        "primitive.color.intent.warning.600": "ae6eed495a3be7dd33301be47054498a3c024176",
+        "primitive.color.intent.warning.700": "001ff711ac970a06d0435a7c35693b77b5811f23",
+        "primitive.color.intent.warning.800": "338c033091809288d4bde4320b0f6276d6906c78",
+        "primitive.color.intent.warning.900": "3452ca435eae1a7a950d6a961bf0b2407a292cbe",
         "primitive.color.neutral.50": "edc26042bb53f8bdf737e8b0c488cef9cb6e99c9",
         "primitive.color.neutral.100": "f33f57387379730da77469b9d7fbddf99247c105",
         "primitive.color.neutral.200": "aa7dd1188914e46b469f52f6b7739bae481b407e",
@@ -2462,92 +2635,42 @@
         "primitive.color.neutral.800": "b98bc6ccec4d4452220604cf16fc6d8bf469c5b8",
         "primitive.color.neutral.900": "a00ccec13d22b502c5b70b1b57bb0c57de060b95",
         "primitive.color.neutral.950": "b61ea2520492a52e582d7d315cf38ecd72a28b13",
-        "primitive.color.brandPrimary.lightest": "dc0cedd61e59998cdf8648414d0596717d653679",
-        "primitive.color.brandPrimary.light": "302a1cc3dd5cadd1eff9117f05a4ff99faf8a94f",
-        "primitive.color.brandPrimary.medium": "b2971c7e07430d31ca9bd6b5d9e0aa48346acc0a",
-        "primitive.color.brandPrimary.strong": "4cec6b839a6ce05ae456f648c1b9dcf79fd03cbc",
-        "primitive.color.brandPrimary.bold": "b9318d4456273cf3ded1c70d071566b428853dd3",
-        "primitive.color.brandPrimary.dark": "fa9322a40e258311f2583fb8efb9bddea66f063f",
-        "primitive.color.brandSecondary.lightest": "adc479d809b0cf3caed449bf2458c7a7d4d23012",
-        "primitive.color.brandSecondary.light": "425742421bb2cf069f980db0fc9a7b8c32a25158",
-        "primitive.color.brandSecondary.medium": "799643869bb3fc099a136842e5f123aa36feb4a5",
-        "primitive.color.brandSecondary.strong": "ef800e29a94392848e9fef9d78d6141a22089d39",
-        "primitive.color.brandSecondary.bold": "7d9ad94821a9e6c578c5b9b3a95ec1f5cecaa897",
-        "primitive.color.brandSecondary.dark": "6012c5d46973a1525bc162f985052dade5788b5f",
-        "primitive.color.intent.success.lightest": "982593409db33c51cc18430930c2c75bbc78d992",
-        "primitive.color.intent.success.light": "44060335e9c676b16ac7d30a741f9e9f6a91f26c",
-        "primitive.color.intent.success.medium": "4771ab590f1588f2a458321fe2e261b7ee57a3ab",
-        "primitive.color.intent.success.strong": "0695a02a55d729d74d381b1420d446dae0440c65",
-        "primitive.color.intent.success.bold": "d97d03165e959e005360c27f7e34a0330c3d77f5",
-        "primitive.color.intent.success.dark": "e8929e576a928a24e7ca90ffb9afa2cb7e14d7f3",
-        "primitive.color.intent.warning.lightest": "db10cc209d6fa69460b1b95fc9a00f753d7b8419",
-        "primitive.color.intent.warning.light": "fdcedd07d1c3ec935856673820e35f96d485f613",
-        "primitive.color.intent.warning.medium": "95afc5ae34ee0be007874541d4af82eff0973771",
-        "primitive.color.intent.warning.strong": "8c2f02cbef0a9f3d3436fb0f9e774a6a94c9dbc2",
-        "primitive.color.intent.warning.bold": "128b324a34ec55e951a991853d8c46beff2b7961",
-        "primitive.color.intent.warning.dark": "12cb4278957a9bf55a6fa653b8c47b4e838999e0",
-        "primitive.color.intent.critical.lightest": "c445f80cc0f93b8afeafa347ebda219c3607b02f",
-        "primitive.color.intent.critical.light": "2ff471099fceabb468902caa5c03199646d9c4b4",
-        "primitive.color.intent.critical.medium": "9f6b99bb5a9a99fb887a3d5321b7c06992468e5c",
-        "primitive.color.intent.critical.strong": "85bb09563df0bc5244550aeac10d7c390bca4479",
-        "primitive.color.intent.critical.bold": "5f43e68a492ac63d81c56cc0bc199cbf51071c63",
-        "primitive.color.intent.critical.dark": "b2dae9753a8cbc2dfea8bfddc08ba0a3a8efd492",
-        "primitive.color.intent.info.lightest": "c5f4483d3959e7d059eaca88ed694bf8cdbaf96a",
-        "primitive.color.intent.info.light": "76ebe970ceb0dd03be81b02b5c9a0ed148f1f039",
-        "primitive.color.intent.info.medium": "f7381be17035e87857dd448220795a805ad7fb13",
-        "primitive.color.intent.info.strong": "b335b15b986bf0cce8717393d8c5613579e278dd",
-        "primitive.color.intent.info.bold": "d29585c523123819262a2f159c1e2e82e25375cc",
-        "primitive.color.intent.info.dark": "9471dcab05ef9259e4845bbacd51bc1eb1fe4b85",
-        "primitive.color.neutralRole.lightest": "a9de684fbcba59939fd4eba3f33b4b209362b990",
-        "primitive.color.neutralRole.lighter": "4e84cf0799214b6df4849a314e12e68846c9f6ee",
-        "primitive.color.neutralRole.light": "f714a7b2c6e80263f4aefb0ddedcbcb30f4b41bd",
-        "primitive.color.neutralRole.medium": "97254110e7bf6044d9a8f082f17ce309cb361d5d",
-        "primitive.color.neutralRole.strong": "8a4ccab897d2a2819d9b6b6bc9635c7360dd0e24",
-        "primitive.color.neutralRole.bold": "c8c7971627b0b860c6be65b523c017c5368648d2",
-        "primitive.color.neutralRole.dark": "6299128c93d8c582ddaf819bf8c7f327a05c1890",
-        "primitive.color.neutralRole.darkest": "0edbfd0f5b05a062afcc050e0cc3f43cbb784eff",
-        "primitive.color.brandAccent.lightest": "65719666d556af606a84b9f618c5c1b983eff039",
-        "primitive.color.brandAccent.light": "6b880238704287b3fa5b2d58654340509ca5e42a",
-        "primitive.color.brandAccent.medium": "cc53c76868fa43db841a0ac5afc7e44287ff9556",
-        "primitive.color.brandAccent.strong": "fc6f1083c9c2f7106872c5a445b57c889ba2d63b",
-        "primitive.color.brandAccent.bold": "65bf3d81cb527195e6a3f7e6fc09e188fc0f5986",
-        "primitive.color.brandAccent.dark": "c2821ba109b053b82b1e673920f3511b0f1ead82",
         "primitive.font.fontFamily.display": "151acfb52423b7ee613d2feb0c3c31f9f7c008a9",
         "primitive.font.fontFamily.content": "524d02ddcc3d6183e94649fed734e6dd70b92c41",
         "primitive.font.fontWeight.black": "0a0c49fcdcfa9b039c8f41be9f75bfdfadf5eb6e",
         "primitive.font.fontWeight.bold": "755b3b772e4adde4970efe0ef6ab5e5bdbb024fb",
         "primitive.font.fontWeight.semiBold": "323650c35650d3bb447587b9d229f8bbc7b3fc36",
         "primitive.font.fontWeight.default": "98fc897e494aa879889c1111c6b706ecfaed02d9",
-        "primitive.font.fontSize.3xs": "d62121f62847a221aa2b682a03841cb7fa867ecb",
-        "primitive.font.fontSize.2xs": "731c1433c35aac648b0f29237a4022e8f3adb9e0",
-        "primitive.font.fontSize.xs": "faa9fb7ec83bf8cd486d38beb7d985216f7e2525",
-        "primitive.font.fontSize.sm": "8f3c4c43c895161bd42eba832630eeade1f6688b",
-        "primitive.font.fontSize.md": "60ad8afc2c94e424d14e4dfbe59dbe172286c365",
-        "primitive.font.fontSize.ml": "f4bb41419e671323425ee9c160a52bee38a1e7fd",
-        "primitive.font.fontSize.lg": "bd470ee13ec7220188a2bae5067b28a55f15cb12",
-        "primitive.font.fontSize.xl": "d00a35cf9245e2251a287b86c0c6463e25e97ed3",
-        "primitive.font.fontSize.2xl": "5a0444de3d01b71e8e801396426fdb1e905f262d",
-        "primitive.font.fontSize.3xl": "7e202c7311157720c620facd477d7ed28003f910",
-        "primitive.font.letterSpacing.xs": "838d287ad081a8bd21c926bf817c180d47e97f47",
-        "primitive.font.letterSpacing.sm": "8c1dcdb64c5f3f7f20ddd720a4adc9b25b5c3143",
-        "primitive.font.letterSpacing.md": "f89c8c4855b387dac1ee1974b531a732f17934e6",
-        "primitive.font.letterSpacing.lg": "5ca3baaedb5447a682998111eefae618b9a1ecfe",
-        "primitive.font.lineHeight.3xs": "708c3c7d2f9d952ab2bb585dcc6f9b0b50d50766",
-        "primitive.font.lineHeight.2xs": "8d72f02ed4b98063dd5496aa30fa0166dc24b397",
-        "primitive.font.lineHeight.xs": "a290c231ba3da7120091667abdebd5d426730d5e",
-        "primitive.font.lineHeight.sm": "190de70b952f0edefa5751187c595ee59d224d9b",
-        "primitive.font.lineHeight.md": "3031a5253ea4ee622fe337f398683a82f28502cc",
-        "primitive.font.lineHeight.ml": "65abf40e85adffa2c77120641cce8199079b82e6",
-        "primitive.font.lineHeight.lg": "0de4803080ea1932cad2b7a0345a5ef84b3046dc",
-        "primitive.font.lineHeight.xl": "8710fcacd19a9b695349142de2ae1d3ace3c7104",
-        "primitive.font.lineHeight.2xl": "b3e71dba9ac348ee07f199c45ed9d8dd01988710",
-        "primitive.font.lineHeight.3xl": "c31e7166d20afc47e142c76988836ac15a716a6c",
-        "primitive.font.paragraphSpacing.sm": "bbe0576ddc2a443f9bfb76d47206fdcc57907955",
+        "primitive.font.fontSize.050": "d62121f62847a221aa2b682a03841cb7fa867ecb",
+        "primitive.font.fontSize.100": "731c1433c35aac648b0f29237a4022e8f3adb9e0",
+        "primitive.font.fontSize.150": "faa9fb7ec83bf8cd486d38beb7d985216f7e2525",
+        "primitive.font.fontSize.200": "8f3c4c43c895161bd42eba832630eeade1f6688b",
+        "primitive.font.fontSize.300": "60ad8afc2c94e424d14e4dfbe59dbe172286c365",
+        "primitive.font.fontSize.350": "f4bb41419e671323425ee9c160a52bee38a1e7fd",
+        "primitive.font.fontSize.400": "bd470ee13ec7220188a2bae5067b28a55f15cb12",
+        "primitive.font.fontSize.500": "d00a35cf9245e2251a287b86c0c6463e25e97ed3",
+        "primitive.font.fontSize.700": "5a0444de3d01b71e8e801396426fdb1e905f262d",
+        "primitive.font.fontSize.900": "7e202c7311157720c620facd477d7ed28003f910",
+        "primitive.font.letterSpacing.050": "838d287ad081a8bd21c926bf817c180d47e97f47",
+        "primitive.font.letterSpacing.100": "8c1dcdb64c5f3f7f20ddd720a4adc9b25b5c3143",
+        "primitive.font.letterSpacing.200": "f89c8c4855b387dac1ee1974b531a732f17934e6",
+        "primitive.font.letterSpacing.300": "5ca3baaedb5447a682998111eefae618b9a1ecfe",
+        "primitive.font.lineHeight.050": "708c3c7d2f9d952ab2bb585dcc6f9b0b50d50766",
+        "primitive.font.lineHeight.100": "8d72f02ed4b98063dd5496aa30fa0166dc24b397",
+        "primitive.font.lineHeight.150": "a290c231ba3da7120091667abdebd5d426730d5e",
+        "primitive.font.lineHeight.200": "190de70b952f0edefa5751187c595ee59d224d9b",
+        "primitive.font.lineHeight.300": "3031a5253ea4ee622fe337f398683a82f28502cc",
+        "primitive.font.lineHeight.350": "65abf40e85adffa2c77120641cce8199079b82e6",
+        "primitive.font.lineHeight.400": "0de4803080ea1932cad2b7a0345a5ef84b3046dc",
+        "primitive.font.lineHeight.500": "8710fcacd19a9b695349142de2ae1d3ace3c7104",
+        "primitive.font.lineHeight.700": "b3e71dba9ac348ee07f199c45ed9d8dd01988710",
+        "primitive.font.lineHeight.900": "c31e7166d20afc47e142c76988836ac15a716a6c",
+        "primitive.font.paragraphSpacing.200": "bbe0576ddc2a443f9bfb76d47206fdcc57907955",
         "primitive.font.fontFamily.code": "66685a067ec4549c868af50019163caaa7c7ec76",
-        "primitive.shape.none": "154611d825c8925b1efb236914d774dad403c477",
-        "primitive.shape.sm": "cb4c7d3f84b64753de1ef8eb8f14ce2d353fd637",
-        "primitive.shape.md": "ba82a27d7cce871f205288e758ec703b310823cf",
-        "primitive.shape.lg": "791dc35a596622eabf88c58c7fb0b69ec9aa9bfb"
+        "primitive.shape.000": "154611d825c8925b1efb236914d774dad403c477",
+        "primitive.shape.100": "cb4c7d3f84b64753de1ef8eb8f14ce2d353fd637",
+        "primitive.shape.200": "ba82a27d7cce871f205288e758ec703b310823cf",
+        "primitive.shape.300": "791dc35a596622eabf88c58c7fb0b69ec9aa9bfb"
       },
       "group": "Brand (Primitive)"
     },
@@ -2572,9 +2695,7 @@
         "semantic.font.code.small": "S:d689dc09a4284bef0cdcd6b6871a1603bcbd848d,"
       },
       "selectedTokenSets": {
-        "semantic/breakpoint/screen-lg-typescale": "enabled",
-        "semantic/breakpoint/screen-lg-layout": "enabled",
-        "semantic/breakpoint/screen-lg-grid": "enabled",
+        "semantic/typescale": "enabled",
         "semantic/breakpoint/screen-lg-border": "enabled",
         "semantic/font": "enabled",
         "semantic/breakpoint/screen-lg-dimension": "enabled"
@@ -2657,38 +2778,33 @@
         "semantic.typescale.lineHeight.code.small": "5e817a03143ad6414d5bb786dd8fe707a96f4c97",
         "semantic.typescale.fontSize.code.small": "6d9bc0ad771a8534c45f657a6368d5646c6b3f71",
         "semantic.typescale.letterSpacing.code.small": "78ab1a69c1c004ae912386e56485fd945bce654e",
-        "semantic.size.3xs": "435708e1d472cd7ccd1887365b09a6da47dc6278",
-        "semantic.size.2xs": "b709af5fa7360b28ccd33cab9d0b6a54c9de5546",
-        "semantic.size.xs": "d6f55619b83939cb230260fbc29d3ce92048a739",
-        "semantic.size.sm": "a6b462398ec1e4b6276cb3d8c2503355b63b0886",
-        "semantic.size.md": "5f059cbb2c7275b5ae8fea091965cda9754337ac",
-        "semantic.size.lg": "09ea1925782054a809b469723f77fe544531ebc9",
-        "semantic.size.xl": "eba8da2fde6730fcb4a0288cf95243f802694715",
-        "semantic.size.2xl": "bfa8b5849333ae1e71498103f26f1556c7f599f8",
-        "semantic.size.3xl": "540f52270a1d017eed72e6739d1757a1f9e21fa3",
-        "semantic.spacing.3xs": "5eed2f4de7c565907ce18564fa5e52eebbf6c7db",
-        "semantic.spacing.2xs": "51d8f360f96818c67b6bfadf6fc921cd3f01319b",
-        "semantic.spacing.xs": "ebaa0eefafb6f6893aa698834d8919786296ba26",
-        "semantic.spacing.sm": "6ed685cebf4e68da09cab79418c7708a301f707c",
-        "semantic.spacing.md": "527fd6224aa348d3671bdfb33a1dc65bc7cde8ff",
-        "semantic.spacing.lg": "020709f5cff3e718c34d5123f3895340baeddedd",
-        "semantic.spacing.xl": "e2a881d0848ec9f4598a7b2f369ea512aa659603",
-        "semantic.spacing.2xl": "f7392d983cb8df3a35b2bf06a64a2341e9959a5d",
-        "semantic.spacing.3xl": "f969339ba1d401cd96e3350c77c677626e7ba80f",
-        "semantic.size.none": "99063c4de205b941a2094443048fb277cc8b2f96",
-        "semantic.spacing.none": "779074806b4d05e586821cc0bb40e3f4832914a8",
-        "semantic.layout.screen.maxWidth": "77c75a5d8e439625f333d357329faccc58185d8d",
-        "semantic.layout.container.main.paddingLeftRight": "6c23a9649b0a17c54f717f3dd97ee412a168f53f",
-        "semantic.grid.cols": "9170ea79e69235a080100bbf552567bdcfc8443c",
-        "semantic.grid.marginLeftRight": "6335ce589eeaffae7b14c9c4c355f1f70ab04e34",
-        "semantic.grid.gutter": "29706b199b4e071089afb4c04f9b0d11c2ee8f49",
-        "semantic.border.width.xs": "e84dca085092dba850ba3a906aed6ddda9775d6b",
-        "semantic.border.width.sm": "8aad485b3f226ea55e55b7e9570f8764ca0c7dbf",
-        "semantic.border.width.md": "8fc7b3df5ff51c8dab8167284dc330126e4c2220",
-        "semantic.border.radius.none": "8c5a1690aa925fc0d354d939b798559af26d23f2",
-        "semantic.border.radius.sm": "4afd919c3440a21445f485e6b0f17c8359140783",
-        "semantic.border.radius.md": "d780e801f5fe188c875a7903489ea4b88df4a9fb",
-        "semantic.border.radius.lg": "64a3348273bbf294a0419d44e71bda7599cb6def"
+        "semantic.size.100": "435708e1d472cd7ccd1887365b09a6da47dc6278",
+        "semantic.size.150": "b709af5fa7360b28ccd33cab9d0b6a54c9de5546",
+        "semantic.size.200": "d6f55619b83939cb230260fbc29d3ce92048a739",
+        "semantic.size.250": "a6b462398ec1e4b6276cb3d8c2503355b63b0886",
+        "semantic.size.300": "5f059cbb2c7275b5ae8fea091965cda9754337ac",
+        "semantic.size.400": "09ea1925782054a809b469723f77fe544531ebc9",
+        "semantic.size.500": "eba8da2fde6730fcb4a0288cf95243f802694715",
+        "semantic.size.700": "bfa8b5849333ae1e71498103f26f1556c7f599f8",
+        "semantic.size.800": "540f52270a1d017eed72e6739d1757a1f9e21fa3",
+        "semantic.spacing.050": "5eed2f4de7c565907ce18564fa5e52eebbf6c7db",
+        "semantic.spacing.100": "51d8f360f96818c67b6bfadf6fc921cd3f01319b",
+        "semantic.spacing.150": "ebaa0eefafb6f6893aa698834d8919786296ba26",
+        "semantic.spacing.200": "6ed685cebf4e68da09cab79418c7708a301f707c",
+        "semantic.spacing.250": "527fd6224aa348d3671bdfb33a1dc65bc7cde8ff",
+        "semantic.spacing.300": "020709f5cff3e718c34d5123f3895340baeddedd",
+        "semantic.spacing.400": "e2a881d0848ec9f4598a7b2f369ea512aa659603",
+        "semantic.spacing.500": "f7392d983cb8df3a35b2bf06a64a2341e9959a5d",
+        "semantic.spacing.700": "f969339ba1d401cd96e3350c77c677626e7ba80f",
+        "semantic.size.000": "99063c4de205b941a2094443048fb277cc8b2f96",
+        "semantic.spacing.000": "779074806b4d05e586821cc0bb40e3f4832914a8",
+        "semantic.border.width.050": "e84dca085092dba850ba3a906aed6ddda9775d6b",
+        "semantic.border.width.100": "8aad485b3f226ea55e55b7e9570f8764ca0c7dbf",
+        "semantic.border.width.200": "8fc7b3df5ff51c8dab8167284dc330126e4c2220",
+        "semantic.border.radius.000": "8c5a1690aa925fc0d354d939b798559af26d23f2",
+        "semantic.border.radius.100": "4afd919c3440a21445f485e6b0f17c8359140783",
+        "semantic.border.radius.200": "d780e801f5fe188c875a7903489ea4b88df4a9fb",
+        "semantic.border.radius.300": "64a3348273bbf294a0419d44e71bda7599cb6def"
       },
       "group": "Breakpooints (Semantic)"
     },
@@ -2726,7 +2842,7 @@
         "semantic.font.hyperlink.hover": "S:e017c2515e149d310e982209b63d966c5fb489b5,"
       },
       "selectedTokenSets": {
-        "semantic/mode/color-light": "enabled"
+        "semantic/mode/light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:1171:46",
       "$figmaModeId": "1172:3",
@@ -2808,7 +2924,7 @@
         "semantic.font.hyperlink.hover": "S:e017c2515e149d310e982209b63d966c5fb489b5,"
       },
       "selectedTokenSets": {
-        "semantic/mode/color-dark": "enabled"
+        "semantic/mode/dark": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:1171:46",
       "$figmaModeId": "1172:4",
@@ -2861,12 +2977,12 @@
       "name": "Section Message",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "semantic/breakpoint/screen-lg-typescale": "source",
+        "semantic/typescale": "source",
         "primitive/color": "source",
         "primitive/font": "source",
         "semantic/breakpoint/screen-lg-border": "source",
-        "semantic/mode/color-dark": "source",
-        "semantic/mode/color-light": "source",
+        "semantic/mode/dark": "source",
+        "semantic/mode/light": "source",
         "components/section-message": "enabled",
         "primitive/dimension": "source",
         "semantic/breakpoint/screen-lg-dimension": "source"
