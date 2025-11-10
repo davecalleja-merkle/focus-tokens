@@ -1,0 +1,4871 @@
+{
+  "primitive": {
+    "color": {
+      "$description": "Base color palette. Defined in OKLCH with sRGB-clamped hex fallbacks for design tools.",
+      "$type": "color",
+      "brand": {
+        "primary": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.99,
+                  0.01,
+                  17.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#F6FEFB"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.94,
+                  0.06,
+                  17.6
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#C5F8EA"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.85,
+                  0.13,
+                  17.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#55EBCE"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.78,
+                  0.14,
+                  17.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#00D4B6"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.68,
+                  0.12,
+                  17.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#0AB29A"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.56,
+                  0.1,
+                  17.9
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#188675"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.47,
+                  0.08,
+                  17.9
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#1A6A5D"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.41,
+                  0.06,
+                  18.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#19544B"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.34,
+                  0.05,
+                  18
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#174039"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.27,
+                  0.03,
+                  18.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#142C28"
+          },
+          "$description": {
+            "$value": "Primary brand color",
+            "$type": "other"
+          }
+        },
+        "secondary": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.99,
+                  0,
+                  28.6
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FCFCFE"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.95,
+                  0.02,
+                  28.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#ECEDFA"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.87,
+                  0.05,
+                  28.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#D0D2F3"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.8,
+                  0.07,
+                  28.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#B6B8EB"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.71,
+                  0.1,
+                  28.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#9598E0"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.58,
+                  0.14,
+                  27.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#686FC8"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.49,
+                  0.11,
+                  28.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#57579C"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.42,
+                  0.09,
+                  28.5
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#49457A"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.35,
+                  0.07,
+                  28.9
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#39345A"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.28,
+                  0.04,
+                  29.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#29253C"
+          },
+          "$description": {
+            "$value": "Secondary brand color",
+            "$type": "other"
+          }
+        },
+        "accent": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.98,
+                  0.01,
+                  6.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FEF9F5"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.95,
+                  0.03,
+                  6.4
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FCEBDC"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.88,
+                  0.07,
+                  6
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#F9CCA9"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.81,
+                  0.11,
+                  5.7
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#F6AD76"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.73,
+                  0.12,
+                  5.5
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#E39258"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.65,
+                  0.11,
+                  5.4
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#C07B4B"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.56,
+                  0.09,
+                  5.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#9D633E"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.49,
+                  0.08,
+                  5.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#855435"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.42,
+                  0.07,
+                  5.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#6B432B"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.35,
+                  0.05,
+                  5
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#4F3120"
+          },
+          "$description": {
+            "$value": "Accent brand color",
+            "$type": "other"
+          }
+        },
+        "gradient": {
+          "$type": "color",
+          "gradient-primary": {
+            "$value": "linear-gradient(180deg, {color.brand.primary.300} 0%, {color.brand.primary.700} 100%)",
+            "$description": "Primary brand gradient from light to dark"
+          },
+          "gradient-secondary": {
+            "$value": "linear-gradient(180deg, {color.brand.secondary.300} 0%, {color.brand.secondary.700} 100%)",
+            "$description": "Secondary brand gradient from light to dark"
+          },
+          "gradientBrand": {
+            "$value": "linear-gradient(180deg, {color.brand.primary.500} 0%, {color.brand.secondary.500} 100%)",
+            "$description": "Brand gradient from primary to secondary"
+          }
+        }
+      },
+      "utility": {
+        "success": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.98,
+                  0.02,
+                  11.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#F7FBEB"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.94,
+                  0.04,
+                  14.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#DFF3DC"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.86,
+                  0.09,
+                  14.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#B0E1AA"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.78,
+                  0.14,
+                  14.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#7FCE7A"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.68,
+                  0.12,
+                  14.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#69AD65"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.56,
+                  0.1,
+                  14.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#51834E"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.47,
+                  0.08,
+                  14.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#42673F"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.41,
+                  0.06,
+                  14.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#365233"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.34,
+                  0.05,
+                  14.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#2A3E28"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.27,
+                  0.03,
+                  14.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#1E2B1D"
+          }
+        },
+        "critical": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.99,
+                  0,
+                  1.7
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FFFBFB"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.95,
+                  0.02,
+                  3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FFE9E5"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.88,
+                  0.07,
+                  2.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FFC7BF"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.81,
+                  0.1,
+                  2.7
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FCA69C"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.72,
+                  0.15,
+                  2.5
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#F37A73"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.58,
+                  0.12,
+                  2.4
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#BA5A56"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.5,
+                  0.1,
+                  2.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#934846"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.42,
+                  0.08,
+                  2.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#743A3A"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.35,
+                  0.06,
+                  2.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#572D2D"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.28,
+                  0.04,
+                  2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#3B2020"
+          }
+        },
+        "warning": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.99,
+                  0.01,
+                  8.7
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FFFCF5"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.95,
+                  0.06,
+                  8.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FDECC3"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.87,
+                  0.13,
+                  9.4
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#F0D36B"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.79,
+                  0.12,
+                  9.4
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#D4BB5F"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.7,
+                  0.1,
+                  9.5
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#B19D51"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.57,
+                  0.08,
+                  9.7
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#84773F"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.48,
+                  0.06,
+                  9.6
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#685E34"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.41,
+                  0.05,
+                  9.6
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#534B2B"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.34,
+                  0.04,
+                  9.7
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#3E3922"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.28,
+                  0.03,
+                  9.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#2B2819"
+          }
+        },
+        "info": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.98,
+                  0.01,
+                  22.3
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#F6FBFD"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.95,
+                  0.02,
+                  23.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#E0F0F9"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.87,
+                  0.05,
+                  22.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#B1DBEF"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.79,
+                  0.08,
+                  23.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#84C5E6"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.72,
+                  0.11,
+                  23.2
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#53AFDC"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.63,
+                  0.13,
+                  23.8
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#1993D0"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.54,
+                  0.13,
+                  24.1
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#0077B2"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.48,
+                  0.11,
+                  24
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#006596"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.41,
+                  0.09,
+                  24
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#005179"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.34,
+                  0.08,
+                  23.9
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#003C5A"
+          }
+        },
+        "neutral": {
+          "50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.98,
+                  0,
+                  10.6
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FAFAF8"
+          },
+          "100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.95,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#EDEDED"
+          },
+          "200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.91,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#E0E0E0"
+          },
+          "300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.87,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#D4D4D4"
+          },
+          "400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.7,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#9E9E9E"
+          },
+          "500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.57,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#777777"
+          },
+          "600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.48,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#5E5E5E"
+          },
+          "700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.41,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#4B4B4B"
+          },
+          "800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.34,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#393939"
+          },
+          "900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.28,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#282828"
+          },
+          "950": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0.23,
+                  0,
+                  28.6
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#1C1C1E"
+          }
+        },
+        "transparent": {
+          "$description": {
+            "$value": "Transparent colors for overlays and shadows.",
+            "$type": "other"
+          },
+          "$type": "color",
+          "white-25": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.06
+              }
+            },
+            "$value": "#FFFFFF0F"
+          },
+          "white-50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.12
+              }
+            },
+            "$value": "#FFFFFF1F"
+          },
+          "white-75": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.18
+              }
+            },
+            "$value": "#FFFFFF2E"
+          },
+          "white-100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.24
+              }
+            },
+            "$value": "#FFFFFF3D"
+          },
+          "white-200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.31
+              }
+            },
+            "$value": "#FFFFFF4F"
+          },
+          "white-300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.37
+              }
+            },
+            "$value": "#FFFFFF5E"
+          },
+          "white-400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.44
+              }
+            },
+            "$value": "#FFFFFF70"
+          },
+          "white-500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.5
+              }
+            },
+            "$value": "#FFFFFF80"
+          },
+          "white-600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.56
+              }
+            },
+            "$value": "#FFFFFF8F"
+          },
+          "white-700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.62
+              }
+            },
+            "$value": "#FFFFFF9E"
+          },
+          "white-800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.69
+              }
+            },
+            "$value": "#FFFFFFB0"
+          },
+          "white-900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 0.87
+              }
+            },
+            "$value": "#FFFFFFDE"
+          },
+          "white-1000": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  1,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#FFFFFF"
+          },
+          "black-25": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.06
+              }
+            },
+            "$value": "#0000000F"
+          },
+          "black-50": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.12
+              }
+            },
+            "$value": "#0000001F"
+          },
+          "black-75": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.18
+              }
+            },
+            "$value": "#0000002E"
+          },
+          "black-100": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.24
+              }
+            },
+            "$value": "#0000003D"
+          },
+          "black-200": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.31
+              }
+            },
+            "$value": "#0000004F"
+          },
+          "black-300": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.37
+              }
+            },
+            "$value": "#0000005E"
+          },
+          "black-400": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.44
+              }
+            },
+            "$value": "#00000070"
+          },
+          "black-500": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.5
+              }
+            },
+            "$value": "#00000080"
+          },
+          "black-600": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.56
+              }
+            },
+            "$value": "#0000008F"
+          },
+          "black-700": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.62
+              }
+            },
+            "$value": "#0000009E"
+          },
+          "black-800": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.69
+              }
+            },
+            "$value": "#000000B0"
+          },
+          "black-900": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 0.87
+              }
+            },
+            "$value": "#000000DE"
+          },
+          "black-1000": {
+            "$extensions": {
+              "oklch": {
+                "colorSpace": "oklch",
+                "components": [
+                  0,
+                  0,
+                  0
+                ],
+                "alpha": 1
+              }
+            },
+            "$value": "#000000"
+          }
+        }
+      }
+    },
+    "dimension": {
+      "100": {
+        "$value": "12px",
+        "$description": "4th step of primitive dimensions sequence"
+      },
+      "150": {
+        "$value": "16px",
+        "$description": "5th step of primitive dimensions sequence"
+      },
+      "200": {
+        "$value": "20px",
+        "$description": "6th step of primitive dimensions sequence"
+      },
+      "250": {
+        "$value": "24px",
+        "$description": "7th step of primitive dimensions sequence"
+      },
+      "300": {
+        "$value": "32px",
+        "$description": "8th step of primitive dimensions sequence"
+      },
+      "350": {
+        "$value": "40px",
+        "$description": "9th step of primitive dimensions sequence"
+      },
+      "400": {
+        "$value": "48px",
+        "$description": "10th step of primitive dimensions sequence"
+      },
+      "500": {
+        "$value": "64px",
+        "$description": "11th step of primitive dimensions sequence"
+      },
+      "600": {
+        "$value": "80px",
+        "$description": "12th step of primitive dimensions sequence"
+      },
+      "700": {
+        "$value": "96px",
+        "$description": "13th step of primitive dimensions sequence"
+      },
+      "800": {
+        "$value": "128px",
+        "$description": "14th step of primitive dimensions sequence"
+      },
+      "900": {
+        "$value": "160px",
+        "$description": "15th step of primitive dimensions sequence"
+      },
+      "$type": "dimension",
+      "000": {
+        "$value": "0px",
+        "$description": "dimension value of none"
+      },
+      "050": {
+        "$value": "8px",
+        "$description": "3rd step of primitive dimensions sequence"
+      },
+      "1px": {
+        "$value": "1px",
+        "$description": "1st step of primitive dimensions sequence"
+      },
+      "2px": {
+        "$value": "2px",
+        "$description": "1st step of primitive dimensions sequence"
+      },
+      "4px": {
+        "$value": "4px",
+        "$description": "2nd step of primitive dimensions sequence"
+      },
+      "breakpoint": {
+        "300": {
+          "$value": {
+            "value": 320,
+            "unit": "px"
+          },
+          "$description": "extra small breakpoint"
+        },
+        "400": {
+          "$value": {
+            "value": 544,
+            "unit": "px"
+          },
+          "$description": "small breakpoint"
+        },
+        "500": {
+          "$value": {
+            "value": 768,
+            "unit": "px"
+          },
+          "$description": "medium breakpoint"
+        },
+        "600": {
+          "$value": {
+            "value": 1012,
+            "unit": "px"
+          },
+          "$description": "large breakpoint"
+        },
+        "700": {
+          "$value": {
+            "value": 1280,
+            "unit": "px"
+          },
+          "$description": "extra large breakpoint"
+        },
+        "800": {
+          "$value": {
+            "value": 1440,
+            "unit": "px"
+          },
+          "$description": "extra extra large breakpoint"
+        }
+      },
+      "radius": {
+        "100": {
+          "$value": "4px",
+          "$description": "small radius for branded shapes"
+        },
+        "200": {
+          "$value": "8px",
+          "$description": "medium radius for branded shapes"
+        },
+        "300": {
+          "$value": "12px",
+          "$description": "largeradius for branded shapes"
+        },
+        "$type": "borderRadius",
+        "000": {
+          "$value": "0px",
+          "$description": "radius of 0 "
+        }
+      }
+    },
+    "elevation": {
+      "shadow": {
+        "100": {
+          "$value": [
+            {
+              "blur": {
+                "value": 2,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.950}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 1,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            },
+            {
+              "blur": {
+                "value": 2,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.900}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 0,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            }
+          ]
+        },
+        "200": {
+          "$value": [
+            {
+              "blur": {
+                "value": 4,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.950}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 2,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            },
+            {
+              "blur": {
+                "value": 2,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.900}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 0,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            }
+          ]
+        },
+        "300": {
+          "$value": [
+            {
+              "blur": {
+                "value": 8,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.950}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 4,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            },
+            {
+              "blur": {
+                "value": 2,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.900}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 0,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            }
+          ]
+        },
+        "400": {
+          "$value": [
+            {
+              "blur": {
+                "value": 16,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.950}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 8,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            },
+            {
+              "blur": {
+                "value": 2,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.900}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 0,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            }
+          ]
+        },
+        "500": {
+          "$value": [
+            {
+              "blur": {
+                "value": 28.8,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.950}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 14,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            },
+            {
+              "blur": {
+                "value": 8,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.900}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 0,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            }
+          ]
+        },
+        "600": {
+          "$value": [
+            {
+              "blur": {
+                "value": 64,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.950}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 32,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            },
+            {
+              "blur": {
+                "value": 8,
+                "unit": "px"
+              },
+              "color": "{color.utility.neutral.900}",
+              "inset": false,
+              "offsetX": {
+                "value": 0,
+                "unit": "px"
+              },
+              "offsetY": {
+                "value": 0,
+                "unit": "px"
+              },
+              "spread": {
+                "value": 0,
+                "unit": "px"
+              }
+            }
+          ]
+        },
+        "$type": "shadow"
+      }
+    },
+    "font": {
+      "fontFamily": {
+        "$type": "fontFamily",
+        "code": {
+          "$value": "Geist Mono",
+          "$description": "Font Family that is chosed for code visualisation"
+        },
+        "content": {
+          "$value": "Inter",
+          "$description": "Font family for content fonts"
+        },
+        "display": {
+          "$value": "Inter",
+          "$description": "Font family for display fonts"
+        }
+      },
+      "fontSize": {
+        "100": {
+          "$value": "14px",
+          "$description": "extra extra small font size unit"
+        },
+        "150": {
+          "$value": "16px",
+          "$description": "extra small font size unit"
+        },
+        "200": {
+          "$value": "20px",
+          "$description": "small font size unit"
+        },
+        "300": {
+          "$value": "24px",
+          "$description": "medium font size unit"
+        },
+        "350": {
+          "$value": "28px",
+          "$description": "medium large font size unit"
+        },
+        "400": {
+          "$value": "32px",
+          "$description": "large font size unit"
+        },
+        "500": {
+          "$value": "40px",
+          "$description": "extra large font size unit"
+        },
+        "700": {
+          "$value": "80px",
+          "$description": "extra extra large font size unit"
+        },
+        "900": {
+          "$value": "100px",
+          "$description": "extra extra extra large font size unit"
+        },
+        "$type": "fontSize",
+        "050": {
+          "$value": "12px",
+          "$description": "extra extra extra small font size unit"
+        }
+      },
+      "fontWeight": {
+        "$type": "fontWeight",
+        "black": {
+          "$value": "black",
+          "$description": "heaviest weight for fonts"
+        },
+        "bold": {
+          "$value": "bold",
+          "$description": "bold weight for fonts"
+        },
+        "default": {
+          "$value": "regular",
+          "$description": "default weight for fonts"
+        },
+        "semiBold": {
+          "$value": "semi-bold",
+          "$description": "semibold weight for fonts"
+        }
+      },
+      "letterSpacing": {
+        "100": {
+          "$value": "0px",
+          "$description": "small letter spacing unit"
+        },
+        "200": {
+          "$value": "0.08px",
+          "$description": "medium letter spacing unit"
+        },
+        "300": {
+          "$value": "0.16px",
+          "$description": "large letter spacing unit"
+        },
+        "$type": "letterSpacing",
+        "050": {
+          "$value": "-0.16px",
+          "$description": "extra small letter spacing unit"
+        }
+      },
+      "lineHeight": {
+        "100": {
+          "$value": "22px",
+          "$description": "extra extra small line height unit"
+        },
+        "150": {
+          "$value": "24px",
+          "$description": "extra small line height unit"
+        },
+        "200": {
+          "$value": "26px",
+          "$description": "small line height unit"
+        },
+        "300": {
+          "$value": "32px",
+          "$description": "medium line height unit"
+        },
+        "350": {
+          "$value": "40px",
+          "$description": "medium large line height unit"
+        },
+        "400": {
+          "$value": "48px",
+          "$description": "large line height unit"
+        },
+        "500": {
+          "$value": "56px",
+          "$description": "extra large line height unit"
+        },
+        "700": {
+          "$value": "92px",
+          "$description": "extra extra large line height unit"
+        },
+        "900": {
+          "$value": "112px",
+          "$description": "extra extra extra large line height unit"
+        },
+        "$type": "lineHeight",
+        "050": {
+          "$value": "20px",
+          "$description": "extra extra extra small line height unit"
+        }
+      },
+      "paragraphSpacing": {
+        "200": {
+          "$value": "16px",
+          "$description": "small paragraph spacing unit"
+        },
+        "$type": "paragraphSpacing"
+      },
+      "textCase": {
+        "$type": "textCase",
+        "upper": {
+          "$value": "uppercase",
+          "$description": "paragraph style for uppercase "
+        }
+      },
+      "textDecoration": {
+        "$type": "textDecoration",
+        "none": {
+          "$value": "none",
+          "$description": "text decoration of none"
+        },
+        "underline": {
+          "$value": "underline",
+          "$description": "Text decoration for displaying textlinks"
+        }
+      }
+    },
+    "motion": {
+      "duration": {
+        "100": {
+          "$value": {
+            "value": 100,
+            "unit": "ms"
+          },
+          "$description": "faster duration"
+        },
+        "150": {
+          "$value": {
+            "value": 150,
+            "unit": "ms"
+          },
+          "$description": "fast duration"
+        },
+        "200": {
+          "$value": {
+            "value": 200,
+            "unit": "ms"
+          },
+          "$description": "normal duration"
+        },
+        "250": {
+          "$value": {
+            "value": 250,
+            "unit": "ms"
+          },
+          "$description": "gentle duration"
+        },
+        "300": {
+          "$value": {
+            "value": 300,
+            "unit": "ms"
+          },
+          "$description": "slow duration"
+        },
+        "400": {
+          "$value": {
+            "value": 400,
+            "unit": "ms"
+          },
+          "$description": "slower duration"
+        },
+        "500": {
+          "$value": {
+            "value": 500,
+            "unit": "ms"
+          },
+          "$description": "ultraslow duration"
+        },
+        "$type": "duration",
+        "050": {
+          "$value": {
+            "value": 50,
+            "unit": "ms"
+          },
+          "$description": "ultrafast duration"
+        }
+      },
+      "easing": {
+        "$type": "cubicBezier",
+        "accelerateMax": {
+          "$value": [
+            0.9,
+            0.1,
+            1,
+            0.2
+          ]
+        },
+        "accelerateMid": {
+          "$value": [
+            1,
+            0,
+            1,
+            1
+          ]
+        },
+        "accelerateMin": {
+          "$value": [
+            0.8,
+            0,
+            0.78,
+            1
+          ]
+        },
+        "decelerateMax": {
+          "$value": [
+            0.1,
+            0.9,
+            0.2,
+            1
+          ]
+        },
+        "decelerateMid": {
+          "$value": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        "decelerateMin": {
+          "$value": [
+            0.33,
+            0,
+            0.1,
+            1
+          ]
+        },
+        "easyEase": {
+          "$value": [
+            0.33,
+            0,
+            0.67,
+            1
+          ]
+        },
+        "easyEaseMax": {
+          "$value": [
+            0.8,
+            0,
+            0.2,
+            1
+          ]
+        },
+        "linear": {
+          "$value": [
+            0,
+            0,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  },
+  "semantic/mode-light": {
+    "semantic": {
+      "border": {
+        "$type": "border",
+        "focusOutline": {
+          "$value": {
+            "color": "{semantic.color.border.focusOutline}",
+            "style": "solid",
+            "width": "{semantic.border.width.200}"
+          },
+          "$description": "default outline for focused elements"
+        },
+        "radius": {
+          "100": {
+            "$value": "{dimension.radius.100}",
+            "$description": "small border radius"
+          },
+          "200": {
+            "$value": "{dimension.radius.200}",
+            "$description": "medium border radius"
+          },
+          "300": {
+            "$value": "{dimension.radius.300}",
+            "$description": "large border radius"
+          },
+          "$type": "borderRadius",
+          "000": {
+            "$value": "{dimension.radius.000}",
+            "$description": "no border radius"
+          }
+        },
+        "width": {
+          "100": {
+            "$value": "{dimension.2px}",
+            "$description": "smallest thickness for borders"
+          },
+          "200": {
+            "$value": "{dimension.4px}",
+            "$description": "medium border thickness"
+          },
+          "$type": "borderWidth",
+          "050": {
+            "$value": "{dimension.1px}",
+            "$description": "small thickness for borders"
+          }
+        }
+      },
+      "color": {
+        "$type": "color",
+        "background": {
+          "body": {
+            "$value": "{color.utility.neutral.200}",
+            "$description": "Body background color"
+          },
+          "highEmphasis": {
+            "$value": "{color.utility.neutral.50}",
+            "$description": "Background Color for components with high emphasis"
+          },
+          "lowEmphasis": {
+            "$value": "{color.utility.neutral.400}",
+            "$description": "background color for elements with a low emphasis"
+          },
+          "mediumEmphasis": {
+            "$value": "{color.utility.neutral.100}",
+            "$description": "Background Color for components with medium emphasis"
+          }
+        },
+        "border": {
+          "focusOutline": {
+            "$value": "{color.utility.info.500}",
+            "$description": "color for default focus outline"
+          },
+          "heavy": {
+            "$value": "{color.utility.neutral.600}",
+            "$description": "heavy border color"
+          },
+          "medium": {
+            "$value": "{color.utility.neutral.400}",
+            "$description": "medium border color"
+          },
+          "subtle": {
+            "$value": "{color.utility.neutral.200}",
+            "$description": "subtle border color"
+          }
+        },
+        "intent": {
+          "criticalHighEmphasis": {
+            "$value": "{color.utility.critical.300}",
+            "$description": "color for elements with critical purpose of high emphasis"
+          },
+          "criticalLowEmphasis": {
+            "$value": "{color.utility.critical.100}",
+            "$description": "color for elements with critical purpose of low emphasis"
+          },
+          "infoHighEmphasis": {
+            "$value": "{color.utility.info.300}",
+            "$description": "color for elements with informational purpose of high emphasis"
+          },
+          "infoLowEmphasis": {
+            "$value": "{color.utility.info.100}",
+            "$description": "color for elements with informational purpose of low emphasis"
+          },
+          "onCritical": {
+            "$value": "{color.utility.critical.900}",
+            "$description": "color for elements placed on critical purpose background"
+          },
+          "onInfo": {
+            "$value": "{color.utility.info.900}",
+            "$description": "color for elements placed on informational purpose background"
+          },
+          "onSuccess": {
+            "$value": "{color.utility.success.900}",
+            "$description": "color for elements placed on success purpose background"
+          },
+          "onWarning": {
+            "$value": "{color.utility.warning.900}",
+            "$description": "color for elements placed on warning purpose background"
+          },
+          "successHighEmphasis": {
+            "$value": "{color.utility.success.300}",
+            "$description": "color for elements with success purpose of high emphasis"
+          },
+          "successLowEmphasis": {
+            "$value": "{color.utility.success.100}",
+            "$description": "color for elements with success purpose of low emphasis"
+          },
+          "warningHighEmphasis": {
+            "$value": "{color.utility.warning.300}",
+            "$description": "color for elements with warning purpose of high emphasis"
+          },
+          "warningLowEmphasis": {
+            "$value": "{color.utility.warning.100}",
+            "$description": "color for elements with warning purpose of low emphasis"
+          }
+        },
+        "primary": {
+          "brand": {
+            "onPrimary": {
+              "$type": "color",
+              "$description": "color for elements that are placed on primary brand color",
+              "$value": "{color.brand.primary.100}"
+            },
+            "$value": "{color.brand.primary.700}",
+            "$description": "background color for primary brand elements "
+          },
+          "interaction": {
+            "$value": "{color.brand.primary.500}",
+            "$description": "Color that indicates interactions"
+          },
+          "onBrand": {
+            "$value": "{color.brand.primary.100}",
+            "$description": "color for elements that are placed on brand background color"
+          },
+          "onInteraction": {
+            "$value": "{color.brand.primary.50}",
+            "$description": "color for elements that are placed on interactive background colors"
+          }
+        },
+        "secondary": {
+          "brand": {
+            "$value": "{color.brand.secondary.700}",
+            "$description": "secondary brand color for backgrounds"
+          },
+          "interaction": {
+            "$value": "{color.brand.secondary.700}",
+            "$description": "secondary interaction color for backgrounds"
+          },
+          "onBrand": {
+            "$value": "{color.brand.secondary.50}",
+            "$description": "secondary brand color for backgrounds"
+          },
+          "onInteraction": {
+            "$value": "{color.brand.secondary.50}",
+            "$description": "secondary foreground color for interactions"
+          }
+        },
+        "state": {
+          "disable": {
+            "$value": "{color.utility.neutral.400}",
+            "$description": "background color for disabled elements"
+          },
+          "focus": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "space": "srgb",
+                  "type": "alpha",
+                  "value": "0.16"
+                }
+              }
+            },
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Background color for state overlay of a focused element"
+          },
+          "hover": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "space": "srgb",
+                  "type": "alpha",
+                  "value": "0.16"
+                }
+              }
+            },
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Background color for state overlay of a hovered element"
+          },
+          "onDisable": {
+            "$value": "{color.utility.neutral.900}",
+            "$description": "color for elements that are placed on disabled background color"
+          },
+          "onSelect": {
+            "$value": "{color.brand.primary.700}",
+            "$description": "Foreground color for selected elements"
+          },
+          "onSelectInverted": {
+            "$value": "{color.brand.primary.100}",
+            "$description": "inverted color for elements on selected backgrounds"
+          },
+          "press": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "space": "srgb",
+                  "type": "alpha",
+                  "value": "0.08"
+                }
+              }
+            },
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Background color for state overlay of a pressed element"
+          },
+          "select": {
+            "$value": "{color.brand.primary.100}",
+            "$description": "background color for selected elements"
+          },
+          "selectInverted": {
+            "$value": "{color.brand.primary.700}",
+            "$description": "Inverted background color for selected elements"
+          }
+        },
+        "text": {
+          "default": {
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Default text color "
+          },
+          "inverted": {
+            "$value": "{color.utility.neutral.50}",
+            "$description": "Inverted text color"
+          },
+          "subtle": {
+            "$value": "{color.utility.neutral.600}",
+            "$description": "Text color in subtle weight"
+          }
+        }
+      },
+      "font": {
+        "body": {
+          "$type": "typography",
+          "long": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.body.long}",
+              "fontSize": "{semantic.typescale.fontSize.body.long}",
+              "fontWeight": "{semantic.typescale.fontWeight.body.long}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.body.long}",
+              "lineHeight": "{semantic.typescale.lineHeight.body.long}"
+            },
+            "$description": "paragraphs that are going over multiple lines"
+          },
+          "short": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.body.short}",
+              "fontSize": "{semantic.typescale.fontSize.body.short}",
+              "fontWeight": "{semantic.typescale.fontWeight.body.short}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.body.short}",
+              "lineHeight": "{semantic.typescale.lineHeight.body.short}"
+            },
+            "$description": "single line paragraph texts"
+          },
+          "small": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.body.small}",
+              "fontSize": "{semantic.typescale.fontSize.body.small}",
+              "fontWeight": "{semantic.typescale.fontWeight.body.small}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.body.small}",
+              "lineHeight": "{semantic.typescale.lineHeight.body.small}"
+            },
+            "$description": "small paragraph texts"
+          }
+        },
+        "code": {
+          "$type": "typography",
+          "small": {
+            "$value": {
+              "fontFamily": "{font.fontFamily.code}",
+              "fontSize": "{semantic.typescale.fontSize.code.small}",
+              "fontWeight": "{semantic.typescale.fontWeight.code.small}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.code.small}",
+              "lineHeight": "{semantic.typescale.lineHeight.code.small}"
+            },
+            "$description": "small represenataion of code blocks"
+          }
+        },
+        "display": {
+          "1": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.display.1}",
+              "fontSize": "{semantic.typescale.fontSize.display.1}",
+              "fontWeight": "{semantic.typescale.fontWeight.display.1}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.display.1}",
+              "lineHeight": "{semantic.typescale.lineHeight.display.1}"
+            },
+            "$description": "display font for highest possible emphasis"
+          },
+          "2": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.display.2}",
+              "fontSize": "{semantic.typescale.fontSize.display.2}",
+              "fontWeight": "{semantic.typescale.fontWeight.display.2}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.display.2}",
+              "lineHeight": "{semantic.typescale.lineHeight.display.2}"
+            },
+            "$description": "display font for high emphasis headlines"
+          },
+          "$type": "typography"
+        },
+        "headline": {
+          "1": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.1}",
+              "fontSize": "{semantic.typescale.fontSize.headline.1}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.1}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.1}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.1}"
+            },
+            "$description": "headline level 01"
+          },
+          "2": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.2}",
+              "fontSize": "{semantic.typescale.fontSize.headline.2}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.2}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.2}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.2}"
+            },
+            "$description": "headline level 02"
+          },
+          "3": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.3}",
+              "fontSize": "{semantic.typescale.fontSize.headline.3}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.3}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.3}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.3}"
+            },
+            "$description": "headline level 03"
+          },
+          "4": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.4}",
+              "fontSize": "{semantic.typescale.fontSize.headline.4}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.4}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.4}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.4}"
+            },
+            "$description": "headlines level 04"
+          },
+          "5": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.5}",
+              "fontSize": "{semantic.typescale.fontSize.headline.5}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.5}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.5}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.5}"
+            },
+            "$description": "headlines level 05"
+          },
+          "$type": "typography"
+        },
+        "hyperlink": {
+          "$type": "typography",
+          "default": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.hyperlink.default}",
+              "fontSize": "{semantic.typescale.fontSize.hyperlink.default}",
+              "fontWeight": "{semantic.typescale.fontWeight.hyperlink.default}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.hyperlink.default}",
+              "lineHeight": "{semantic.typescale.lineHeight.hyperlink.default}",
+              "textDecoration": "{semantic.typescale.textDecoration.hyperlink.default}"
+            },
+            "$description": "default for hyperlinks"
+          },
+          "hover": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.hyperlink.hover}",
+              "fontSize": "{semantic.typescale.fontSize.hyperlink.hover}",
+              "fontWeight": "{semantic.typescale.fontWeight.hyperlink.hover}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.hyperlink.hover}",
+              "lineHeight": "{semantic.typescale.lineHeight.hyperlink.hover}",
+              "textDecoration": "{semantic.typescale.textDecoration.hyperlink.hover}"
+            },
+            "$description": "hover for hyperlinks"
+          }
+        },
+        "label": {
+          "$type": "typography",
+          "long": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.label.long}",
+              "fontSize": "{semantic.typescale.fontSize.label.long}",
+              "fontWeight": "{semantic.typescale.fontWeight.label.long}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.label.long}",
+              "lineHeight": "{semantic.typescale.lineHeight.label.long}"
+            },
+            "$description": "labels that are going over multiple lines"
+          },
+          "short": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.label.short}",
+              "fontSize": "{semantic.typescale.fontSize.label.short}",
+              "fontWeight": "{semantic.typescale.fontWeight.label.short}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.label.short}",
+              "lineHeight": "{semantic.typescale.lineHeight.label.short}"
+            },
+            "$description": "labels that are single lined"
+          }
+        }
+      },
+      "typescale": {
+        "fontFamily": {
+          "body": {
+            "$type": "fontFamily",
+            "long": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for body long"
+            },
+            "short": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for body short"
+            },
+            "small": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for body small"
+            }
+          },
+          "code": {
+            "$type": "fontFamily",
+            "small": {
+              "$value": "{font.fontFamily.code}",
+              "$description": "font family for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.fontFamily.display}",
+              "$description": "font family for display 01"
+            },
+            "2": {
+              "$value": "{font.fontFamily.display}",
+              "$description": "font family for display 02"
+            },
+            "$type": "fontFamily"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 01"
+            },
+            "2": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 02"
+            },
+            "3": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 03"
+            },
+            "4": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 04"
+            },
+            "5": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 05"
+            },
+            "$type": "fontFamily"
+          },
+          "hyperlink": {
+            "$type": "fontFamily",
+            "default": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "fontFamily",
+            "long": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for label long"
+            },
+            "short": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for label short"
+            }
+          }
+        },
+        "fontSize": {
+          "body": {
+            "$type": "fontSize",
+            "long": {
+              "$value": "{font.fontSize.300}",
+              "$description": "font size for body long"
+            },
+            "short": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for body short"
+            },
+            "small": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for body small"
+            }
+          },
+          "code": {
+            "$type": "fontSize",
+            "small": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.fontSize.900}",
+              "$description": "font size for display 01"
+            },
+            "2": {
+              "$value": "{font.fontSize.700}",
+              "$description": "font size for display 02"
+            },
+            "$type": "fontSize"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.fontSize.500}",
+              "$description": "font size for headline 01"
+            },
+            "2": {
+              "$value": "{font.fontSize.400}",
+              "$description": "font size for headline 02"
+            },
+            "3": {
+              "$value": "{font.fontSize.300}",
+              "$description": "font size for headline 03"
+            },
+            "4": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for headline 04"
+            },
+            "5": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for headline 05"
+            },
+            "$type": "fontSize"
+          },
+          "hyperlink": {
+            "$type": "fontSize",
+            "default": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "fontSize",
+            "long": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for label long"
+            },
+            "short": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for label short"
+            }
+          }
+        },
+        "fontWeight": {
+          "body": {
+            "$type": "fontWeight",
+            "long": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for body long"
+            },
+            "short": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for body short"
+            },
+            "small": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for body small"
+            }
+          },
+          "code": {
+            "$type": "fontWeight",
+            "small": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.fontWeight.black}",
+              "$description": "font weight for display 01"
+            },
+            "2": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for display 02"
+            },
+            "$type": "fontWeight"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.fontWeight.black}",
+              "$description": "font weight for headline 01"
+            },
+            "2": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 02"
+            },
+            "3": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 03"
+            },
+            "4": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 04"
+            },
+            "5": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 05"
+            },
+            "$type": "fontWeight"
+          },
+          "hyperlink": {
+            "$type": "fontWeight",
+            "default": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "fontWeight",
+            "long": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for label long"
+            },
+            "short": {
+              "$value": "{font.fontWeight.semiBold}",
+              "$description": "font weight for label short"
+            }
+          }
+        },
+        "letterSpacing": {
+          "body": {
+            "$type": "letterSpacing",
+            "long": {
+              "$value": "{font.letterSpacing.200}",
+              "$description": "letter spacing for body long"
+            },
+            "short": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for body short"
+            },
+            "small": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for body small"
+            }
+          },
+          "code": {
+            "$type": "letterSpacing",
+            "small": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.letterSpacing.300}",
+              "$description": "letter spacing for display 01"
+            },
+            "2": {
+              "$value": "{font.letterSpacing.200}",
+              "$description": "letter spacing for display 02"
+            },
+            "$type": "letterSpacing"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.letterSpacing.200}",
+              "$description": "letter spacing for headline 01"
+            },
+            "2": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for headline 02"
+            },
+            "3": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for headline 03"
+            },
+            "4": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for headline 04"
+            },
+            "5": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for headline 05"
+            },
+            "$type": "letterSpacing"
+          },
+          "hyperlink": {
+            "$type": "letterSpacing",
+            "default": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "letterSpacing",
+            "long": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for label long"
+            },
+            "short": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for label short"
+            }
+          }
+        },
+        "lineHeight": {
+          "body": {
+            "$type": "lineHeight",
+            "long": {
+              "$value": "{font.lineHeight.300}",
+              "$description": "line height for body long"
+            },
+            "short": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for body short"
+            },
+            "small": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for body small"
+            }
+          },
+          "code": {
+            "$type": "lineHeight",
+            "small": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.lineHeight.900}",
+              "$description": "line height for display 01"
+            },
+            "2": {
+              "$value": "{font.lineHeight.700}",
+              "$description": "line height for display 02"
+            },
+            "$type": "lineHeight"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.lineHeight.500}",
+              "$description": "line height for headline 01"
+            },
+            "2": {
+              "$value": "{font.lineHeight.400}",
+              "$description": "line height for headline 02"
+            },
+            "3": {
+              "$value": "{font.lineHeight.300}",
+              "$description": "line height for headline 03"
+            },
+            "4": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for headline 04"
+            },
+            "5": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for headline 05"
+            },
+            "$type": "lineHeight"
+          },
+          "hyperlink": {
+            "$type": "lineHeight",
+            "default": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "lineHeight",
+            "long": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for label long"
+            },
+            "short": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for label short"
+            }
+          }
+        },
+        "textDecoration": {
+          "hyperlink": {
+            "$type": "textDecoration",
+            "default": {
+              "$value": "underline",
+              "$description": "Text decoration for displaying textlinks"
+            },
+            "hover": {
+              "$value": "none",
+              "$description": "Text decoration for displaying textlinks"
+            }
+          }
+        }
+      },
+      "shadow": {
+        "100": {
+          "$value": "{elevation.shadow.100}",
+          "$description": "Smallest shadow elevation"
+        },
+        "200": {
+          "$value": "{elevation.shadow.200}",
+          "$description": "Small shadow elevation"
+        },
+        "300": {
+          "$value": "{elevation.shadow.300}",
+          "$description": "Medium shadow elevation"
+        },
+        "400": {
+          "$value": "{elevation.shadow.400}",
+          "$description": "Large shadow elevation"
+        },
+        "500": {
+          "$value": "{elevation.shadow.500}",
+          "$description": "Extra large shadow elevation"
+        },
+        "600": {
+          "$value": "{elevation.shadow.600}",
+          "$description": "Largest shadow elevation"
+        },
+        "$type": "shadow",
+        "component": {
+          "x": {
+            "$value": {
+              "value": 0,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow X offset"
+          },
+          "y": {
+            "$value": {
+              "value": 1,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow Y offset"
+          },
+          "blur": {
+            "$value": {
+              "value": 3,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow blur radius"
+          },
+          "spread": {
+            "$value": {
+              "value": 0,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow spread radius"
+          },
+          "opacity": {
+            "$value": 0.1,
+            "$type": "number",
+            "$description": "Shadow opacity"
+          },
+          "color": {
+            "$value": "{color.utility.neutral.950}",
+            "$type": "color",
+            "$description": "Shadow color"
+          }
+        }
+      }
+    }
+  },
+  "semantic/mode-dark": {
+    "semantic": {
+      "border": {
+        "$type": "border",
+        "focusOutline": {
+          "$value": {
+            "color": "{semantic.color.border.focusOutline}",
+            "style": "solid",
+            "width": "{semantic.border.width.200}"
+          },
+          "$description": "default outline for focused elements"
+        },
+        "radius": {
+          "100": {
+            "$value": "{dimension.radius.100}",
+            "$description": "small border radius"
+          },
+          "200": {
+            "$value": "{dimension.radius.200}",
+            "$description": "medium border radius"
+          },
+          "300": {
+            "$value": "{dimension.radius.300}",
+            "$description": "large border radius"
+          },
+          "$type": "borderRadius",
+          "000": {
+            "$value": "{dimension.radius.000}",
+            "$description": "no border radius"
+          }
+        },
+        "width": {
+          "100": {
+            "$value": "{dimension.2px}",
+            "$description": "smallest thickness for borders"
+          },
+          "200": {
+            "$value": "{dimension.4px}",
+            "$description": "medium border thickness"
+          },
+          "$type": "borderWidth",
+          "050": {
+            "$value": "{dimension.1px}",
+            "$description": "small thickness for borders"
+          }
+        }
+      },
+      "color": {
+        "$type": "color",
+        "background": {
+          "body": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Body background color"
+          },
+          "highEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.900}",
+            "$description": "Background Color for components with high emphasis"
+          },
+          "lowEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.400}",
+            "$description": "background color for elements with a low emphasis"
+          },
+          "mediumEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.800}",
+            "$description": "Background Color for components with medium emphasis"
+          }
+        },
+        "border": {
+          "subtle": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.800}",
+            "$description": "subtle border color"
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.400}",
+            "$description": "medium border color"
+          },
+          "heavy": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.200}",
+            "$description": "heavy border color"
+          },
+          "focusOutline": {
+            "$type": "color",
+            "$value": "{color.utility.info.500}",
+            "$description": "color for default focus outline"
+          }
+        },
+        "intent": {
+          "criticalHighEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.critical.100}",
+            "$description": "color for elements with critical purpose of high emphasis"
+          },
+          "criticalLowEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.critical.300}",
+            "$description": "color for elements with critical purpose of low emphasis"
+          },
+          "infoHighEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.info.300}",
+            "$description": "color for elements with informational purpose of high emphasis"
+          },
+          "infoLowEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.info.500}",
+            "$description": "color for elements with informational purpose of low emphasis"
+          },
+          "onCritical": {
+            "$type": "color",
+            "$value": "{color.utility.critical.900}",
+            "$description": "color for elements placed on critical purpose background"
+          },
+          "onInfo": {
+            "$type": "color",
+            "$value": "{color.utility.info.900}",
+            "$description": "color for elements placed on informational purpose background"
+          },
+          "onSuccess": {
+            "$type": "color",
+            "$value": "{color.utility.success.900}",
+            "$description": "color for elements placed on success purpose background"
+          },
+          "onWarning": {
+            "$type": "color",
+            "$value": "{color.utility.warning.900}",
+            "$description": "color for elements placed on warning purpose background"
+          },
+          "successHighEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.success.100}",
+            "$description": "color for elements with success purpose of high emphasis"
+          },
+          "successLowEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.success.300}",
+            "$description": "color for elements with success purpose of low emphasis"
+          },
+          "warningHighEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.warning.100}",
+            "$description": "color for elements with warning purpose of high emphasis"
+          },
+          "warningLowEmphasis": {
+            "$type": "color",
+            "$value": "{color.utility.warning.300}",
+            "$description": "color for elements with warning purpose of low emphasis"
+          }
+        },
+        "primary": {
+          "brand": {
+            "onPrimary": {
+              "$value": "{color.brand.primary.100}",
+              "$type": "color",
+              "$description": "color for elements that are placed on primary brand color"
+            },
+            "$type": "color",
+            "$value": "{color.brand.primary.300}",
+            "$description": "background color for primary brand elements "
+          },
+          "interaction": {
+            "$type": "color",
+            "$value": "{color.brand.primary.300}",
+            "$description": "Color that indicates interactions"
+          },
+          "onBrand": {
+            "$type": "color",
+            "$value": "{color.brand.primary.900}",
+            "$description": "color for elements that are placed on brand background color"
+          },
+          "onInteraction": {
+            "$type": "color",
+            "$value": "{color.brand.primary.900}",
+            "$description": "color for elements that are placed on interactive background colors"
+          }
+        },
+        "secondary": {
+          "brand": {
+            "$type": "color",
+            "$value": "{color.brand.secondary.500}",
+            "$description": "secondary brand color for backgrounds"
+          },
+          "interaction": {
+            "$type": "color",
+            "$value": "{color.brand.secondary.300}",
+            "$description": "secondary interaction color for backgrounds"
+          },
+          "onBrand": {
+            "$type": "color",
+            "$value": "{color.brand.secondary.900}",
+            "$description": "secondary brand color for backgrounds"
+          },
+          "onInteraction": {
+            "$type": "color",
+            "$value": "{color.brand.secondary.900}",
+            "$description": "secondary foreground color for interactions"
+          }
+        },
+        "state": {
+          "disable": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.100}",
+            "$description": "background color for disabled elements"
+          },
+          "onDisable": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.600}",
+            "$description": "color for elements that are placed on disabled background color"
+          },
+          "hover": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.utility.neutral.100}",
+            "$description": "Background color for state overlay of a hovered element"
+          },
+          "focus": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.16",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.utility.neutral.100}",
+            "$description": "Background color for state overlay of a focused element"
+          },
+          "press": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.08",
+                  "space": "srgb"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{color.utility.neutral.100}",
+            "$description": "Background color for state overlay of a pressed element"
+          },
+          "select": {
+            "$type": "color",
+            "$value": "{color.brand.primary.100}",
+            "$description": "background color for selected elements"
+          },
+          "onSelect": {
+            "$type": "color",
+            "$value": "{color.brand.primary.700}",
+            "$description": "Foreground color for selected elements"
+          },
+          "selectInverted": {
+            "$type": "color",
+            "$value": "{color.brand.primary.700}",
+            "$description": "Inverted background color for selected elements"
+          },
+          "onSelectInverted": {
+            "$type": "color",
+            "$value": "{color.brand.primary.100}",
+            "$description": "inverted color for elements on selected backgrounds"
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.50}",
+            "$description": "Default text color "
+          },
+          "inverted": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.900}",
+            "$description": "Inverted text color"
+          },
+          "subtle": {
+            "$type": "color",
+            "$value": "{color.utility.neutral.400}",
+            "$description": "Text color in subtle weight"
+          }
+        }
+      },
+      "font": {
+        "body": {
+          "$type": "typography",
+          "long": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.body.long}",
+              "fontSize": "{semantic.typescale.fontSize.body.long}",
+              "fontWeight": "{semantic.typescale.fontWeight.body.long}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.body.long}",
+              "lineHeight": "{semantic.typescale.lineHeight.body.long}"
+            },
+            "$description": "paragraphs that are going over multiple lines"
+          },
+          "short": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.body.short}",
+              "fontSize": "{semantic.typescale.fontSize.body.short}",
+              "fontWeight": "{semantic.typescale.fontWeight.body.short}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.body.short}",
+              "lineHeight": "{semantic.typescale.lineHeight.body.short}"
+            },
+            "$description": "single line paragraph texts"
+          },
+          "small": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.body.small}",
+              "fontSize": "{semantic.typescale.fontSize.body.small}",
+              "fontWeight": "{semantic.typescale.fontWeight.body.small}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.body.small}",
+              "lineHeight": "{semantic.typescale.lineHeight.body.small}"
+            },
+            "$description": "small paragraph texts"
+          }
+        },
+        "code": {
+          "$type": "typography",
+          "small": {
+            "$value": {
+              "fontFamily": "{font.fontFamily.code}",
+              "fontSize": "{semantic.typescale.fontSize.code.small}",
+              "fontWeight": "{semantic.typescale.fontWeight.code.small}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.code.small}",
+              "lineHeight": "{semantic.typescale.lineHeight.code.small}"
+            },
+            "$description": "small represenataion of code blocks"
+          }
+        },
+        "display": {
+          "1": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.display.1}",
+              "fontSize": "{semantic.typescale.fontSize.display.1}",
+              "fontWeight": "{semantic.typescale.fontWeight.display.1}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.display.1}",
+              "lineHeight": "{semantic.typescale.lineHeight.display.1}"
+            },
+            "$description": "display font for highest possible emphasis"
+          },
+          "2": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.display.2}",
+              "fontSize": "{semantic.typescale.fontSize.display.2}",
+              "fontWeight": "{semantic.typescale.fontWeight.display.2}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.display.2}",
+              "lineHeight": "{semantic.typescale.lineHeight.display.2}"
+            },
+            "$description": "display font for high emphasis headlines"
+          },
+          "$type": "typography"
+        },
+        "headline": {
+          "1": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.1}",
+              "fontSize": "{semantic.typescale.fontSize.headline.1}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.1}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.1}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.1}"
+            },
+            "$description": "headline level 01"
+          },
+          "2": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.2}",
+              "fontSize": "{semantic.typescale.fontSize.headline.2}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.2}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.2}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.2}"
+            },
+            "$description": "headline level 02"
+          },
+          "3": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.3}",
+              "fontSize": "{semantic.typescale.fontSize.headline.3}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.3}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.3}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.3}"
+            },
+            "$description": "headline level 03"
+          },
+          "4": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.4}",
+              "fontSize": "{semantic.typescale.fontSize.headline.4}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.4}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.4}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.4}"
+            },
+            "$description": "headlines level 04"
+          },
+          "5": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.headline.5}",
+              "fontSize": "{semantic.typescale.fontSize.headline.5}",
+              "fontWeight": "{semantic.typescale.fontWeight.headline.5}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.headline.5}",
+              "lineHeight": "{semantic.typescale.lineHeight.headline.5}"
+            },
+            "$description": "headlines level 05"
+          },
+          "$type": "typography"
+        },
+        "hyperlink": {
+          "$type": "typography",
+          "default": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.hyperlink.default}",
+              "fontSize": "{semantic.typescale.fontSize.hyperlink.default}",
+              "fontWeight": "{semantic.typescale.fontWeight.hyperlink.default}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.hyperlink.default}",
+              "lineHeight": "{semantic.typescale.lineHeight.hyperlink.default}",
+              "textDecoration": "{semantic.typescale.textDecoration.hyperlink.default}"
+            },
+            "$description": "default for hyperlinks"
+          },
+          "hover": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.hyperlink.hover}",
+              "fontSize": "{semantic.typescale.fontSize.hyperlink.hover}",
+              "fontWeight": "{semantic.typescale.fontWeight.hyperlink.hover}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.hyperlink.hover}",
+              "lineHeight": "{semantic.typescale.lineHeight.hyperlink.hover}",
+              "textDecoration": "{semantic.typescale.textDecoration.hyperlink.hover}"
+            },
+            "$description": "hover for hyperlinks"
+          }
+        },
+        "label": {
+          "$type": "typography",
+          "long": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.label.long}",
+              "fontSize": "{semantic.typescale.fontSize.label.long}",
+              "fontWeight": "{semantic.typescale.fontWeight.label.long}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.label.long}",
+              "lineHeight": "{semantic.typescale.lineHeight.label.long}"
+            },
+            "$description": "labels that are going over multiple lines"
+          },
+          "short": {
+            "$value": {
+              "fontFamily": "{semantic.typescale.fontFamily.label.short}",
+              "fontSize": "{semantic.typescale.fontSize.label.short}",
+              "fontWeight": "{semantic.typescale.fontWeight.label.short}",
+              "letterSpacing": "{semantic.typescale.letterSpacing.label.short}",
+              "lineHeight": "{semantic.typescale.lineHeight.label.short}"
+            },
+            "$description": "labels that are single lined"
+          }
+        }
+      },
+      "typescale": {
+        "fontFamily": {
+          "body": {
+            "$type": "fontFamily",
+            "long": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for body long"
+            },
+            "short": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for body short"
+            },
+            "small": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for body small"
+            }
+          },
+          "code": {
+            "$type": "fontFamily",
+            "small": {
+              "$value": "{font.fontFamily.code}",
+              "$description": "font family for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.fontFamily.display}",
+              "$description": "font family for display 01"
+            },
+            "2": {
+              "$value": "{font.fontFamily.display}",
+              "$description": "font family for display 02"
+            },
+            "$type": "fontFamily"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 01"
+            },
+            "2": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 02"
+            },
+            "3": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 03"
+            },
+            "4": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 04"
+            },
+            "5": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for headline 05"
+            },
+            "$type": "fontFamily"
+          },
+          "hyperlink": {
+            "$type": "fontFamily",
+            "default": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "fontFamily",
+            "long": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for label long"
+            },
+            "short": {
+              "$value": "{font.fontFamily.content}",
+              "$description": "font family for label short"
+            }
+          }
+        },
+        "fontSize": {
+          "body": {
+            "$type": "fontSize",
+            "long": {
+              "$value": "{font.fontSize.300}",
+              "$description": "font size for body long"
+            },
+            "short": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for body short"
+            },
+            "small": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for body small"
+            }
+          },
+          "code": {
+            "$type": "fontSize",
+            "small": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.fontSize.900}",
+              "$description": "font size for display 01"
+            },
+            "2": {
+              "$value": "{font.fontSize.700}",
+              "$description": "font size for display 02"
+            },
+            "$type": "fontSize"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.fontSize.500}",
+              "$description": "font size for headline 01"
+            },
+            "2": {
+              "$value": "{font.fontSize.400}",
+              "$description": "font size for headline 02"
+            },
+            "3": {
+              "$value": "{font.fontSize.300}",
+              "$description": "font size for headline 03"
+            },
+            "4": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for headline 04"
+            },
+            "5": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for headline 05"
+            },
+            "$type": "fontSize"
+          },
+          "hyperlink": {
+            "$type": "fontSize",
+            "default": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "fontSize",
+            "long": {
+              "$value": "{font.fontSize.200}",
+              "$description": "font size for label long"
+            },
+            "short": {
+              "$value": "{font.fontSize.150}",
+              "$description": "font size for label short"
+            }
+          }
+        },
+        "fontWeight": {
+          "body": {
+            "$type": "fontWeight",
+            "long": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for body long"
+            },
+            "short": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for body short"
+            },
+            "small": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for body small"
+            }
+          },
+          "code": {
+            "$type": "fontWeight",
+            "small": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.fontWeight.black}",
+              "$description": "font weight for display 01"
+            },
+            "2": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for display 02"
+            },
+            "$type": "fontWeight"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.fontWeight.black}",
+              "$description": "font weight for headline 01"
+            },
+            "2": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 02"
+            },
+            "3": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 03"
+            },
+            "4": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 04"
+            },
+            "5": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for headline 05"
+            },
+            "$type": "fontWeight"
+          },
+          "hyperlink": {
+            "$type": "fontWeight",
+            "default": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.fontWeight.default}",
+              "$description": "font weight for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "fontWeight",
+            "long": {
+              "$value": "{font.fontWeight.bold}",
+              "$description": "font weight for label long"
+            },
+            "short": {
+              "$value": "{font.fontWeight.semiBold}",
+              "$description": "font weight for label short"
+            }
+          }
+        },
+        "letterSpacing": {
+          "body": {
+            "$type": "letterSpacing",
+            "long": {
+              "$value": "{font.letterSpacing.200}",
+              "$description": "letter spacing for body long"
+            },
+            "short": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for body short"
+            },
+            "small": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for body small"
+            }
+          },
+          "code": {
+            "$type": "letterSpacing",
+            "small": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.letterSpacing.300}",
+              "$description": "letter spacing for display 01"
+            },
+            "2": {
+              "$value": "{font.letterSpacing.200}",
+              "$description": "letter spacing for display 02"
+            },
+            "$type": "letterSpacing"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.letterSpacing.200}",
+              "$description": "letter spacing for headline 01"
+            },
+            "2": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for headline 02"
+            },
+            "3": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for headline 03"
+            },
+            "4": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for headline 04"
+            },
+            "5": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for headline 05"
+            },
+            "$type": "letterSpacing"
+          },
+          "hyperlink": {
+            "$type": "letterSpacing",
+            "default": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "letterSpacing",
+            "long": {
+              "$value": "{font.letterSpacing.100}",
+              "$description": "letter spacing for label long"
+            },
+            "short": {
+              "$value": "{font.letterSpacing.050}",
+              "$description": "letter spacing for label short"
+            }
+          }
+        },
+        "lineHeight": {
+          "body": {
+            "$type": "lineHeight",
+            "long": {
+              "$value": "{font.lineHeight.300}",
+              "$description": "line height for body long"
+            },
+            "short": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for body short"
+            },
+            "small": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for body small"
+            }
+          },
+          "code": {
+            "$type": "lineHeight",
+            "small": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for code small"
+            }
+          },
+          "display": {
+            "1": {
+              "$value": "{font.lineHeight.900}",
+              "$description": "line height for display 01"
+            },
+            "2": {
+              "$value": "{font.lineHeight.700}",
+              "$description": "line height for display 02"
+            },
+            "$type": "lineHeight"
+          },
+          "headline": {
+            "1": {
+              "$value": "{font.lineHeight.500}",
+              "$description": "line height for headline 01"
+            },
+            "2": {
+              "$value": "{font.lineHeight.400}",
+              "$description": "line height for headline 02"
+            },
+            "3": {
+              "$value": "{font.lineHeight.300}",
+              "$description": "line height for headline 03"
+            },
+            "4": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for headline 04"
+            },
+            "5": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for headline 05"
+            },
+            "$type": "lineHeight"
+          },
+          "hyperlink": {
+            "$type": "lineHeight",
+            "default": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for hyperlink default"
+            },
+            "hover": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for hyperlink hover"
+            }
+          },
+          "label": {
+            "$type": "lineHeight",
+            "long": {
+              "$value": "{font.lineHeight.200}",
+              "$description": "line height for label long"
+            },
+            "short": {
+              "$value": "{font.lineHeight.150}",
+              "$description": "line height for label short"
+            }
+          }
+        },
+        "textDecoration": {
+          "hyperlink": {
+            "$type": "textDecoration",
+            "default": {
+              "$value": "underline",
+              "$description": "Text decoration for displaying textlinks"
+            },
+            "hover": {
+              "$value": "none",
+              "$description": "Text decoration for displaying textlinks"
+            }
+          }
+        },
+        "shadow": {
+          "100": {
+            "$value": "{elevation.shadow.100}",
+            "$description": "Smallest shadow elevation"
+          },
+          "200": {
+            "$value": "{elevation.shadow.200}",
+            "$description": "Small shadow elevation"
+          },
+          "300": {
+            "$value": "{elevation.shadow.300}",
+            "$description": "Medium shadow elevation"
+          },
+          "400": {
+            "$value": "{elevation.shadow.400}",
+            "$description": "Large shadow elevation"
+          },
+          "500": {
+            "$value": "{elevation.shadow.500}",
+            "$description": "Extra large shadow elevation"
+          },
+          "600": {
+            "$value": "{elevation.shadow.600}",
+            "$description": "Largest shadow elevation"
+          },
+          "$type": "shadow",
+          "component": {
+            "x": {
+              "$value": {
+                "value": 0,
+                "unit": "px"
+              },
+              "$type": "dimension",
+              "$description": "Shadow X offset"
+            },
+            "y": {
+              "$value": {
+                "value": 1,
+                "unit": "px"
+              },
+              "$type": "dimension",
+              "$description": "Shadow Y offset"
+            },
+            "blur": {
+              "$value": {
+                "value": 3,
+                "unit": "px"
+              },
+              "$type": "dimension",
+              "$description": "Shadow blur radius"
+            },
+            "spread": {
+              "$value": {
+                "value": 0,
+                "unit": "px"
+              },
+              "$type": "dimension",
+              "$description": "Shadow spread radius"
+            },
+            "opacity": {
+              "$value": 0.1,
+              "$type": "number",
+              "$description": "Shadow opacity"
+            },
+            "color": {
+              "$value": "{color.utility.neutral.950}",
+              "$type": "color",
+              "$description": "Shadow color"
+            }
+          }
+        }
+      },
+      "shadow": {
+        "100": {
+          "$value": "{elevation.shadow.100}",
+          "$description": "Smallest shadow elevation"
+        },
+        "200": {
+          "$value": "{elevation.shadow.200}",
+          "$description": "Small shadow elevation"
+        },
+        "300": {
+          "$value": "{elevation.shadow.300}",
+          "$description": "Medium shadow elevation"
+        },
+        "400": {
+          "$value": "{elevation.shadow.400}",
+          "$description": "Large shadow elevation"
+        },
+        "500": {
+          "$value": "{elevation.shadow.500}",
+          "$description": "Extra large shadow elevation"
+        },
+        "600": {
+          "$value": "{elevation.shadow.600}",
+          "$description": "Largest shadow elevation"
+        },
+        "$type": "shadow",
+        "component": {
+          "x": {
+            "$value": {
+              "value": 0,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow X offset"
+          },
+          "y": {
+            "$value": {
+              "value": 1,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow Y offset"
+          },
+          "blur": {
+            "$value": {
+              "value": 3,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow blur radius"
+          },
+          "spread": {
+            "$value": {
+              "value": 0,
+              "unit": "px"
+            },
+            "$type": "dimension",
+            "$description": "Shadow spread radius"
+          },
+          "opacity": {
+            "$value": 0.1,
+            "$type": "number",
+            "$description": "Shadow opacity"
+          },
+          "color": {
+            "$value": "{color.utility.neutral.950}",
+            "$type": "color",
+            "$description": "Shadow color"
+          }
+        }
+      }
+    }
+  },
+  "semantic/shadcn-light": {
+    "shadcn": {
+      "background": {
+        "$value": "{semantic.color.background.body}",
+        "$type": "color",
+        "$description": "Background color"
+      },
+      "foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Foreground text color"
+      },
+      "card": {
+        "$value": "{semantic.color.background.highEmphasis}",
+        "$type": "color",
+        "$description": "Card background color"
+      },
+      "card-foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Card foreground text color"
+      },
+      "popover": {
+        "$value": "{semantic.color.background.highEmphasis}",
+        "$type": "color",
+        "$description": "Popover background color"
+      },
+      "popover-foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Popover foreground text color"
+      },
+      "primary": {
+        "$value": "{semantic.color.primary.interaction}",
+        "$type": "color",
+        "$description": "Primary color"
+      },
+      "primary-foreground": {
+        "$value": "{semantic.color.primary.onInteraction}",
+        "$type": "color",
+        "$description": "Primary foreground text color"
+      },
+      "secondary": {
+        "$value": "{semantic.color.secondary.interaction}",
+        "$type": "color",
+        "$description": "Secondary color"
+      },
+      "secondary-foreground": {
+        "$value": "{semantic.color.secondary.onInteraction}",
+        "$type": "color",
+        "$description": "Secondary foreground text color"
+      },
+      "muted": {
+        "$value": "{semantic.color.background.mediumEmphasis}",
+        "$type": "color",
+        "$description": "Muted background color"
+      },
+      "muted-foreground": {
+        "$value": "{semantic.color.text.subtle}",
+        "$type": "color",
+        "$description": "Muted foreground text color"
+      },
+      "accent": {
+        "$value": "{color.brand.accent.500}",
+        "$type": "color",
+        "$description": "Accent color"
+      },
+      "accent-foreground": {
+        "$value": "{color.brand.accent.50}",
+        "$type": "color",
+        "$description": "Accent foreground text color"
+      },
+      "destructive": {
+        "$value": "{semantic.color.intent.criticalHighEmphasis}",
+        "$type": "color",
+        "$description": "Destructive color"
+      },
+      "destructive-foreground": {
+        "$value": "{semantic.color.intent.onCritical}",
+        "$type": "color",
+        "$description": "Destructive foreground text color"
+      },
+      "border": {
+        "$value": "{semantic.color.border.subtle}",
+        "$type": "color",
+        "$description": "Border color"
+      },
+      "input": {
+        "$value": "{semantic.color.border.medium}",
+        "$type": "color",
+        "$description": "Input border color"
+      },
+      "ring": {
+        "$value": "{semantic.color.border.focusOutline}",
+        "$type": "color",
+        "$description": "Focus ring color"
+      },
+      "chart-1": {
+        "$value": "{color.brand.primary.500}",
+        "$type": "color",
+        "$description": "Chart color 1"
+      },
+      "chart-2": {
+        "$value": "{color.brand.secondary.500}",
+        "$type": "color",
+        "$description": "Chart color 2"
+      },
+      "chart-3": {
+        "$value": "{color.brand.accent.500}",
+        "$type": "color",
+        "$description": "Chart color 3"
+      },
+      "chart-4": {
+        "$value": "{color.brand.primary.700}",
+        "$type": "color",
+        "$description": "Chart color 4"
+      },
+      "chart-5": {
+        "$value": "{color.brand.secondary.700}",
+        "$type": "color",
+        "$description": "Chart color 5"
+      },
+      "sidebar": {
+        "$value": "{semantic.color.background.highEmphasis}",
+        "$type": "color",
+        "$description": "Sidebar background color"
+      },
+      "sidebar-foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Sidebar foreground text color"
+      },
+      "sidebar-primary": {
+        "$value": "{semantic.color.primary.brand}",
+        "$type": "color",
+        "$description": "Sidebar primary color"
+      },
+      "sidebar-primary-foreground": {
+        "$value": "{semantic.color.primary.onBrand}",
+        "$type": "color",
+        "$description": "Sidebar primary foreground text color"
+      },
+      "sidebar-accent": {
+        "$value": "{color.brand.accent.500}",
+        "$type": "color",
+        "$description": "Sidebar accent color"
+      },
+      "sidebar-accent-foreground": {
+        "$value": "{color.brand.accent.50}",
+        "$type": "color",
+        "$description": "Sidebar accent foreground text color"
+      },
+      "sidebar-border": {
+        "$value": "{semantic.color.border.subtle}",
+        "$type": "color",
+        "$description": "Sidebar border color"
+      },
+      "sidebar-ring": {
+        "$value": "{semantic.color.border.focusOutline}",
+        "$type": "color",
+        "$description": "Sidebar focus ring color"
+      },
+      "font-sans": {
+        "$value": "{font.fontFamily.content}",
+        "$type": "fontFamily",
+        "$description": "Sans-serif font family"
+      },
+      "font-serif": {
+        "$value": [
+          "ui-serif",
+          "Georgia",
+          "Cambria",
+          "Times New Roman",
+          "Times",
+          "serif"
+        ],
+        "$type": "fontFamily",
+        "$description": "Serif font family"
+      },
+      "font-mono": {
+        "$value": "{font.fontFamily.code}",
+        "$type": "fontFamily",
+        "$description": "Monospace font family"
+      },
+      "radius": {
+        "$value": "{semantic.border.radius.200}",
+        "$type": "borderRadius",
+        "$description": "Border radius"
+      },
+      "spacing": {
+        "$value": "{dimension.4px}",
+        "$type": "dimension",
+        "$description": "Base spacing unit"
+      },
+      "shadow-2xs": {
+        "$value": "{semantic.shadow.100}",
+        "$type": "shadow",
+        "$description": "Extra extra small shadow"
+      },
+      "shadow-xs": {
+        "$value": "{semantic.shadow.100}",
+        "$type": "shadow",
+        "$description": "Extra small shadow"
+      },
+      "shadow-sm": {
+        "$value": "{semantic.shadow.200}",
+        "$type": "shadow",
+        "$description": "Small shadow"
+      },
+      "shadow": {
+        "$value": "{semantic.shadow.200}",
+        "$type": "shadow",
+        "$description": "Default shadow"
+      },
+      "shadow-md": {
+        "$value": "{semantic.shadow.300}",
+        "$type": "shadow",
+        "$description": "Medium shadow"
+      },
+      "shadow-lg": {
+        "$value": "{semantic.shadow.400}",
+        "$type": "shadow",
+        "$description": "Large shadow"
+      },
+      "shadow-xl": {
+        "$value": "{semantic.shadow.500}",
+        "$type": "shadow",
+        "$description": "Extra large shadow"
+      },
+      "shadow-2xl": {
+        "$value": "{semantic.shadow.600}",
+        "$type": "shadow",
+        "$description": "Extra extra large shadow"
+      },
+      "shadow-x": {
+        "$value": "{semantic.shadow.component.x}",
+        "$type": "dimension",
+        "$description": "Shadow X offset"
+      },
+      "shadow-y": {
+        "$value": "{semantic.shadow.component.y}",
+        "$type": "dimension",
+        "$description": "Shadow Y offset"
+      },
+      "shadow-blur": {
+        "$value": "{semantic.shadow.component.blur}",
+        "$type": "dimension",
+        "$description": "Shadow blur radius"
+      },
+      "shadow-spread": {
+        "$value": "{semantic.shadow.component.spread}",
+        "$type": "dimension",
+        "$description": "Shadow spread radius"
+      },
+      "shadow-opacity": {
+        "$value": "{semantic.shadow.component.opacity}",
+        "$type": "number",
+        "$description": "Shadow opacity"
+      },
+      "shadow-color": {
+        "$value": "{semantic.shadow.component.color}",
+        "$type": "color",
+        "$description": "Shadow color"
+      },
+      "tracking-normal": {
+        "$value": "{semantic.typescale.letterSpacing.body.long}",
+        "$type": "letterSpacing",
+        "$description": "Normal letter spacing"
+      }
+    }
+  },
+  "semantic/shadcn-dark": {
+    "shadcn": {
+      "background": {
+        "$value": "{semantic.color.background.body}",
+        "$type": "color",
+        "$description": "Background color"
+      },
+      "foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Foreground text color"
+      },
+      "card": {
+        "$value": "{semantic.color.background.highEmphasis}",
+        "$type": "color",
+        "$description": "Card background color"
+      },
+      "card-foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Card foreground text color"
+      },
+      "popover": {
+        "$value": "{semantic.color.background.highEmphasis}",
+        "$type": "color",
+        "$description": "Popover background color"
+      },
+      "popover-foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Popover foreground text color"
+      },
+      "primary": {
+        "$value": "{semantic.color.primary.interaction}",
+        "$type": "color",
+        "$description": "Primary color"
+      },
+      "primary-foreground": {
+        "$value": "{semantic.color.primary.onInteraction}",
+        "$type": "color",
+        "$description": "Primary foreground text color"
+      },
+      "secondary": {
+        "$value": "{semantic.color.secondary.interaction}",
+        "$type": "color",
+        "$description": "Secondary color"
+      },
+      "secondary-foreground": {
+        "$value": "{semantic.color.secondary.onInteraction}",
+        "$type": "color",
+        "$description": "Secondary foreground text color"
+      },
+      "muted": {
+        "$value": "{semantic.color.background.mediumEmphasis}",
+        "$type": "color",
+        "$description": "Muted background color"
+      },
+      "muted-foreground": {
+        "$value": "{semantic.color.text.subtle}",
+        "$type": "color",
+        "$description": "Muted foreground text color"
+      },
+      "accent": {
+        "$value": "{color.brand.accent.500}",
+        "$type": "color",
+        "$description": "Accent color"
+      },
+      "accent-foreground": {
+        "$value": "{color.brand.accent.50}",
+        "$type": "color",
+        "$description": "Accent foreground text color"
+      },
+      "destructive": {
+        "$value": "{semantic.color.intent.criticalHighEmphasis}",
+        "$type": "color",
+        "$description": "Destructive color"
+      },
+      "destructive-foreground": {
+        "$value": "{semantic.color.intent.onCritical}",
+        "$type": "color",
+        "$description": "Destructive foreground text color"
+      },
+      "border": {
+        "$value": "{semantic.color.border.subtle}",
+        "$type": "color",
+        "$description": "Border color"
+      },
+      "input": {
+        "$value": "{semantic.color.border.medium}",
+        "$type": "color",
+        "$description": "Input border color"
+      },
+      "ring": {
+        "$value": "{semantic.color.border.focusOutline}",
+        "$type": "color",
+        "$description": "Focus ring color"
+      },
+      "chart-1": {
+        "$value": "{color.brand.primary.500}",
+        "$type": "color",
+        "$description": "Chart color 1"
+      },
+      "chart-2": {
+        "$value": "{color.brand.secondary.500}",
+        "$type": "color",
+        "$description": "Chart color 2"
+      },
+      "chart-3": {
+        "$value": "{color.brand.accent.500}",
+        "$type": "color",
+        "$description": "Chart color 3"
+      },
+      "chart-4": {
+        "$value": "{color.brand.primary.700}",
+        "$type": "color",
+        "$description": "Chart color 4"
+      },
+      "chart-5": {
+        "$value": "{color.brand.secondary.700}",
+        "$type": "color",
+        "$description": "Chart color 5"
+      },
+      "sidebar": {
+        "$value": "{semantic.color.background.highEmphasis}",
+        "$type": "color",
+        "$description": "Sidebar background color"
+      },
+      "sidebar-foreground": {
+        "$value": "{semantic.color.text.default}",
+        "$type": "color",
+        "$description": "Sidebar foreground text color"
+      },
+      "sidebar-primary": {
+        "$value": "{semantic.color.primary.brand}",
+        "$type": "color",
+        "$description": "Sidebar primary color"
+      },
+      "sidebar-primary-foreground": {
+        "$value": "{semantic.color.primary.onBrand}",
+        "$type": "color",
+        "$description": "Sidebar primary foreground text color"
+      },
+      "sidebar-accent": {
+        "$value": "{color.brand.accent.500}",
+        "$type": "color",
+        "$description": "Sidebar accent color"
+      },
+      "sidebar-accent-foreground": {
+        "$value": "{color.brand.accent.50}",
+        "$type": "color",
+        "$description": "Sidebar accent foreground text color"
+      },
+      "sidebar-border": {
+        "$value": "{semantic.color.border.subtle}",
+        "$type": "color",
+        "$description": "Sidebar border color"
+      },
+      "sidebar-ring": {
+        "$value": "{semantic.color.border.focusOutline}",
+        "$type": "color",
+        "$description": "Sidebar focus ring color"
+      },
+      "font-sans": {
+        "$value": "{font.fontFamily.content}",
+        "$type": "fontFamily",
+        "$description": "Sans-serif font family"
+      },
+      "font-serif": {
+        "$value": [
+          "ui-serif",
+          "Georgia",
+          "Cambria",
+          "Times New Roman",
+          "Times",
+          "serif"
+        ],
+        "$type": "fontFamily",
+        "$description": "Serif font family"
+      },
+      "font-mono": {
+        "$value": "{font.fontFamily.code}",
+        "$type": "fontFamily",
+        "$description": "Monospace font family"
+      },
+      "radius": {
+        "$value": "{semantic.border.radius.200}",
+        "$type": "borderRadius",
+        "$description": "Border radius"
+      },
+      "spacing": {
+        "$value": "{dimension.4px}",
+        "$type": "dimension",
+        "$description": "Base spacing unit"
+      },
+      "shadow-2xs": {
+        "$value": "{semantic.shadow.100}",
+        "$type": "shadow",
+        "$description": "Extra extra small shadow"
+      },
+      "shadow-xs": {
+        "$value": "{semantic.shadow.100}",
+        "$type": "shadow",
+        "$description": "Extra small shadow"
+      },
+      "shadow-sm": {
+        "$value": "{semantic.shadow.200}",
+        "$type": "shadow",
+        "$description": "Small shadow"
+      },
+      "shadow": {
+        "$value": "{semantic.shadow.200}",
+        "$type": "shadow",
+        "$description": "Default shadow"
+      },
+      "shadow-md": {
+        "$value": "{semantic.shadow.300}",
+        "$type": "shadow",
+        "$description": "Medium shadow"
+      },
+      "shadow-lg": {
+        "$value": "{semantic.shadow.400}",
+        "$type": "shadow",
+        "$description": "Large shadow"
+      },
+      "shadow-xl": {
+        "$value": "{semantic.shadow.500}",
+        "$type": "shadow",
+        "$description": "Extra large shadow"
+      },
+      "shadow-2xl": {
+        "$value": "{semantic.shadow.600}",
+        "$type": "shadow",
+        "$description": "Extra extra large shadow"
+      },
+      "shadow-x": {
+        "$value": "{semantic.shadow.component.x}",
+        "$type": "dimension",
+        "$description": "Shadow X offset"
+      },
+      "shadow-y": {
+        "$value": "{semantic.shadow.component.y}",
+        "$type": "dimension",
+        "$description": "Shadow Y offset"
+      },
+      "shadow-blur": {
+        "$value": "{semantic.shadow.component.blur}",
+        "$type": "dimension",
+        "$description": "Shadow blur radius"
+      },
+      "shadow-spread": {
+        "$value": "{semantic.shadow.component.spread}",
+        "$type": "dimension",
+        "$description": "Shadow spread radius"
+      },
+      "shadow-opacity": {
+        "$value": "{semantic.shadow.component.opacity}",
+        "$type": "number",
+        "$description": "Shadow opacity"
+      },
+      "shadow-color": {
+        "$value": "{semantic.shadow.component.color}",
+        "$type": "color",
+        "$description": "Shadow color"
+      },
+      "tracking-normal": {
+        "$value": "{semantic.typescale.letterSpacing.body.long}",
+        "$type": "letterSpacing",
+        "$description": "Normal letter spacing"
+      }
+    }
+  },
+  "component": {
+    "section-message": {
+      "sectionMessage": {
+        "$type": "borderRadius",
+        "borderRadius": {
+          "$value": "{semantic.border.radius.200}",
+          "$description": "border radius for section messages"
+        },
+        "height": {
+          "$type": "dimension",
+          "min": {
+            "$value": "{semantic.size.300}",
+            "$description": "min height of section messages"
+          }
+        },
+        "spacing": {
+          "$type": "dimension",
+          "gap": {
+            "$value": "{semantic.spacing.150}",
+            "$description": "gap for separating elements in section message"
+          },
+          "innerX": {
+            "$value": "{semantic.spacing.200}",
+            "$description": "left and right inner spacing for section messages"
+          },
+          "innerY": {
+            "$value": "{semantic.spacing.250}",
+            "$description": "top and bottom inner spacing for section messages"
+          }
+        },
+        "success": {
+          "$type": "color",
+          "background": {
+            "$value": "{semantic.color.intent.successHighEmphasis}",
+            "$description": "background color for success section messages "
+          },
+          "icon": {
+            "$value": "{semantic.color.intent.onSuccess}",
+            "$description": "icon color for success section messages"
+          },
+          "text": {
+            "$value": "{semantic.color.intent.onSuccess}",
+            "$description": "text color for success section messages"
+          }
+        },
+        "warning": {
+          "$type": "color",
+          "background": {
+            "$value": "{semantic.color.intent.warningHighEmphasis}",
+            "$description": "background color for warning section messages"
+          },
+          "icon": {
+            "$value": "{semantic.color.intent.onWarning}",
+            "$description": "icon color for warning section messages"
+          },
+          "text": {
+            "$value": "{semantic.color.intent.onWarning}",
+            "$description": "text color for warning section messages"
+          }
+        }
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "254fb6dfb3d7beeb75d56b9e2d11760bc55368b8",
+      "name": "shadcn-light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "semantic/mode-light": "source",
+        "semantic/shadcn-light": "enabled"
+      },
+      "group": "mode"
+    },
+    {
+      "id": "e8a50f7d1551b1c0299b115beb62b167491cc11c",
+      "name": "shadcn-dark",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "semantic/mode-dark": "source",
+        "semantic/shadcn-dark": "enabled"
+      },
+      "group": "mode"
+    },
+    {
+      "id": "395ad60f4d2c2614f1c9db2cb3aa6b3ab78ae964",
+      "name": "light",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "semantic/mode-light": "enabled"
+      },
+      "group": "mode"
+    },
+    {
+      "id": "ecd0a4ecc94180a247e6aeb4d960857f8d04c578",
+      "name": "dark",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "semantic/mode-light": "enabled"
+      },
+      "group": "mode"
+    },
+    {
+      "id": "7287bf04f78f44391a4c8bde3b80e44576336260",
+      "name": "Primitives",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "primitive": "enabled"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "primitive",
+      "semantic/mode-light",
+      "semantic/mode-dark",
+      "semantic/shadcn-light",
+      "semantic/shadcn-dark",
+      "component"
+    ]
+  }
+}
