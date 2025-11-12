@@ -1632,61 +1632,72 @@
             "value": 320,
             "unit": "px"
           },
-          "$description": "extra small breakpoint"
+          "$description": "extra small breakpoint",
+          "$type": "dimension"
         },
         "400": {
           "$value": {
             "value": 544,
             "unit": "px"
           },
-          "$description": "small breakpoint"
+          "$description": "small breakpoint",
+          "$type": "dimension"
         },
         "500": {
           "$value": {
             "value": 768,
             "unit": "px"
           },
-          "$description": "medium breakpoint"
+          "$description": "medium breakpoint",
+          "$type": "dimension"
         },
         "600": {
           "$value": {
             "value": 1012,
             "unit": "px"
           },
-          "$description": "large breakpoint"
+          "$description": "large breakpoint",
+          "$type": "dimension"
         },
         "700": {
           "$value": {
             "value": 1280,
             "unit": "px"
           },
-          "$description": "extra large breakpoint"
+          "$description": "extra large breakpoint",
+          "$type": "dimension"
         },
         "800": {
           "$value": {
             "value": 1440,
             "unit": "px"
           },
-          "$description": "extra extra large breakpoint"
-        }
+          "$description": "extra extra large breakpoint",
+          "$type": "dimension"
+        },
+        "$type": "dimension"
       },
       "radius": {
         "100": {
           "$value": "4px",
-          "$description": "small radius for branded shapes"
+          "$description": "small radius for branded shapes",
+          "$type": "borderRadius"
         },
         "200": {
           "$value": "8px",
-          "$description": "medium radius for branded shapes"
+          "$description": "medium radius for branded shapes",
+          "$type": "borderRadius"
         },
         "300": {
           "$value": "12px",
-          "$description": "largeradius for branded shapes"
+          "$description": "largeradius for branded shapes",
+          "$type": "borderRadius"
         },
         "$type": "borderRadius",
         "000": {
           "$value": "0px",
-          "$description": "radius of 0 "
+          "$description": "radius of 0 ",
+          "$type": "borderRadius"
         }
       }
     },
@@ -1695,414 +1706,342 @@
         "100": {
           "$value": [
             {
-              "blur": {
-                "value": 2,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "1",
+              "blur": "2",
+              "spread": "0",
               "color": "{color.utility.neutral.950}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 1,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             },
             {
-              "blur": {
-                "value": 2,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "0",
+              "blur": "2",
+              "spread": "0",
               "color": "{color.utility.neutral.900}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 0,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             }
-          ]
+          ],
+          "$type": "boxShadow"
         },
         "200": {
           "$value": [
             {
-              "blur": {
-                "value": 4,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "0",
               "color": "{color.utility.neutral.950}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 2,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             },
             {
-              "blur": {
-                "value": 2,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "0",
+              "blur": "2",
+              "spread": "0",
               "color": "{color.utility.neutral.900}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 0,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             }
-          ]
+          ],
+          "$type": "boxShadow"
         },
         "300": {
           "$value": [
             {
-              "blur": {
-                "value": 8,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "4",
+              "blur": "8",
+              "spread": "0",
               "color": "{color.utility.neutral.950}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 4,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             },
             {
-              "blur": {
-                "value": 2,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "0",
+              "blur": "2",
+              "spread": "0",
               "color": "{color.utility.neutral.900}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 0,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             }
-          ]
+          ],
+          "$type": "boxShadow"
         },
         "400": {
           "$value": [
             {
-              "blur": {
-                "value": 16,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "8",
+              "blur": "16",
+              "spread": "0",
               "color": "{color.utility.neutral.950}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 8,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             },
             {
-              "blur": {
-                "value": 2,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "0",
+              "blur": "2",
+              "spread": "0",
               "color": "{color.utility.neutral.900}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 0,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             }
-          ]
+          ],
+          "$type": "boxShadow"
         },
         "500": {
           "$value": [
             {
-              "blur": {
-                "value": 28.8,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "14",
+              "blur": "28.8",
+              "spread": "0",
               "color": "{color.utility.neutral.950}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 14,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             },
             {
-              "blur": {
-                "value": 8,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "0",
+              "blur": "8",
+              "spread": "0",
               "color": "{color.utility.neutral.900}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 0,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             }
-          ]
+          ],
+          "$type": "boxShadow"
         },
         "600": {
           "$value": [
             {
-              "blur": {
-                "value": 64,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "32",
+              "blur": "64",
+              "spread": "0",
               "color": "{color.utility.neutral.950}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 32,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             },
             {
-              "blur": {
-                "value": 8,
-                "unit": "px"
-              },
+              "x": "0",
+              "y": "0",
+              "blur": "8",
+              "spread": "0",
               "color": "{color.utility.neutral.900}",
-              "inset": false,
-              "offsetX": {
-                "value": 0,
-                "unit": "px"
-              },
-              "offsetY": {
-                "value": 0,
-                "unit": "px"
-              },
-              "spread": {
-                "value": 0,
-                "unit": "px"
-              }
+              "type": "dropShadow"
             }
-          ]
+          ],
+          "$type": "boxShadow"
         },
-        "$type": "shadow"
+        "$type": "boxShadow"
       }
     },
     "font": {
       "fontFamily": {
-        "$type": "fontFamily",
+        "$type": "fontFamilies",
         "code": {
-          "$value": "Geist Mono",
-          "$description": "Font Family that is chosed for code visualisation"
+          "$type": "fontFamilies",
+          "$value": [
+            "Geist Mono",
+            "monospace"
+          ],
+          "$description": "Font Family that is chosen for code visualisation"
         },
         "content": {
-          "$value": "Inter",
+          "$type": "fontFamilies",
+          "$value": [
+            "Inter",
+            "sans-serif"
+          ],
           "$description": "Font family for content fonts"
         },
         "display": {
-          "$value": "Inter",
+          "$type": "fontFamilies",
+          "$value": [
+            "Work Sans",
+            "sans-serif"
+          ],
           "$description": "Font family for display fonts"
         }
       },
       "fontSize": {
         "100": {
           "$value": "14px",
-          "$description": "extra extra small font size unit"
+          "$description": "extra extra small font size unit",
+          "$type": "fontSizes"
         },
         "150": {
           "$value": "16px",
-          "$description": "extra small font size unit"
+          "$description": "extra small font size unit",
+          "$type": "fontSizes"
         },
         "200": {
           "$value": "20px",
-          "$description": "small font size unit"
+          "$description": "small font size unit",
+          "$type": "fontSizes"
         },
         "300": {
           "$value": "24px",
-          "$description": "medium font size unit"
+          "$description": "medium font size unit",
+          "$type": "fontSizes"
         },
         "350": {
           "$value": "28px",
-          "$description": "medium large font size unit"
+          "$description": "medium large font size unit",
+          "$type": "fontSizes"
         },
         "400": {
           "$value": "32px",
-          "$description": "large font size unit"
+          "$description": "large font size unit",
+          "$type": "fontSizes"
         },
         "500": {
           "$value": "40px",
-          "$description": "extra large font size unit"
+          "$description": "extra large font size unit",
+          "$type": "fontSizes"
         },
         "700": {
           "$value": "80px",
-          "$description": "extra extra large font size unit"
+          "$description": "extra extra large font size unit",
+          "$type": "fontSizes"
         },
         "900": {
           "$value": "100px",
-          "$description": "extra extra extra large font size unit"
+          "$description": "extra extra extra large font size unit",
+          "$type": "fontSizes"
         },
-        "$type": "fontSize",
+        "$type": "fontSizes",
         "050": {
           "$value": "12px",
-          "$description": "extra extra extra small font size unit"
+          "$description": "extra extra extra small font size unit",
+          "$type": "fontSizes"
         }
       },
       "fontWeight": {
-        "$type": "fontWeight",
-        "black": {
-          "$value": "black",
-          "$description": "heaviest weight for fonts"
+        "$type": "fontWeights",
+        "100": {
+          "$type": "fontWeights",
+          "$value": 100,
+          "$description": "Thin font weight"
         },
-        "bold": {
-          "$value": "bold",
-          "$description": "bold weight for fonts"
+        "200": {
+          "$type": "fontWeights",
+          "$value": 200,
+          "$description": "Extra Light font weight"
         },
-        "default": {
-          "$value": "regular",
-          "$description": "default weight for fonts"
+        "300": {
+          "$type": "fontWeights",
+          "$value": 300,
+          "$description": "Light font weight"
         },
-        "semiBold": {
-          "$value": "semi-bold",
-          "$description": "semibold weight for fonts"
+        "400": {
+          "$type": "fontWeights",
+          "$value": 400,
+          "$description": "Regular font weight"
+        },
+        "500": {
+          "$type": "fontWeights",
+          "$value": 500,
+          "$description": "Medium font weight"
+        },
+        "600": {
+          "$type": "fontWeights",
+          "$value": 600,
+          "$description": "Semibold font weight"
+        },
+        "700": {
+          "$type": "fontWeights",
+          "$value": 700,
+          "$description": "Bold font weight"
+        },
+        "800": {
+          "$type": "fontWeights",
+          "$value": 800,
+          "$description": "Extra Bold font weight"
+        },
+        "900": {
+          "$type": "fontWeights",
+          "$value": 900,
+          "$description": "Black font weight"
         }
       },
       "letterSpacing": {
         "100": {
           "$value": "0px",
-          "$description": "small letter spacing unit"
+          "$description": "small letter spacing unit",
+          "$type": "letterSpacing"
         },
         "200": {
           "$value": "0.08px",
-          "$description": "medium letter spacing unit"
+          "$description": "medium letter spacing unit",
+          "$type": "letterSpacing"
         },
         "300": {
           "$value": "0.16px",
-          "$description": "large letter spacing unit"
+          "$description": "large letter spacing unit",
+          "$type": "letterSpacing"
         },
         "$type": "letterSpacing",
         "050": {
           "$value": "-0.16px",
-          "$description": "extra small letter spacing unit"
+          "$description": "extra small letter spacing unit",
+          "$type": "letterSpacing"
         }
       },
       "lineHeight": {
         "100": {
           "$value": "22px",
-          "$description": "extra extra small line height unit"
+          "$description": "extra extra small line height unit",
+          "$type": "lineHeights"
         },
         "150": {
           "$value": "24px",
-          "$description": "extra small line height unit"
+          "$description": "extra small line height unit",
+          "$type": "lineHeights"
         },
         "200": {
           "$value": "26px",
-          "$description": "small line height unit"
+          "$description": "small line height unit",
+          "$type": "lineHeights"
         },
         "300": {
           "$value": "32px",
-          "$description": "medium line height unit"
+          "$description": "medium line height unit",
+          "$type": "lineHeights"
         },
         "350": {
           "$value": "40px",
-          "$description": "medium large line height unit"
+          "$description": "medium large line height unit",
+          "$type": "lineHeights"
         },
         "400": {
           "$value": "48px",
-          "$description": "large line height unit"
+          "$description": "large line height unit",
+          "$type": "lineHeights"
         },
         "500": {
           "$value": "56px",
-          "$description": "extra large line height unit"
+          "$description": "extra large line height unit",
+          "$type": "lineHeights"
         },
         "700": {
           "$value": "92px",
-          "$description": "extra extra large line height unit"
+          "$description": "extra extra large line height unit",
+          "$type": "lineHeights"
         },
         "900": {
           "$value": "112px",
-          "$description": "extra extra extra large line height unit"
+          "$description": "extra extra extra large line height unit",
+          "$type": "lineHeights"
         },
-        "$type": "lineHeight",
+        "$type": "lineHeights",
         "050": {
           "$value": "20px",
-          "$description": "extra extra extra small line height unit"
+          "$description": "extra extra extra small line height unit",
+          "$type": "lineHeights"
         }
       },
       "paragraphSpacing": {
         "200": {
           "$value": "16px",
-          "$description": "small paragraph spacing unit"
+          "$description": "small paragraph spacing unit",
+          "$type": "paragraphSpacing"
         },
         "$type": "paragraphSpacing"
       },
@@ -2110,18 +2049,21 @@
         "$type": "textCase",
         "upper": {
           "$value": "uppercase",
-          "$description": "paragraph style for uppercase "
+          "$description": "paragraph style for uppercase ",
+          "$type": "textCase"
         }
       },
       "textDecoration": {
         "$type": "textDecoration",
         "none": {
           "$value": "none",
-          "$description": "text decoration of none"
+          "$description": "text decoration of none",
+          "$type": "textDecoration"
         },
         "underline": {
           "$value": "underline",
-          "$description": "Text decoration for displaying textlinks"
+          "$description": "Text decoration for displaying textlinks",
+          "$type": "textDecoration"
         }
       }
     },
@@ -2132,49 +2074,56 @@
             "value": 100,
             "unit": "ms"
           },
-          "$description": "faster duration"
+          "$description": "faster duration",
+          "$type": "duration"
         },
         "150": {
           "$value": {
             "value": 150,
             "unit": "ms"
           },
-          "$description": "fast duration"
+          "$description": "fast duration",
+          "$type": "duration"
         },
         "200": {
           "$value": {
             "value": 200,
             "unit": "ms"
           },
-          "$description": "normal duration"
+          "$description": "normal duration",
+          "$type": "duration"
         },
         "250": {
           "$value": {
             "value": 250,
             "unit": "ms"
           },
-          "$description": "gentle duration"
+          "$description": "gentle duration",
+          "$type": "duration"
         },
         "300": {
           "$value": {
             "value": 300,
             "unit": "ms"
           },
-          "$description": "slow duration"
+          "$description": "slow duration",
+          "$type": "duration"
         },
         "400": {
           "$value": {
             "value": 400,
             "unit": "ms"
           },
-          "$description": "slower duration"
+          "$description": "slower duration",
+          "$type": "duration"
         },
         "500": {
           "$value": {
             "value": 500,
             "unit": "ms"
           },
-          "$description": "ultraslow duration"
+          "$description": "ultraslow duration",
+          "$type": "duration"
         },
         "$type": "duration",
         "050": {
@@ -2182,7 +2131,8 @@
             "value": 50,
             "unit": "ms"
           },
-          "$description": "ultrafast duration"
+          "$description": "ultrafast duration",
+          "$type": "duration"
         }
       },
       "easing": {
@@ -2193,7 +2143,8 @@
             0.1,
             1,
             0.2
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "accelerateMid": {
           "$value": [
@@ -2201,7 +2152,8 @@
             0,
             1,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "accelerateMin": {
           "$value": [
@@ -2209,7 +2161,8 @@
             0,
             0.78,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "decelerateMax": {
           "$value": [
@@ -2217,7 +2170,8 @@
             0.9,
             0.2,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "decelerateMid": {
           "$value": [
@@ -2225,7 +2179,8 @@
             0,
             0,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "decelerateMin": {
           "$value": [
@@ -2233,7 +2188,8 @@
             0,
             0.1,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "easyEase": {
           "$value": [
@@ -2241,7 +2197,8 @@
             0,
             0.67,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "easyEaseMax": {
           "$value": [
@@ -2249,7 +2206,8 @@
             0,
             0.2,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         },
         "linear": {
           "$value": [
@@ -2257,23 +2215,16 @@
             0,
             1,
             1
-          ]
+          ],
+          "$type": "cubicBezier"
         }
       }
     }
   },
-  "semantic/mode-light": {
+  "semantic/base": {
     "semantic": {
       "border": {
         "$type": "border",
-        "focusOutline": {
-          "$value": {
-            "color": "{semantic.color.border.focusOutline}",
-            "style": "solid",
-            "width": "{semantic.border.width.200}"
-          },
-          "$description": "default outline for focused elements"
-        },
         "radius": {
           "100": {
             "$value": "{dimension.radius.100}",
@@ -2306,215 +2257,6 @@
           "050": {
             "$value": "{dimension.1px}",
             "$description": "small thickness for borders"
-          }
-        }
-      },
-      "color": {
-        "$type": "color",
-        "background": {
-          "body": {
-            "$value": "{color.utility.neutral.200}",
-            "$description": "Body background color"
-          },
-          "highEmphasis": {
-            "$value": "{color.utility.neutral.50}",
-            "$description": "Background Color for components with high emphasis"
-          },
-          "lowEmphasis": {
-            "$value": "{color.utility.neutral.400}",
-            "$description": "background color for elements with a low emphasis"
-          },
-          "mediumEmphasis": {
-            "$value": "{color.utility.neutral.100}",
-            "$description": "Background Color for components with medium emphasis"
-          }
-        },
-        "border": {
-          "focusOutline": {
-            "$value": "{color.utility.info.500}",
-            "$description": "color for default focus outline"
-          },
-          "heavy": {
-            "$value": "{color.utility.neutral.600}",
-            "$description": "heavy border color"
-          },
-          "medium": {
-            "$value": "{color.utility.neutral.400}",
-            "$description": "medium border color"
-          },
-          "subtle": {
-            "$value": "{color.utility.neutral.200}",
-            "$description": "subtle border color"
-          }
-        },
-        "intent": {
-          "criticalHighEmphasis": {
-            "$value": "{color.utility.critical.300}",
-            "$description": "color for elements with critical purpose of high emphasis"
-          },
-          "criticalLowEmphasis": {
-            "$value": "{color.utility.critical.100}",
-            "$description": "color for elements with critical purpose of low emphasis"
-          },
-          "infoHighEmphasis": {
-            "$value": "{color.utility.info.300}",
-            "$description": "color for elements with informational purpose of high emphasis"
-          },
-          "infoLowEmphasis": {
-            "$value": "{color.utility.info.100}",
-            "$description": "color for elements with informational purpose of low emphasis"
-          },
-          "onCritical": {
-            "$value": "{color.utility.critical.900}",
-            "$description": "color for elements placed on critical purpose background"
-          },
-          "onInfo": {
-            "$value": "{color.utility.info.900}",
-            "$description": "color for elements placed on informational purpose background"
-          },
-          "onSuccess": {
-            "$value": "{color.utility.success.900}",
-            "$description": "color for elements placed on success purpose background"
-          },
-          "onWarning": {
-            "$value": "{color.utility.warning.900}",
-            "$description": "color for elements placed on warning purpose background"
-          },
-          "successHighEmphasis": {
-            "$value": "{color.utility.success.300}",
-            "$description": "color for elements with success purpose of high emphasis"
-          },
-          "successLowEmphasis": {
-            "$value": "{color.utility.success.100}",
-            "$description": "color for elements with success purpose of low emphasis"
-          },
-          "warningHighEmphasis": {
-            "$value": "{color.utility.warning.300}",
-            "$description": "color for elements with warning purpose of high emphasis"
-          },
-          "warningLowEmphasis": {
-            "$value": "{color.utility.warning.100}",
-            "$description": "color for elements with warning purpose of low emphasis"
-          }
-        },
-        "primary": {
-          "brand": {
-            "onPrimary": {
-              "$type": "color",
-              "$description": "color for elements that are placed on primary brand color",
-              "$value": "{color.brand.primary.100}"
-            },
-            "$value": "{color.brand.primary.700}",
-            "$description": "background color for primary brand elements "
-          },
-          "interaction": {
-            "$value": "{color.brand.primary.500}",
-            "$description": "Color that indicates interactions"
-          },
-          "onBrand": {
-            "$value": "{color.brand.primary.100}",
-            "$description": "color for elements that are placed on brand background color"
-          },
-          "onInteraction": {
-            "$value": "{color.brand.primary.50}",
-            "$description": "color for elements that are placed on interactive background colors"
-          }
-        },
-        "secondary": {
-          "brand": {
-            "$value": "{color.brand.secondary.700}",
-            "$description": "secondary brand color for backgrounds"
-          },
-          "interaction": {
-            "$value": "{color.brand.secondary.700}",
-            "$description": "secondary interaction color for backgrounds"
-          },
-          "onBrand": {
-            "$value": "{color.brand.secondary.50}",
-            "$description": "secondary brand color for backgrounds"
-          },
-          "onInteraction": {
-            "$value": "{color.brand.secondary.50}",
-            "$description": "secondary foreground color for interactions"
-          }
-        },
-        "state": {
-          "disable": {
-            "$value": "{color.utility.neutral.400}",
-            "$description": "background color for disabled elements"
-          },
-          "focus": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "space": "srgb",
-                  "type": "alpha",
-                  "value": "0.16"
-                }
-              }
-            },
-            "$value": "{color.utility.neutral.950}",
-            "$description": "Background color for state overlay of a focused element"
-          },
-          "hover": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "space": "srgb",
-                  "type": "alpha",
-                  "value": "0.16"
-                }
-              }
-            },
-            "$value": "{color.utility.neutral.950}",
-            "$description": "Background color for state overlay of a hovered element"
-          },
-          "onDisable": {
-            "$value": "{color.utility.neutral.900}",
-            "$description": "color for elements that are placed on disabled background color"
-          },
-          "onSelect": {
-            "$value": "{color.brand.primary.700}",
-            "$description": "Foreground color for selected elements"
-          },
-          "onSelectInverted": {
-            "$value": "{color.brand.primary.100}",
-            "$description": "inverted color for elements on selected backgrounds"
-          },
-          "press": {
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "space": "srgb",
-                  "type": "alpha",
-                  "value": "0.08"
-                }
-              }
-            },
-            "$value": "{color.utility.neutral.950}",
-            "$description": "Background color for state overlay of a pressed element"
-          },
-          "select": {
-            "$value": "{color.brand.primary.100}",
-            "$description": "background color for selected elements"
-          },
-          "selectInverted": {
-            "$value": "{color.brand.primary.700}",
-            "$description": "Inverted background color for selected elements"
-          }
-        },
-        "text": {
-          "default": {
-            "$value": "{color.utility.neutral.950}",
-            "$description": "Default text color "
-          },
-          "inverted": {
-            "$value": "{color.utility.neutral.50}",
-            "$description": "Inverted text color"
-          },
-          "subtle": {
-            "$value": "{color.utility.neutral.600}",
-            "$description": "Text color in subtle weight"
           }
         }
       },
@@ -2855,55 +2597,55 @@
           "body": {
             "$type": "fontWeight",
             "long": {
-              "$value": "{font.fontWeight.default}",
+              "$value": "{font.fontWeight.400}",
               "$description": "font weight for body long"
             },
             "short": {
-              "$value": "{font.fontWeight.default}",
+              "$value": "{font.fontWeight.400}",
               "$description": "font weight for body short"
             },
             "small": {
-              "$value": "{font.fontWeight.default}",
+              "$value": "{font.fontWeight.400}",
               "$description": "font weight for body small"
             }
           },
           "code": {
             "$type": "fontWeight",
             "small": {
-              "$value": "{font.fontWeight.default}",
+              "$value": "{font.fontWeight.400}",
               "$description": "font weight for code small"
             }
           },
           "display": {
             "1": {
-              "$value": "{font.fontWeight.black}",
+              "$value": "{font.fontWeight.900}",
               "$description": "font weight for display 01"
             },
             "2": {
-              "$value": "{font.fontWeight.bold}",
+              "$value": "{font.fontWeight.700}",
               "$description": "font weight for display 02"
             },
             "$type": "fontWeight"
           },
           "headline": {
             "1": {
-              "$value": "{font.fontWeight.black}",
+              "$value": "{font.fontWeight.900}",
               "$description": "font weight for headline 01"
             },
             "2": {
-              "$value": "{font.fontWeight.bold}",
+              "$value": "{font.fontWeight.700}",
               "$description": "font weight for headline 02"
             },
             "3": {
-              "$value": "{font.fontWeight.bold}",
+              "$value": "{font.fontWeight.700}",
               "$description": "font weight for headline 03"
             },
             "4": {
-              "$value": "{font.fontWeight.bold}",
+              "$value": "{font.fontWeight.700}",
               "$description": "font weight for headline 04"
             },
             "5": {
-              "$value": "{font.fontWeight.bold}",
+              "$value": "{font.fontWeight.700}",
               "$description": "font weight for headline 05"
             },
             "$type": "fontWeight"
@@ -2911,22 +2653,22 @@
           "hyperlink": {
             "$type": "fontWeight",
             "default": {
-              "$value": "{font.fontWeight.default}",
+              "$value": "{font.fontWeight.400}",
               "$description": "font weight for hyperlink default"
             },
             "hover": {
-              "$value": "{font.fontWeight.default}",
+              "$value": "{font.fontWeight.400}",
               "$description": "font weight for hyperlink hover"
             }
           },
           "label": {
             "$type": "fontWeight",
             "long": {
-              "$value": "{font.fontWeight.bold}",
+              "$value": "{font.fontWeight.700}",
               "$description": "font weight for label long"
             },
             "short": {
-              "$value": "{font.fontWeight.semiBold}",
+              "$value": "{font.fontWeight.600}",
               "$description": "font weight for label short"
             }
           }
@@ -3108,29 +2850,35 @@
       "shadow": {
         "100": {
           "$value": "{elevation.shadow.100}",
-          "$description": "Smallest shadow elevation"
+          "$description": "Smallest shadow elevation",
+          "$type": "boxShadow"
         },
         "200": {
           "$value": "{elevation.shadow.200}",
-          "$description": "Small shadow elevation"
+          "$description": "Small shadow elevation",
+          "$type": "boxShadow"
         },
         "300": {
           "$value": "{elevation.shadow.300}",
-          "$description": "Medium shadow elevation"
+          "$description": "Medium shadow elevation",
+          "$type": "boxShadow"
         },
         "400": {
           "$value": "{elevation.shadow.400}",
-          "$description": "Large shadow elevation"
+          "$description": "Large shadow elevation",
+          "$type": "boxShadow"
         },
         "500": {
           "$value": "{elevation.shadow.500}",
-          "$description": "Extra large shadow elevation"
+          "$description": "Extra large shadow elevation",
+          "$type": "boxShadow"
         },
         "600": {
           "$value": "{elevation.shadow.600}",
-          "$description": "Largest shadow elevation"
+          "$description": "Largest shadow elevation",
+          "$type": "boxShadow"
         },
-        "$type": "shadow",
+        "$type": "boxShadow",
         "component": {
           "x": {
             "$value": {
@@ -3178,53 +2926,232 @@
       }
     }
   },
-  "semantic/mode-dark": {
+  "semantic/mode-light": {
     "semantic": {
+      "color": {
+        "$type": "color",
+        "background": {
+          "body": {
+            "$value": "{color.utility.neutral.200}",
+            "$description": "Body background color"
+          },
+          "highEmphasis": {
+            "$value": "{color.utility.neutral.50}",
+            "$description": "Background Color for components with high emphasis"
+          },
+          "lowEmphasis": {
+            "$value": "{color.utility.neutral.400}",
+            "$description": "background color for elements with a low emphasis"
+          },
+          "mediumEmphasis": {
+            "$value": "{color.utility.neutral.100}",
+            "$description": "Background Color for components with medium emphasis"
+          }
+        },
+        "border": {
+          "focusOutline": {
+            "$value": "{color.utility.info.500}",
+            "$description": "color for default focus outline"
+          },
+          "heavy": {
+            "$value": "{color.utility.neutral.600}",
+            "$description": "heavy border color"
+          },
+          "medium": {
+            "$value": "{color.utility.neutral.400}",
+            "$description": "medium border color"
+          },
+          "subtle": {
+            "$value": "{color.utility.neutral.200}",
+            "$description": "subtle border color"
+          }
+        },
+        "intent": {
+          "criticalHighEmphasis": {
+            "$value": "{color.utility.critical.300}",
+            "$description": "color for elements with critical purpose of high emphasis"
+          },
+          "criticalLowEmphasis": {
+            "$value": "{color.utility.critical.100}",
+            "$description": "color for elements with critical purpose of low emphasis"
+          },
+          "infoHighEmphasis": {
+            "$value": "{color.utility.info.300}",
+            "$description": "color for elements with informational purpose of high emphasis"
+          },
+          "infoLowEmphasis": {
+            "$value": "{color.utility.info.100}",
+            "$description": "color for elements with informational purpose of low emphasis"
+          },
+          "onCritical": {
+            "$value": "{color.utility.critical.900}",
+            "$description": "color for elements placed on critical purpose background"
+          },
+          "onInfo": {
+            "$value": "{color.utility.info.900}",
+            "$description": "color for elements placed on informational purpose background"
+          },
+          "onSuccess": {
+            "$value": "{color.utility.success.900}",
+            "$description": "color for elements placed on success purpose background"
+          },
+          "onWarning": {
+            "$value": "{color.utility.warning.900}",
+            "$description": "color for elements placed on warning purpose background"
+          },
+          "successHighEmphasis": {
+            "$value": "{color.utility.success.300}",
+            "$description": "color for elements with success purpose of high emphasis"
+          },
+          "successLowEmphasis": {
+            "$value": "{color.utility.success.100}",
+            "$description": "color for elements with success purpose of low emphasis"
+          },
+          "warningHighEmphasis": {
+            "$value": "{color.utility.warning.300}",
+            "$description": "color for elements with warning purpose of high emphasis"
+          },
+          "warningLowEmphasis": {
+            "$value": "{color.utility.warning.100}",
+            "$description": "color for elements with warning purpose of low emphasis"
+          }
+        },
+        "primary": {
+          "brand": {
+            "onPrimary": {
+              "$type": "color",
+              "$description": "color for elements that are placed on primary brand color",
+              "$value": "{color.brand.primary.100}"
+            },
+            "$value": "{color.brand.primary.700}",
+            "$description": "background color for primary brand elements "
+          },
+          "interaction": {
+            "$value": "{color.brand.primary.500}",
+            "$description": "Color that indicates interactions"
+          },
+          "onBrand": {
+            "$value": "{color.brand.primary.100}",
+            "$description": "color for elements that are placed on brand background color"
+          },
+          "onInteraction": {
+            "$value": "{color.brand.primary.50}",
+            "$description": "color for elements that are placed on interactive background colors"
+          }
+        },
+        "secondary": {
+          "brand": {
+            "$value": "{color.brand.secondary.700}",
+            "$description": "secondary brand color for backgrounds"
+          },
+          "interaction": {
+            "$value": "{color.brand.secondary.700}",
+            "$description": "secondary interaction color for backgrounds"
+          },
+          "onBrand": {
+            "$value": "{color.brand.secondary.50}",
+            "$description": "secondary brand color for backgrounds"
+          },
+          "onInteraction": {
+            "$value": "{color.brand.secondary.50}",
+            "$description": "secondary foreground color for interactions"
+          }
+        },
+        "state": {
+          "disable": {
+            "$value": "{color.utility.neutral.400}",
+            "$description": "background color for disabled elements"
+          },
+          "focus": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "space": "srgb",
+                  "type": "alpha",
+                  "value": "0.16"
+                }
+              }
+            },
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Background color for state overlay of a focused element"
+          },
+          "hover": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "space": "srgb",
+                  "type": "alpha",
+                  "value": "0.16"
+                }
+              }
+            },
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Background color for state overlay of a hovered element"
+          },
+          "onDisable": {
+            "$value": "{color.utility.neutral.900}",
+            "$description": "color for elements that are placed on disabled background color"
+          },
+          "onSelect": {
+            "$value": "{color.brand.primary.700}",
+            "$description": "Foreground color for selected elements"
+          },
+          "onSelectInverted": {
+            "$value": "{color.brand.primary.100}",
+            "$description": "inverted color for elements on selected backgrounds"
+          },
+          "press": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "space": "srgb",
+                  "type": "alpha",
+                  "value": "0.08"
+                }
+              }
+            },
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Background color for state overlay of a pressed element"
+          },
+          "select": {
+            "$value": "{color.brand.primary.100}",
+            "$description": "background color for selected elements"
+          },
+          "selectInverted": {
+            "$value": "{color.brand.primary.700}",
+            "$description": "Inverted background color for selected elements"
+          }
+        },
+        "text": {
+          "default": {
+            "$value": "{color.utility.neutral.950}",
+            "$description": "Default text color "
+          },
+          "inverted": {
+            "$value": "{color.utility.neutral.50}",
+            "$description": "Inverted text color"
+          },
+          "subtle": {
+            "$value": "{color.utility.neutral.600}",
+            "$description": "Text color in subtle weight"
+          }
+        }
+      },
       "border": {
         "$type": "border",
         "focusOutline": {
           "$value": {
-            "color": "{semantic.color.border.focusOutline}",
+            "color": "{color.utility.info.500}",
             "style": "solid",
-            "width": "{semantic.border.width.200}"
+            "width": "{semantic/base.semantic.border.width.200}"
           },
           "$description": "default outline for focused elements"
-        },
-        "radius": {
-          "100": {
-            "$value": "{dimension.radius.100}",
-            "$description": "small border radius"
-          },
-          "200": {
-            "$value": "{dimension.radius.200}",
-            "$description": "medium border radius"
-          },
-          "300": {
-            "$value": "{dimension.radius.300}",
-            "$description": "large border radius"
-          },
-          "$type": "borderRadius",
-          "000": {
-            "$value": "{dimension.radius.000}",
-            "$description": "no border radius"
-          }
-        },
-        "width": {
-          "100": {
-            "$value": "{dimension.2px}",
-            "$description": "smallest thickness for borders"
-          },
-          "200": {
-            "$value": "{dimension.4px}",
-            "$description": "medium border thickness"
-          },
-          "$type": "borderWidth",
-          "050": {
-            "$value": "{dimension.1px}",
-            "$description": "small thickness for borders"
-          }
         }
-      },
+      }
+    }
+  },
+  "semantic/mode-dark": {
+    "semantic": {
       "color": {
         "$type": "color",
         "background": {
@@ -3474,733 +3401,15 @@
           }
         }
       },
-      "font": {
-        "body": {
-          "$type": "typography",
-          "long": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.body.long}",
-              "fontSize": "{semantic.typescale.fontSize.body.long}",
-              "fontWeight": "{semantic.typescale.fontWeight.body.long}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.body.long}",
-              "lineHeight": "{semantic.typescale.lineHeight.body.long}"
-            },
-            "$description": "paragraphs that are going over multiple lines"
+      "border": {
+        "$type": "border",
+        "focusOutline": {
+          "$value": {
+            "color": "{color.utility.info.500}",
+            "style": "solid",
+            "width": "{semantic/base.semantic.border.width.200}"
           },
-          "short": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.body.short}",
-              "fontSize": "{semantic.typescale.fontSize.body.short}",
-              "fontWeight": "{semantic.typescale.fontWeight.body.short}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.body.short}",
-              "lineHeight": "{semantic.typescale.lineHeight.body.short}"
-            },
-            "$description": "single line paragraph texts"
-          },
-          "small": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.body.small}",
-              "fontSize": "{semantic.typescale.fontSize.body.small}",
-              "fontWeight": "{semantic.typescale.fontWeight.body.small}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.body.small}",
-              "lineHeight": "{semantic.typescale.lineHeight.body.small}"
-            },
-            "$description": "small paragraph texts"
-          }
-        },
-        "code": {
-          "$type": "typography",
-          "small": {
-            "$value": {
-              "fontFamily": "{font.fontFamily.code}",
-              "fontSize": "{semantic.typescale.fontSize.code.small}",
-              "fontWeight": "{semantic.typescale.fontWeight.code.small}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.code.small}",
-              "lineHeight": "{semantic.typescale.lineHeight.code.small}"
-            },
-            "$description": "small represenataion of code blocks"
-          }
-        },
-        "display": {
-          "1": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.display.1}",
-              "fontSize": "{semantic.typescale.fontSize.display.1}",
-              "fontWeight": "{semantic.typescale.fontWeight.display.1}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.display.1}",
-              "lineHeight": "{semantic.typescale.lineHeight.display.1}"
-            },
-            "$description": "display font for highest possible emphasis"
-          },
-          "2": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.display.2}",
-              "fontSize": "{semantic.typescale.fontSize.display.2}",
-              "fontWeight": "{semantic.typescale.fontWeight.display.2}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.display.2}",
-              "lineHeight": "{semantic.typescale.lineHeight.display.2}"
-            },
-            "$description": "display font for high emphasis headlines"
-          },
-          "$type": "typography"
-        },
-        "headline": {
-          "1": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.headline.1}",
-              "fontSize": "{semantic.typescale.fontSize.headline.1}",
-              "fontWeight": "{semantic.typescale.fontWeight.headline.1}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.headline.1}",
-              "lineHeight": "{semantic.typescale.lineHeight.headline.1}"
-            },
-            "$description": "headline level 01"
-          },
-          "2": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.headline.2}",
-              "fontSize": "{semantic.typescale.fontSize.headline.2}",
-              "fontWeight": "{semantic.typescale.fontWeight.headline.2}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.headline.2}",
-              "lineHeight": "{semantic.typescale.lineHeight.headline.2}"
-            },
-            "$description": "headline level 02"
-          },
-          "3": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.headline.3}",
-              "fontSize": "{semantic.typescale.fontSize.headline.3}",
-              "fontWeight": "{semantic.typescale.fontWeight.headline.3}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.headline.3}",
-              "lineHeight": "{semantic.typescale.lineHeight.headline.3}"
-            },
-            "$description": "headline level 03"
-          },
-          "4": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.headline.4}",
-              "fontSize": "{semantic.typescale.fontSize.headline.4}",
-              "fontWeight": "{semantic.typescale.fontWeight.headline.4}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.headline.4}",
-              "lineHeight": "{semantic.typescale.lineHeight.headline.4}"
-            },
-            "$description": "headlines level 04"
-          },
-          "5": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.headline.5}",
-              "fontSize": "{semantic.typescale.fontSize.headline.5}",
-              "fontWeight": "{semantic.typescale.fontWeight.headline.5}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.headline.5}",
-              "lineHeight": "{semantic.typescale.lineHeight.headline.5}"
-            },
-            "$description": "headlines level 05"
-          },
-          "$type": "typography"
-        },
-        "hyperlink": {
-          "$type": "typography",
-          "default": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.hyperlink.default}",
-              "fontSize": "{semantic.typescale.fontSize.hyperlink.default}",
-              "fontWeight": "{semantic.typescale.fontWeight.hyperlink.default}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.hyperlink.default}",
-              "lineHeight": "{semantic.typescale.lineHeight.hyperlink.default}",
-              "textDecoration": "{semantic.typescale.textDecoration.hyperlink.default}"
-            },
-            "$description": "default for hyperlinks"
-          },
-          "hover": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.hyperlink.hover}",
-              "fontSize": "{semantic.typescale.fontSize.hyperlink.hover}",
-              "fontWeight": "{semantic.typescale.fontWeight.hyperlink.hover}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.hyperlink.hover}",
-              "lineHeight": "{semantic.typescale.lineHeight.hyperlink.hover}",
-              "textDecoration": "{semantic.typescale.textDecoration.hyperlink.hover}"
-            },
-            "$description": "hover for hyperlinks"
-          }
-        },
-        "label": {
-          "$type": "typography",
-          "long": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.label.long}",
-              "fontSize": "{semantic.typescale.fontSize.label.long}",
-              "fontWeight": "{semantic.typescale.fontWeight.label.long}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.label.long}",
-              "lineHeight": "{semantic.typescale.lineHeight.label.long}"
-            },
-            "$description": "labels that are going over multiple lines"
-          },
-          "short": {
-            "$value": {
-              "fontFamily": "{semantic.typescale.fontFamily.label.short}",
-              "fontSize": "{semantic.typescale.fontSize.label.short}",
-              "fontWeight": "{semantic.typescale.fontWeight.label.short}",
-              "letterSpacing": "{semantic.typescale.letterSpacing.label.short}",
-              "lineHeight": "{semantic.typescale.lineHeight.label.short}"
-            },
-            "$description": "labels that are single lined"
-          }
-        }
-      },
-      "typescale": {
-        "fontFamily": {
-          "body": {
-            "$type": "fontFamily",
-            "long": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for body long"
-            },
-            "short": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for body short"
-            },
-            "small": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for body small"
-            }
-          },
-          "code": {
-            "$type": "fontFamily",
-            "small": {
-              "$value": "{font.fontFamily.code}",
-              "$description": "font family for code small"
-            }
-          },
-          "display": {
-            "1": {
-              "$value": "{font.fontFamily.display}",
-              "$description": "font family for display 01"
-            },
-            "2": {
-              "$value": "{font.fontFamily.display}",
-              "$description": "font family for display 02"
-            },
-            "$type": "fontFamily"
-          },
-          "headline": {
-            "1": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for headline 01"
-            },
-            "2": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for headline 02"
-            },
-            "3": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for headline 03"
-            },
-            "4": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for headline 04"
-            },
-            "5": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for headline 05"
-            },
-            "$type": "fontFamily"
-          },
-          "hyperlink": {
-            "$type": "fontFamily",
-            "default": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for hyperlink default"
-            },
-            "hover": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for hyperlink hover"
-            }
-          },
-          "label": {
-            "$type": "fontFamily",
-            "long": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for label long"
-            },
-            "short": {
-              "$value": "{font.fontFamily.content}",
-              "$description": "font family for label short"
-            }
-          }
-        },
-        "fontSize": {
-          "body": {
-            "$type": "fontSize",
-            "long": {
-              "$value": "{font.fontSize.300}",
-              "$description": "font size for body long"
-            },
-            "short": {
-              "$value": "{font.fontSize.200}",
-              "$description": "font size for body short"
-            },
-            "small": {
-              "$value": "{font.fontSize.150}",
-              "$description": "font size for body small"
-            }
-          },
-          "code": {
-            "$type": "fontSize",
-            "small": {
-              "$value": "{font.fontSize.150}",
-              "$description": "font size for code small"
-            }
-          },
-          "display": {
-            "1": {
-              "$value": "{font.fontSize.900}",
-              "$description": "font size for display 01"
-            },
-            "2": {
-              "$value": "{font.fontSize.700}",
-              "$description": "font size for display 02"
-            },
-            "$type": "fontSize"
-          },
-          "headline": {
-            "1": {
-              "$value": "{font.fontSize.500}",
-              "$description": "font size for headline 01"
-            },
-            "2": {
-              "$value": "{font.fontSize.400}",
-              "$description": "font size for headline 02"
-            },
-            "3": {
-              "$value": "{font.fontSize.300}",
-              "$description": "font size for headline 03"
-            },
-            "4": {
-              "$value": "{font.fontSize.200}",
-              "$description": "font size for headline 04"
-            },
-            "5": {
-              "$value": "{font.fontSize.150}",
-              "$description": "font size for headline 05"
-            },
-            "$type": "fontSize"
-          },
-          "hyperlink": {
-            "$type": "fontSize",
-            "default": {
-              "$value": "{font.fontSize.200}",
-              "$description": "font size for hyperlink default"
-            },
-            "hover": {
-              "$value": "{font.fontSize.200}",
-              "$description": "font size for hyperlink hover"
-            }
-          },
-          "label": {
-            "$type": "fontSize",
-            "long": {
-              "$value": "{font.fontSize.200}",
-              "$description": "font size for label long"
-            },
-            "short": {
-              "$value": "{font.fontSize.150}",
-              "$description": "font size for label short"
-            }
-          }
-        },
-        "fontWeight": {
-          "body": {
-            "$type": "fontWeight",
-            "long": {
-              "$value": "{font.fontWeight.default}",
-              "$description": "font weight for body long"
-            },
-            "short": {
-              "$value": "{font.fontWeight.default}",
-              "$description": "font weight for body short"
-            },
-            "small": {
-              "$value": "{font.fontWeight.default}",
-              "$description": "font weight for body small"
-            }
-          },
-          "code": {
-            "$type": "fontWeight",
-            "small": {
-              "$value": "{font.fontWeight.default}",
-              "$description": "font weight for code small"
-            }
-          },
-          "display": {
-            "1": {
-              "$value": "{font.fontWeight.black}",
-              "$description": "font weight for display 01"
-            },
-            "2": {
-              "$value": "{font.fontWeight.bold}",
-              "$description": "font weight for display 02"
-            },
-            "$type": "fontWeight"
-          },
-          "headline": {
-            "1": {
-              "$value": "{font.fontWeight.black}",
-              "$description": "font weight for headline 01"
-            },
-            "2": {
-              "$value": "{font.fontWeight.bold}",
-              "$description": "font weight for headline 02"
-            },
-            "3": {
-              "$value": "{font.fontWeight.bold}",
-              "$description": "font weight for headline 03"
-            },
-            "4": {
-              "$value": "{font.fontWeight.bold}",
-              "$description": "font weight for headline 04"
-            },
-            "5": {
-              "$value": "{font.fontWeight.bold}",
-              "$description": "font weight for headline 05"
-            },
-            "$type": "fontWeight"
-          },
-          "hyperlink": {
-            "$type": "fontWeight",
-            "default": {
-              "$value": "{font.fontWeight.default}",
-              "$description": "font weight for hyperlink default"
-            },
-            "hover": {
-              "$value": "{font.fontWeight.default}",
-              "$description": "font weight for hyperlink hover"
-            }
-          },
-          "label": {
-            "$type": "fontWeight",
-            "long": {
-              "$value": "{font.fontWeight.bold}",
-              "$description": "font weight for label long"
-            },
-            "short": {
-              "$value": "{font.fontWeight.semiBold}",
-              "$description": "font weight for label short"
-            }
-          }
-        },
-        "letterSpacing": {
-          "body": {
-            "$type": "letterSpacing",
-            "long": {
-              "$value": "{font.letterSpacing.200}",
-              "$description": "letter spacing for body long"
-            },
-            "short": {
-              "$value": "{font.letterSpacing.100}",
-              "$description": "letter spacing for body short"
-            },
-            "small": {
-              "$value": "{font.letterSpacing.050}",
-              "$description": "letter spacing for body small"
-            }
-          },
-          "code": {
-            "$type": "letterSpacing",
-            "small": {
-              "$value": "{font.letterSpacing.050}",
-              "$description": "letter spacing for code small"
-            }
-          },
-          "display": {
-            "1": {
-              "$value": "{font.letterSpacing.300}",
-              "$description": "letter spacing for display 01"
-            },
-            "2": {
-              "$value": "{font.letterSpacing.200}",
-              "$description": "letter spacing for display 02"
-            },
-            "$type": "letterSpacing"
-          },
-          "headline": {
-            "1": {
-              "$value": "{font.letterSpacing.200}",
-              "$description": "letter spacing for headline 01"
-            },
-            "2": {
-              "$value": "{font.letterSpacing.100}",
-              "$description": "letter spacing for headline 02"
-            },
-            "3": {
-              "$value": "{font.letterSpacing.100}",
-              "$description": "letter spacing for headline 03"
-            },
-            "4": {
-              "$value": "{font.letterSpacing.050}",
-              "$description": "letter spacing for headline 04"
-            },
-            "5": {
-              "$value": "{font.letterSpacing.050}",
-              "$description": "letter spacing for headline 05"
-            },
-            "$type": "letterSpacing"
-          },
-          "hyperlink": {
-            "$type": "letterSpacing",
-            "default": {
-              "$value": "{font.letterSpacing.100}",
-              "$description": "letter spacing for hyperlink default"
-            },
-            "hover": {
-              "$value": "{font.letterSpacing.100}",
-              "$description": "letter spacing for hyperlink hover"
-            }
-          },
-          "label": {
-            "$type": "letterSpacing",
-            "long": {
-              "$value": "{font.letterSpacing.100}",
-              "$description": "letter spacing for label long"
-            },
-            "short": {
-              "$value": "{font.letterSpacing.050}",
-              "$description": "letter spacing for label short"
-            }
-          }
-        },
-        "lineHeight": {
-          "body": {
-            "$type": "lineHeight",
-            "long": {
-              "$value": "{font.lineHeight.300}",
-              "$description": "line height for body long"
-            },
-            "short": {
-              "$value": "{font.lineHeight.200}",
-              "$description": "line height for body short"
-            },
-            "small": {
-              "$value": "{font.lineHeight.150}",
-              "$description": "line height for body small"
-            }
-          },
-          "code": {
-            "$type": "lineHeight",
-            "small": {
-              "$value": "{font.lineHeight.150}",
-              "$description": "line height for code small"
-            }
-          },
-          "display": {
-            "1": {
-              "$value": "{font.lineHeight.900}",
-              "$description": "line height for display 01"
-            },
-            "2": {
-              "$value": "{font.lineHeight.700}",
-              "$description": "line height for display 02"
-            },
-            "$type": "lineHeight"
-          },
-          "headline": {
-            "1": {
-              "$value": "{font.lineHeight.500}",
-              "$description": "line height for headline 01"
-            },
-            "2": {
-              "$value": "{font.lineHeight.400}",
-              "$description": "line height for headline 02"
-            },
-            "3": {
-              "$value": "{font.lineHeight.300}",
-              "$description": "line height for headline 03"
-            },
-            "4": {
-              "$value": "{font.lineHeight.200}",
-              "$description": "line height for headline 04"
-            },
-            "5": {
-              "$value": "{font.lineHeight.150}",
-              "$description": "line height for headline 05"
-            },
-            "$type": "lineHeight"
-          },
-          "hyperlink": {
-            "$type": "lineHeight",
-            "default": {
-              "$value": "{font.lineHeight.200}",
-              "$description": "line height for hyperlink default"
-            },
-            "hover": {
-              "$value": "{font.lineHeight.200}",
-              "$description": "line height for hyperlink hover"
-            }
-          },
-          "label": {
-            "$type": "lineHeight",
-            "long": {
-              "$value": "{font.lineHeight.200}",
-              "$description": "line height for label long"
-            },
-            "short": {
-              "$value": "{font.lineHeight.150}",
-              "$description": "line height for label short"
-            }
-          }
-        },
-        "textDecoration": {
-          "hyperlink": {
-            "$type": "textDecoration",
-            "default": {
-              "$value": "underline",
-              "$description": "Text decoration for displaying textlinks"
-            },
-            "hover": {
-              "$value": "none",
-              "$description": "Text decoration for displaying textlinks"
-            }
-          }
-        },
-        "shadow": {
-          "100": {
-            "$value": "{elevation.shadow.100}",
-            "$description": "Smallest shadow elevation"
-          },
-          "200": {
-            "$value": "{elevation.shadow.200}",
-            "$description": "Small shadow elevation"
-          },
-          "300": {
-            "$value": "{elevation.shadow.300}",
-            "$description": "Medium shadow elevation"
-          },
-          "400": {
-            "$value": "{elevation.shadow.400}",
-            "$description": "Large shadow elevation"
-          },
-          "500": {
-            "$value": "{elevation.shadow.500}",
-            "$description": "Extra large shadow elevation"
-          },
-          "600": {
-            "$value": "{elevation.shadow.600}",
-            "$description": "Largest shadow elevation"
-          },
-          "$type": "shadow",
-          "component": {
-            "x": {
-              "$value": {
-                "value": 0,
-                "unit": "px"
-              },
-              "$type": "dimension",
-              "$description": "Shadow X offset"
-            },
-            "y": {
-              "$value": {
-                "value": 1,
-                "unit": "px"
-              },
-              "$type": "dimension",
-              "$description": "Shadow Y offset"
-            },
-            "blur": {
-              "$value": {
-                "value": 3,
-                "unit": "px"
-              },
-              "$type": "dimension",
-              "$description": "Shadow blur radius"
-            },
-            "spread": {
-              "$value": {
-                "value": 0,
-                "unit": "px"
-              },
-              "$type": "dimension",
-              "$description": "Shadow spread radius"
-            },
-            "opacity": {
-              "$value": 0.1,
-              "$type": "number",
-              "$description": "Shadow opacity"
-            },
-            "color": {
-              "$value": "{color.utility.neutral.950}",
-              "$type": "color",
-              "$description": "Shadow color"
-            }
-          }
-        }
-      },
-      "shadow": {
-        "100": {
-          "$value": "{elevation.shadow.100}",
-          "$description": "Smallest shadow elevation"
-        },
-        "200": {
-          "$value": "{elevation.shadow.200}",
-          "$description": "Small shadow elevation"
-        },
-        "300": {
-          "$value": "{elevation.shadow.300}",
-          "$description": "Medium shadow elevation"
-        },
-        "400": {
-          "$value": "{elevation.shadow.400}",
-          "$description": "Large shadow elevation"
-        },
-        "500": {
-          "$value": "{elevation.shadow.500}",
-          "$description": "Extra large shadow elevation"
-        },
-        "600": {
-          "$value": "{elevation.shadow.600}",
-          "$description": "Largest shadow elevation"
-        },
-        "$type": "shadow",
-        "component": {
-          "x": {
-            "$value": {
-              "value": 0,
-              "unit": "px"
-            },
-            "$type": "dimension",
-            "$description": "Shadow X offset"
-          },
-          "y": {
-            "$value": {
-              "value": 1,
-              "unit": "px"
-            },
-            "$type": "dimension",
-            "$description": "Shadow Y offset"
-          },
-          "blur": {
-            "$value": {
-              "value": 3,
-              "unit": "px"
-            },
-            "$type": "dimension",
-            "$description": "Shadow blur radius"
-          },
-          "spread": {
-            "$value": {
-              "value": 0,
-              "unit": "px"
-            },
-            "$type": "dimension",
-            "$description": "Shadow spread radius"
-          },
-          "opacity": {
-            "$value": 0.1,
-            "$type": "number",
-            "$description": "Shadow opacity"
-          },
-          "color": {
-            "$value": "{color.utility.neutral.950}",
-            "$type": "color",
-            "$description": "Shadow color"
-          }
+          "$description": "default outline for focused elements"
         }
       }
     }
@@ -4208,62 +3417,62 @@
   "semantic/shadcn-light": {
     "shadcn": {
       "background": {
-        "$value": "{semantic.color.background.body}",
+        "$value": "{semantic/mode-light.semantic.color.background.body}",
         "$type": "color",
         "$description": "Background color"
       },
       "foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-light.semantic.color.text.default}",
         "$type": "color",
         "$description": "Foreground text color"
       },
       "card": {
-        "$value": "{semantic.color.background.highEmphasis}",
+        "$value": "{semantic/mode-light.semantic.color.background.highEmphasis}",
         "$type": "color",
         "$description": "Card background color"
       },
       "card-foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-light.semantic.color.text.default}",
         "$type": "color",
         "$description": "Card foreground text color"
       },
       "popover": {
-        "$value": "{semantic.color.background.highEmphasis}",
+        "$value": "{semantic/mode-light.semantic.color.background.highEmphasis}",
         "$type": "color",
         "$description": "Popover background color"
       },
       "popover-foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-light.semantic.color.text.default}",
         "$type": "color",
         "$description": "Popover foreground text color"
       },
       "primary": {
-        "$value": "{semantic.color.primary.interaction}",
+        "$value": "{semantic/mode-light.semantic.color.primary.interaction}",
         "$type": "color",
         "$description": "Primary color"
       },
       "primary-foreground": {
-        "$value": "{semantic.color.primary.onInteraction}",
+        "$value": "{semantic/mode-light.semantic.color.primary.onInteraction}",
         "$type": "color",
         "$description": "Primary foreground text color"
       },
       "secondary": {
-        "$value": "{semantic.color.secondary.interaction}",
+        "$value": "{semantic/mode-light.semantic.color.secondary.interaction}",
         "$type": "color",
         "$description": "Secondary color"
       },
       "secondary-foreground": {
-        "$value": "{semantic.color.secondary.onInteraction}",
+        "$value": "{semantic/mode-light.semantic.color.secondary.onInteraction}",
         "$type": "color",
         "$description": "Secondary foreground text color"
       },
       "muted": {
-        "$value": "{semantic.color.background.mediumEmphasis}",
+        "$value": "{semantic/mode-light.semantic.color.background.mediumEmphasis}",
         "$type": "color",
         "$description": "Muted background color"
       },
       "muted-foreground": {
-        "$value": "{semantic.color.text.subtle}",
+        "$value": "{semantic/mode-light.semantic.color.text.subtle}",
         "$type": "color",
         "$description": "Muted foreground text color"
       },
@@ -4278,27 +3487,27 @@
         "$description": "Accent foreground text color"
       },
       "destructive": {
-        "$value": "{semantic.color.intent.criticalHighEmphasis}",
+        "$value": "{semantic/mode-light.semantic.color.intent.criticalHighEmphasis}",
         "$type": "color",
         "$description": "Destructive color"
       },
       "destructive-foreground": {
-        "$value": "{semantic.color.intent.onCritical}",
+        "$value": "{semantic/mode-light.semantic.color.intent.onCritical}",
         "$type": "color",
         "$description": "Destructive foreground text color"
       },
       "border": {
-        "$value": "{semantic.color.border.subtle}",
+        "$value": "{semantic/mode-light.semantic.color.border.subtle}",
         "$type": "color",
         "$description": "Border color"
       },
       "input": {
-        "$value": "{semantic.color.border.medium}",
+        "$value": "{semantic/mode-light.semantic.color.border.medium}",
         "$type": "color",
         "$description": "Input border color"
       },
       "ring": {
-        "$value": "{semantic.color.border.focusOutline}",
+        "$value": "{semantic/mode-light.semantic.color.border.focusOutline}",
         "$type": "color",
         "$description": "Focus ring color"
       },
@@ -4328,22 +3537,22 @@
         "$description": "Chart color 5"
       },
       "sidebar": {
-        "$value": "{semantic.color.background.highEmphasis}",
+        "$value": "{semantic/mode-light.semantic.color.background.highEmphasis}",
         "$type": "color",
         "$description": "Sidebar background color"
       },
       "sidebar-foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-light.semantic.color.text.default}",
         "$type": "color",
         "$description": "Sidebar foreground text color"
       },
       "sidebar-primary": {
-        "$value": "{semantic.color.primary.brand}",
+        "$value": "{semantic/mode-light.semantic.color.primary.brand}",
         "$type": "color",
         "$description": "Sidebar primary color"
       },
       "sidebar-primary-foreground": {
-        "$value": "{semantic.color.primary.onBrand}",
+        "$value": "{semantic/mode-light.semantic.color.primary.onBrand}",
         "$type": "color",
         "$description": "Sidebar primary foreground text color"
       },
@@ -4358,12 +3567,12 @@
         "$description": "Sidebar accent foreground text color"
       },
       "sidebar-border": {
-        "$value": "{semantic.color.border.subtle}",
+        "$value": "{semantic/mode-light.semantic.color.border.subtle}",
         "$type": "color",
         "$description": "Sidebar border color"
       },
       "sidebar-ring": {
-        "$value": "{semantic.color.border.focusOutline}",
+        "$value": "{semantic/mode-light.semantic.color.border.focusOutline}",
         "$type": "color",
         "$description": "Sidebar focus ring color"
       },
@@ -4390,7 +3599,7 @@
         "$description": "Monospace font family"
       },
       "radius": {
-        "$value": "{semantic.border.radius.200}",
+        "$value": "{semantic/base.semantic.border.radius.200}",
         "$type": "borderRadius",
         "$description": "Border radius"
       },
@@ -4400,77 +3609,77 @@
         "$description": "Base spacing unit"
       },
       "shadow-2xs": {
-        "$value": "{semantic.shadow.100}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.100}",
+        "$type": "boxShadow",
         "$description": "Extra extra small shadow"
       },
       "shadow-xs": {
-        "$value": "{semantic.shadow.100}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.100}",
+        "$type": "boxShadow",
         "$description": "Extra small shadow"
       },
       "shadow-sm": {
-        "$value": "{semantic.shadow.200}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.200}",
+        "$type": "boxShadow",
         "$description": "Small shadow"
       },
       "shadow": {
-        "$value": "{semantic.shadow.200}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.200}",
+        "$type": "boxShadow",
         "$description": "Default shadow"
       },
       "shadow-md": {
-        "$value": "{semantic.shadow.300}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.300}",
+        "$type": "boxShadow",
         "$description": "Medium shadow"
       },
       "shadow-lg": {
-        "$value": "{semantic.shadow.400}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.400}",
+        "$type": "boxShadow",
         "$description": "Large shadow"
       },
       "shadow-xl": {
-        "$value": "{semantic.shadow.500}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.500}",
+        "$type": "boxShadow",
         "$description": "Extra large shadow"
       },
       "shadow-2xl": {
-        "$value": "{semantic.shadow.600}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.600}",
+        "$type": "boxShadow",
         "$description": "Extra extra large shadow"
       },
       "shadow-x": {
-        "$value": "{semantic.shadow.component.x}",
+        "$value": "{semantic/base.semantic.shadow.component.x}",
         "$type": "dimension",
         "$description": "Shadow X offset"
       },
       "shadow-y": {
-        "$value": "{semantic.shadow.component.y}",
+        "$value": "{semantic/base.semantic.shadow.component.y}",
         "$type": "dimension",
         "$description": "Shadow Y offset"
       },
       "shadow-blur": {
-        "$value": "{semantic.shadow.component.blur}",
+        "$value": "{semantic/base.semantic.shadow.component.blur}",
         "$type": "dimension",
         "$description": "Shadow blur radius"
       },
       "shadow-spread": {
-        "$value": "{semantic.shadow.component.spread}",
+        "$value": "{semantic/base.semantic.shadow.component.spread}",
         "$type": "dimension",
         "$description": "Shadow spread radius"
       },
       "shadow-opacity": {
-        "$value": "{semantic.shadow.component.opacity}",
+        "$value": "{semantic/base.semantic.shadow.component.opacity}",
         "$type": "number",
         "$description": "Shadow opacity"
       },
       "shadow-color": {
-        "$value": "{semantic.shadow.component.color}",
+        "$value": "{semantic/base.semantic.shadow.component.color}",
         "$type": "color",
         "$description": "Shadow color"
       },
       "tracking-normal": {
-        "$value": "{semantic.typescale.letterSpacing.body.long}",
+        "$value": "{semantic/base.semantic.typescale.letterSpacing.body.long}",
         "$type": "letterSpacing",
         "$description": "Normal letter spacing"
       }
@@ -4479,62 +3688,62 @@
   "semantic/shadcn-dark": {
     "shadcn": {
       "background": {
-        "$value": "{semantic.color.background.body}",
+        "$value": "{semantic/mode-dark.semantic.color.background.body}",
         "$type": "color",
         "$description": "Background color"
       },
       "foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-dark.semantic.color.text.default}",
         "$type": "color",
         "$description": "Foreground text color"
       },
       "card": {
-        "$value": "{semantic.color.background.highEmphasis}",
+        "$value": "{semantic/mode-dark.semantic.color.background.highEmphasis}",
         "$type": "color",
         "$description": "Card background color"
       },
       "card-foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-dark.semantic.color.text.default}",
         "$type": "color",
         "$description": "Card foreground text color"
       },
       "popover": {
-        "$value": "{semantic.color.background.highEmphasis}",
+        "$value": "{semantic/mode-dark.semantic.color.background.highEmphasis}",
         "$type": "color",
         "$description": "Popover background color"
       },
       "popover-foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-dark.semantic.color.text.default}",
         "$type": "color",
         "$description": "Popover foreground text color"
       },
       "primary": {
-        "$value": "{semantic.color.primary.interaction}",
+        "$value": "{semantic/mode-dark.semantic.color.primary.interaction}",
         "$type": "color",
         "$description": "Primary color"
       },
       "primary-foreground": {
-        "$value": "{semantic.color.primary.onInteraction}",
+        "$value": "{semantic/mode-dark.semantic.color.primary.onInteraction}",
         "$type": "color",
         "$description": "Primary foreground text color"
       },
       "secondary": {
-        "$value": "{semantic.color.secondary.interaction}",
+        "$value": "{semantic/mode-dark.semantic.color.secondary.interaction}",
         "$type": "color",
         "$description": "Secondary color"
       },
       "secondary-foreground": {
-        "$value": "{semantic.color.secondary.onInteraction}",
+        "$value": "{semantic/mode-dark.semantic.color.secondary.onInteraction}",
         "$type": "color",
         "$description": "Secondary foreground text color"
       },
       "muted": {
-        "$value": "{semantic.color.background.mediumEmphasis}",
+        "$value": "{semantic/mode-dark.semantic.color.background.mediumEmphasis}",
         "$type": "color",
         "$description": "Muted background color"
       },
       "muted-foreground": {
-        "$value": "{semantic.color.text.subtle}",
+        "$value": "{semantic/mode-dark.semantic.color.text.subtle}",
         "$type": "color",
         "$description": "Muted foreground text color"
       },
@@ -4549,27 +3758,27 @@
         "$description": "Accent foreground text color"
       },
       "destructive": {
-        "$value": "{semantic.color.intent.criticalHighEmphasis}",
+        "$value": "{semantic/mode-dark.semantic.color.intent.criticalHighEmphasis}",
         "$type": "color",
         "$description": "Destructive color"
       },
       "destructive-foreground": {
-        "$value": "{semantic.color.intent.onCritical}",
+        "$value": "{semantic/mode-dark.semantic.color.intent.onCritical}",
         "$type": "color",
         "$description": "Destructive foreground text color"
       },
       "border": {
-        "$value": "{semantic.color.border.subtle}",
+        "$value": "{semantic/mode-dark.semantic.color.border.subtle}",
         "$type": "color",
         "$description": "Border color"
       },
       "input": {
-        "$value": "{semantic.color.border.medium}",
+        "$value": "{semantic/mode-dark.semantic.color.border.medium}",
         "$type": "color",
         "$description": "Input border color"
       },
       "ring": {
-        "$value": "{semantic.color.border.focusOutline}",
+        "$value": "{semantic/mode-dark.semantic.color.border.focusOutline}",
         "$type": "color",
         "$description": "Focus ring color"
       },
@@ -4599,22 +3808,22 @@
         "$description": "Chart color 5"
       },
       "sidebar": {
-        "$value": "{semantic.color.background.highEmphasis}",
+        "$value": "{semantic/mode-dark.semantic.color.background.highEmphasis}",
         "$type": "color",
         "$description": "Sidebar background color"
       },
       "sidebar-foreground": {
-        "$value": "{semantic.color.text.default}",
+        "$value": "{semantic/mode-dark.semantic.color.text.default}",
         "$type": "color",
         "$description": "Sidebar foreground text color"
       },
       "sidebar-primary": {
-        "$value": "{semantic.color.primary.brand}",
+        "$value": "{semantic/mode-dark.semantic.color.primary.brand}",
         "$type": "color",
         "$description": "Sidebar primary color"
       },
       "sidebar-primary-foreground": {
-        "$value": "{semantic.color.primary.onBrand}",
+        "$value": "{semantic/mode-dark.semantic.color.primary.onBrand}",
         "$type": "color",
         "$description": "Sidebar primary foreground text color"
       },
@@ -4629,12 +3838,12 @@
         "$description": "Sidebar accent foreground text color"
       },
       "sidebar-border": {
-        "$value": "{semantic.color.border.subtle}",
+        "$value": "{semantic/mode-dark.semantic.color.border.subtle}",
         "$type": "color",
         "$description": "Sidebar border color"
       },
       "sidebar-ring": {
-        "$value": "{semantic.color.border.focusOutline}",
+        "$value": "{semantic/mode-dark.semantic.color.border.focusOutline}",
         "$type": "color",
         "$description": "Sidebar focus ring color"
       },
@@ -4661,7 +3870,7 @@
         "$description": "Monospace font family"
       },
       "radius": {
-        "$value": "{semantic.border.radius.200}",
+        "$value": "{semantic/base.semantic.border.radius.200}",
         "$type": "borderRadius",
         "$description": "Border radius"
       },
@@ -4671,77 +3880,77 @@
         "$description": "Base spacing unit"
       },
       "shadow-2xs": {
-        "$value": "{semantic.shadow.100}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.100}",
+        "$type": "boxShadow",
         "$description": "Extra extra small shadow"
       },
       "shadow-xs": {
-        "$value": "{semantic.shadow.100}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.100}",
+        "$type": "boxShadow",
         "$description": "Extra small shadow"
       },
       "shadow-sm": {
-        "$value": "{semantic.shadow.200}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.200}",
+        "$type": "boxShadow",
         "$description": "Small shadow"
       },
       "shadow": {
-        "$value": "{semantic.shadow.200}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.200}",
+        "$type": "boxShadow",
         "$description": "Default shadow"
       },
       "shadow-md": {
-        "$value": "{semantic.shadow.300}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.300}",
+        "$type": "boxShadow",
         "$description": "Medium shadow"
       },
       "shadow-lg": {
-        "$value": "{semantic.shadow.400}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.400}",
+        "$type": "boxShadow",
         "$description": "Large shadow"
       },
       "shadow-xl": {
-        "$value": "{semantic.shadow.500}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.500}",
+        "$type": "boxShadow",
         "$description": "Extra large shadow"
       },
       "shadow-2xl": {
-        "$value": "{semantic.shadow.600}",
-        "$type": "shadow",
+        "$value": "{semantic/base.semantic.shadow.600}",
+        "$type": "boxShadow",
         "$description": "Extra extra large shadow"
       },
       "shadow-x": {
-        "$value": "{semantic.shadow.component.x}",
+        "$value": "{semantic/base.semantic.shadow.component.x}",
         "$type": "dimension",
         "$description": "Shadow X offset"
       },
       "shadow-y": {
-        "$value": "{semantic.shadow.component.y}",
+        "$value": "{semantic/base.semantic.shadow.component.y}",
         "$type": "dimension",
         "$description": "Shadow Y offset"
       },
       "shadow-blur": {
-        "$value": "{semantic.shadow.component.blur}",
+        "$value": "{semantic/base.semantic.shadow.component.blur}",
         "$type": "dimension",
         "$description": "Shadow blur radius"
       },
       "shadow-spread": {
-        "$value": "{semantic.shadow.component.spread}",
+        "$value": "{semantic/base.semantic.shadow.component.spread}",
         "$type": "dimension",
         "$description": "Shadow spread radius"
       },
       "shadow-opacity": {
-        "$value": "{semantic.shadow.component.opacity}",
+        "$value": "{semantic/base.semantic.shadow.component.opacity}",
         "$type": "number",
         "$description": "Shadow opacity"
       },
       "shadow-color": {
-        "$value": "{semantic.shadow.component.color}",
+        "$value": "{semantic/base.semantic.shadow.component.color}",
         "$type": "color",
         "$description": "Shadow color"
       },
       "tracking-normal": {
-        "$value": "{semantic.typescale.letterSpacing.body.long}",
+        "$value": "{semantic/base.semantic.typescale.letterSpacing.body.long}",
         "$type": "letterSpacing",
         "$description": "Normal letter spacing"
       }
@@ -4752,7 +3961,7 @@
       "sectionMessage": {
         "$type": "borderRadius",
         "borderRadius": {
-          "$value": "{semantic.border.radius.200}",
+          "$value": "{semantic/base.semantic.border.radius.200}",
           "$description": "border radius for section messages"
         },
         "height": {
@@ -4780,30 +3989,30 @@
         "success": {
           "$type": "color",
           "background": {
-            "$value": "{semantic.color.intent.successHighEmphasis}",
+            "$value": "{semantic/mode-dark.semantic.color.intent.successHighEmphasis}",
             "$description": "background color for success section messages "
           },
           "icon": {
-            "$value": "{semantic.color.intent.onSuccess}",
+            "$value": "{semantic/mode-dark.semantic.color.intent.onSuccess}",
             "$description": "icon color for success section messages"
           },
           "text": {
-            "$value": "{semantic.color.intent.onSuccess}",
+            "$value": "{semantic/mode-dark.semantic.color.intent.onSuccess}",
             "$description": "text color for success section messages"
           }
         },
         "warning": {
           "$type": "color",
           "background": {
-            "$value": "{semantic.color.intent.warningHighEmphasis}",
+            "$value": "{semantic/mode-dark.semantic.color.intent.warningHighEmphasis}",
             "$description": "background color for warning section messages"
           },
           "icon": {
-            "$value": "{semantic.color.intent.onWarning}",
+            "$value": "{semantic/mode-dark.semantic.color.intent.onWarning}",
             "$description": "icon color for warning section messages"
           },
           "text": {
-            "$value": "{semantic.color.intent.onWarning}",
+            "$value": "{semantic/mode-dark.semantic.color.intent.onWarning}",
             "$description": "text color for warning section messages"
           }
         }
@@ -4816,26 +4025,32 @@
       "name": "shadcn-light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "semantic/mode-light": "source",
+        "primitive": "source",
+        "semantic/base": "enabled",
+        "semantic/mode-light": "enabled",
         "semantic/shadcn-light": "enabled"
       },
-      "group": "mode"
+      "group": "shadcn"
     },
     {
       "id": "e8a50f7d1551b1c0299b115beb62b167491cc11c",
       "name": "shadcn-dark",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "semantic/mode-dark": "source",
+        "primitive": "source",
+        "semantic/base": "enabled",
+        "semantic/mode-dark": "enabled",
         "semantic/shadcn-dark": "enabled"
       },
-      "group": "mode"
+      "group": "shadcn"
     },
     {
       "id": "395ad60f4d2c2614f1c9db2cb3aa6b3ab78ae964",
       "name": "light",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
+        "primitive": "source",
+        "semantic/base": "enabled",
         "semantic/mode-light": "enabled"
       },
       "group": "mode"
@@ -4845,7 +4060,9 @@
       "name": "dark",
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
-        "semantic/mode-light": "enabled"
+        "primitive": "source",
+        "semantic/base": "enabled",
+        "semantic/mode-dark": "enabled"
       },
       "group": "mode"
     },
@@ -4861,6 +4078,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "primitive",
+      "semantic/base",
       "semantic/mode-light",
       "semantic/mode-dark",
       "semantic/shadcn-light",
